@@ -45,35 +45,35 @@ export default function BlueprintToolbar() {
       key={t.id}
       title={t.label}
       onClick={() => setTool(t.id)}
-      className={`flex h-9 w-9 items-center justify-center rounded-md transition-all duration-150 ${
+      className={`flex h-11 w-11 items-center justify-center rounded-lg transition-all duration-150 ${
         tool === t.id ? 'bg-accent text-black' : 'text-text-tertiary hover:text-white'
       }`}
     >
       {t.id === 'pen' ? (
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
           <path d="M12 1.5l2.5 2.5L5 13.5 1 15l1.5-4L12 1.5z" />
         </svg>
       ) : t.id === 'line' ? (
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
           <line x1="2" y1="14" x2="14" y2="2" />
         </svg>
       ) : t.id === 'rect' ? (
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
           <rect x="2" y="3" width="12" height="10" rx="1" />
         </svg>
       ) : t.id === 'circle' ? (
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
           <circle cx="8" cy="8" r="6" />
         </svg>
       ) : t.id === 'eraser' ? (
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M1 14l8-8M5 14l8-8M5 14H1v-4l4 4z" />
           <path d="M9 6l3.5-3.5a1 1 0 011.4 0l1.1 1.1a1 1 0 010 1.4L12 8.5" />
         </svg>
       ) : t.id === 'text' ? (
-        <span className="text-xs font-bold">T</span>
+        <span className="text-sm font-bold">T</span>
       ) : (
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M5 14l4-4 4 4M5 2l4 4 4-4" />
         </svg>
       )}
@@ -81,56 +81,56 @@ export default function BlueprintToolbar() {
   );
 
   return (
-    <div className="flex flex-col items-center gap-1 rounded-xl border border-default bg-surface/90 px-2 py-2 shadow-md backdrop-blur-lg">
+    <div className="flex flex-col items-center gap-1.5 rounded-xl border border-default bg-surface/90 px-3 py-3 shadow-md backdrop-blur-lg">
       {/* Drawing tools */}
       <div className="flex flex-col items-center gap-1">{DRAW_TOOLS.map(renderBtn)}</div>
-      <div className="h-px w-4 bg-border-subtle" />
+      <div className="h-px w-5 bg-border-subtle" />
 
       {/* Shape tools */}
       <div className="flex flex-col items-center gap-1">{SHAPE_TOOLS.map(renderBtn)}</div>
-      <div className="h-px w-4 bg-border-subtle" />
+      <div className="h-px w-5 bg-border-subtle" />
 
       {/* Utility tools */}
       <div className="flex flex-col items-center gap-1">{UTILITY_TOOLS.map(renderBtn)}</div>
-      <div className="h-px w-4 bg-border-subtle" />
+      <div className="h-px w-5 bg-border-subtle" />
 
       {/* Width */}
-      <div className="flex flex-col items-center gap-0.5">
+      <div className="flex flex-col items-center gap-1">
         {STROKE_WIDTHS.map((w) => (
           <button
             key={w}
             title={WIDTH_LABELS[w]}
             onClick={() => setWidth(w)}
-            className={`flex h-6 w-6 items-center justify-center rounded-md transition-colors ${width === w ? 'text-accent' : 'text-text-tertiary hover:text-white'}`}
+            className={`flex h-8 w-8 items-center justify-center rounded-md transition-colors ${width === w ? 'text-accent' : 'text-text-tertiary hover:text-white'}`}
           >
-            <div className="rounded-full bg-current" style={{ width: Math.max(2, w), height: Math.max(2, w) }} />
+            <div className="rounded-full bg-current" style={{ width: Math.max(3, w), height: Math.max(3, w) }} />
           </button>
         ))}
       </div>
-      <div className="h-px w-4 bg-border-subtle" />
+      <div className="h-px w-5 bg-border-subtle" />
 
       {/* Color */}
-      <div className="flex flex-col items-center gap-0.5">
+      <div className="flex flex-col items-center gap-1">
         {STROKE_COLORS.map((c) => (
           <button
             key={c}
             title={COLOR_NAMES[c]}
             onClick={() => setColor(c)}
-            className={`flex h-5 w-5 items-center justify-center rounded-full transition-all ${color === c ? 'ring-2 ring-accent ring-offset-1 ring-offset-black' : ''}`}
+            className={`flex h-6 w-6 items-center justify-center rounded-full transition-all ${color === c ? 'ring-2 ring-accent ring-offset-1 ring-offset-black' : ''}`}
           >
-            <div className="h-3 w-3 rounded-full border border-default" style={{ backgroundColor: c }} />
+            <div className="h-4 w-4 rounded-full border border-default" style={{ backgroundColor: c }} />
           </button>
         ))}
       </div>
-      <div className="h-px w-4 bg-border-subtle" />
+      <div className="h-px w-5 bg-border-subtle" />
 
       {/* Upload */}
       <button
         title="Upload image"
         onClick={handleUpload}
-        className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary hover:text-white transition-colors"
+        className="flex h-10 w-10 items-center justify-center rounded-lg text-text-tertiary hover:text-white transition-colors"
       >
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <rect x="2" y="2" width="12" height="12" rx="2" />
           <circle cx="6" cy="5.5" r="1.5" fill="currentColor" stroke="none" />
           <path d="M2 11l3-3 2 2 2-2 3 3" />
