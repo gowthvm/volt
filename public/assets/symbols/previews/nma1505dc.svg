@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.32 23.240000000000002">
+<rect x="7" y="19.240000000000002" width="20.32" height="15.24" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="15.89" y1="4.000000000000001" x2="15.89" y2="5.270000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.89" y1="6.540000000000001" x2="15.89" y2="7.8100000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.89" y1="9.080000000000002" x2="15.89" y2="10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.89" y1="11.620000000000001" x2="15.89" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.89" y1="14.16" x2="15.89" y2="15.430000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.89" y1="16.700000000000003" x2="15.89" y2="17.97" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="6.540000000000001" x2="17.16" y2="5.270000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="9.080000000000002" x2="17.16" y2="7.8100000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="11.620000000000001" x2="17.16" y2="10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="12.89" x2="17.16" y2="14.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="16.700000000000003" x2="17.16" y2="15.430000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="19.240000000000002" x2="17.16" y2="17.97" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.460000000000001" y1="16.700000000000003" x2="7" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">VIN-</text>
+<line x1="7" y1="11.620000000000001" x2="9.54" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="12.54" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">NC</text>
+<line x1="29.86" y1="11.620000000000001" x2="27.32" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="30.32" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">0V</text>
+<line x1="29.86" y1="6.540000000000001" x2="27.32" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="30.32" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">VOUT+</text>
+<line x1="29.86" y1="16.700000000000003" x2="27.32" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="30.32" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">VOUT-</text>
+<line x1="4.460000000000001" y1="6.540000000000001" x2="7" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">VIN+</text>
+</svg>

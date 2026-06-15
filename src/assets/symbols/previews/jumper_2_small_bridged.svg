@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.54 8.8236">
+<circle cx="7.254" cy="4.5696" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.286" cy="4.5696" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.507999999999999 4.3156 A 1.0777049429657795 1.0777049429657795 0 0 1 9.032 4.3156" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="5.7299999999999995" y1="4.5696" x2="7" y2="4.5696" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="4" y="4.5696" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A</text>
+<line x1="10.809999999999999" y1="4.5696" x2="9.54" y2="4.5696" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="12.54" y="4.5696" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">B</text>
+</svg>

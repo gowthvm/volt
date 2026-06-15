@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.4 34.32">
+<rect x="10.985" y="23.764" width="11.43" height="13.081" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="13.524999999999999" y1="23.764" x2="13.524999999999999" y2="10.683" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="19.875" y1="10.683" x2="19.875" y2="23.764" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.953" y1="14.620000000000001" x2="13.524999999999999" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="9.079999999999998" y="27.32" width="15.24" height="20.32" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="9.079999999999998" y1="19.7" x2="10.985" y2="19.7" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="10.985" cy="19.7" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="11.62" y1="12.08" x2="10.35" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="11.62,13.35 10.35,13.35 10.985,12.08 11.62,13.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="11.62" y1="20.97" x2="10.35" y2="20.97" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="11.62,22.240000000000002 10.35,22.240000000000002 10.985,20.97 11.62,22.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="13.524999999999999" cy="10.683" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="13.524999999999999" cy="14.620000000000001" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="13.524999999999999" cy="23.764" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="14.16" y1="12.08" x2="12.889999999999999" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="14.16,13.35 12.889999999999999,13.35 13.524999999999999,12.08 14.16,13.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="14.16" y1="20.97" x2="12.889999999999999" y2="20.97" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="14.16,22.240000000000002 12.889999999999999,22.240000000000002 13.524999999999999,20.97 14.16,22.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="16.7" y1="7" x2="16.7" y2="27.32" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="16.7" cy="10.683" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="16.7" cy="23.764" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="17.335,16.271 16.064999999999998,16.271 16.064999999999998,16.525" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="17.335,17.541 16.064999999999998,17.541 16.7,16.271 17.335,17.541" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="19.875" cy="10.683" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="19.875" cy="19.7" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="19.875" cy="23.764" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="20.509999999999998" y1="12.08" x2="19.24" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="20.509999999999998,13.35 19.24,13.35 19.875,12.08 20.509999999999998,13.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="20.509999999999998" y1="20.97" x2="19.24" y2="20.97" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="20.509999999999998,22.240000000000002 19.24,22.240000000000002 19.875,20.97 20.509999999999998,22.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="22.415" cy="14.620000000000001" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="23.049999999999997" y1="12.08" x2="21.78" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="23.049999999999997,13.35 21.78,13.35 22.415,12.08 23.049999999999997,13.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="23.049999999999997" y1="20.97" x2="21.78" y2="20.97" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="23.049999999999997,22.240000000000002 21.78,22.240000000000002 22.415,20.97 23.049999999999997,22.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="24.32" y1="14.620000000000001" x2="22.415" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="24.32" y1="19.7" x2="19.875" y2="19.7" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="14.620000000000001" x2="9.08" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="12.08" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">IO1</text>
+<line x1="16.7" y1="29.86" x2="16.7" y2="27.32" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="16.7" y="30.32" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VN</text>
+<line x1="4" y1="19.7" x2="9.08" y2="19.7" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="12.08" y="19.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">IO2</text>
+<line x1="29.4" y1="14.620000000000001" x2="24.32" y2="14.62" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="21.32" y="14.62" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">IO3</text>
+<line x1="16.7" y1="4.460000000000001" x2="16.7" y2="7" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="16.7" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VP</text>
+<line x1="29.4" y1="19.7" x2="24.32" y2="19.7" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="21.32" y="19.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">IO4</text>
+</svg>

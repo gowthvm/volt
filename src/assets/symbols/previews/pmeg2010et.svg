@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.31 10.54">
+<polyline points="8.135,4.635 8.135,3.9999999999999996 8.77,3.9999999999999996 8.77,6.539999999999999 9.405,6.539999999999999 9.405,5.904999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="11.309999999999999" y1="5.27" x2="8.77" y2="5.27" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="11.309999999999999,6.539999999999999 11.309999999999999,3.9999999999999996 8.77,5.27 11.309999999999999,6.539999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="13.85" y1="5.27" x2="11.309999999999999" y2="5.27" stroke="#ffd60a" stroke-width="0.26157142857142857" stroke-linecap="round"/>
+<text x="14.309999999999999" y="5.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">A</text>
+<line x1="10.04" y1="5.27" x2="7.499999999999999" y2="5.27" stroke="#ffd60a" stroke-width="0.26157142857142857" stroke-linecap="round"/>
+<text x="4.499999999999999" y="5.269999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">NC</text>
+<line x1="6.229999999999999" y1="5.27" x2="8.77" y2="5.27" stroke="#ffd60a" stroke-width="0.26157142857142857" stroke-linecap="round"/>
+<text x="5.77" y="5.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">K</text>
+</svg>

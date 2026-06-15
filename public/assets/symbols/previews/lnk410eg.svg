@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.240000000000002 24.16">
+<rect x="4.000000000000001" y="17.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="11.620000000000001" y1="19.7" x2="11.620000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="11.620000000000001" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">R</text>
+<line x1="14.16" y1="4.46" x2="14.16" y2="7" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="14.16" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">V</text>
+<line x1="16.700000000000003" y1="19.7" x2="16.700000000000003" y2="17.16" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="16.700000000000003" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">FB</text>
+<line x1="21.78" y1="12.08" x2="19.240000000000002" y2="12.08" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="22.240000000000002" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">BP</text>
+<line x1="6.540000000000001" y1="19.7" x2="6.540000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="6.540000000000001" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">S</text>
+<line x1="6.540000000000001" y1="4.46" x2="6.54" y2="7" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="6.540000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">D</text>
+</svg>

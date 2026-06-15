@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.620000000000001 19.08">
+<polyline points="4,8.27 6.540000000000001,8.27 6.540000000000001,8.777999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="5.2700000000000005,9.54 5.2700000000000005,12.079999999999998 10.350000000000001,12.079999999999998 10.350000000000001,9.54" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.2700000000000005" y1="10.809999999999999" x2="5.2700000000000005" y2="6.999999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="7.8100000000000005" cy="12.079999999999998" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="9.08,8.27 11.620000000000001,8.27 11.620000000000001,8.777999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="10.350000000000001" y1="10.809999999999999" x2="10.350000000000001" y2="6.999999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="4,10.809999999999999 6.540000000000001,10.809999999999999 5.2700000000000005,8.27 4,10.809999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="9.08,10.809999999999999 11.620000000000001,10.809999999999999 10.350000000000001,8.27 9.08,10.809999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.2700000000000005" y1="4.459999999999999" x2="5.27" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="5.2700000000000005" y="3.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">K</text>
+<line x1="10.350000000000001" y1="4.459999999999999" x2="10.35" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="10.350000000000001" y="3.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">K</text>
+<line x1="7.8100000000000005" y1="14.62" x2="7.8100000000000005" y2="12.079999999999998" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="7.8100000000000005" y="15.079999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">A</text>
+</svg>

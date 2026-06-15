@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.81 18.62">
+<path d="M 5.27 11.747 A 0.8280880424828518 0.8280880424828518 0 0 1 4.762 10.223" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="5.27" y1="4" x2="5.27" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.27" y1="11.620000000000001" x2="5.27" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 5.778 10.223 A 0.8460015498551369 0.8460015498551369 0 0 1 5.27 11.747" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.032" y1="10.985" x2="7.81" y2="10.985" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.032" cy="10.985" r="0.1778" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="6.539999999999999,4 5.27,9.08 3.9999999999999996,4" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="7.81" y1="11.620000000000001" x2="7.81" y2="10.985" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.27" y1="14.16" x2="5.27" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.266" stroke-linecap="round"/>
+<text x="5.27" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">A</text>
+<line x1="7.81" y1="14.16" x2="7.81" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.266" stroke-linecap="round"/>
+<text x="7.81" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Shield</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.16 26.240000000000002">
+<rect x="4" y="19.240000000000002" width="10.16" height="15.24" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<polyline points="4.381,5.778000000000001 4.381,6.032000000000001 4.635,6.794000000000001 4.635,7.048000000000001 7.429,7.048000000000001 7.429,6.794000000000001 7.683,6.032000000000001 7.683,5.778000000000001 4.381,5.778000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="4.7620000000000005,6.032000000000001 7.302,6.032000000000001 7.048,6.794000000000001 5.016,6.794000000000001 4.7620000000000005,6.032000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<circle cx="5.27" cy="9.461000000000002" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="5.905,9.461000000000002 6.54,9.461000000000002 7.8100000000000005,8.191 8.445,8.191" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="6.54,9.461000000000002 7.175,9.461000000000002 7.8100000000000005,10.731000000000002 9.08,10.731000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="7.175" y1="9.461000000000002" x2="9.715" y2="9.461000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="8.445" cy="8.191" r="0.381" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="8.953" y="19.240000000000002" width="0.254" height="0.7620000000000005" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="8.572" y="11.112000000000002" width="0.762" height="0.762" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="9.715,8.826 9.715,10.096 10.985,9.461000000000002 9.715,8.826" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<rect x="13.398" y="6.667000000000001" width="0.7620000000000005" height="0.25399999999999956" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="13.398" y="11.747000000000002" width="0.7620000000000005" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="13.398" y="14.287" width="0.7620000000000005" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="13.398" y="16.827" width="0.7620000000000005" height="0.25399999999999956" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="16.7" y1="6.540000000000001" x2="14.16" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="17.16" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">VBUS</text>
+<line x1="16.7" y1="14.16" x2="14.16" y2="14.16" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="17.16" y="14.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">D-</text>
+<line x1="16.7" y1="11.620000000000001" x2="14.16" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="17.16" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">D+</text>
+<line x1="16.7" y1="16.700000000000003" x2="14.16" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="17.16" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">ID</text>
+<line x1="9.08" y1="21.78" x2="9.08" y2="19.240000000000002" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="9.08" y="22.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="6.54" y1="21.78" x2="6.54" y2="19.240000000000002" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="6.54" y="22.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Shield</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.32 29.240000000000002">
+<rect x="7" y="22.240000000000002" width="20.32" height="15.24" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="29.86" y1="9.540000000000001" x2="27.32" y2="9.540000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="30.32" y="9.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">PAOUT</text>
+<line x1="17.16" y1="24.78" x2="17.16" y2="22.240000000000002" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="17.16" y="25.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VSS</text>
+<line x1="17.16" y1="4.460000000000001" x2="17.16" y2="7.000000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="17.16" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VDD</text>
+<line x1="4.460000000000001" y1="19.700000000000003" x2="7" y2="19.700000000000003" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="19.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">XTLOUT</text>
+<line x1="4.460000000000001" y1="14.620000000000001" x2="7" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">XTLIN</text>
+<line x1="4.460000000000001" y1="9.540000000000001" x2="7" y2="9.540000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="9.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">ASK</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.08 19.08">
+<rect x="4" y="12.079999999999998" width="5.08" height="5.08" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="5.016" y1="9.032" x2="6.032" y2="9.032" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="5.524,9.032 5.016,10.047999999999998 6.032,10.047999999999998 5.524,9.032" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<polyline points="5.524,10.047999999999998 5.524,11.572 7.556,11.572 7.556,10.809999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="6.491999999999999" x2="6.54" y2="5.729999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.54" cy="7.507999999999999" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.54" y1="7.507999999999999" x2="6.54" y2="6.999999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="11.572" x2="6.54" y2="12.079999999999998" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.54" cy="11.572" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.54" y1="12.588" x2="6.54" y2="13.35" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="7.556,8.27 7.556,7.507999999999999 5.524,7.507999999999999 5.524,9.032" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="7.556,8.777999999999999 7.556,10.556 7.302,10.047999999999998 7.8100000000000005,10.047999999999998 7.556,10.556" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<circle cx="7.556" cy="9.032" r="0.762" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="7.556" cy="10.047999999999998" r="0.762" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.54" y1="4.459999999999999" x2="6.539999999999999" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="6.54" y="3.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VA</text>
+<line x1="6.54" y1="14.62" x2="6.54" y2="12.079999999999998" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="6.54" y="15.079999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VB</text>
+</svg>

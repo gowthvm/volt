@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.04 16.54">
+<polyline points="6.540000000000001,7 9.08,7 7.8100000000000005,9.54 6.540000000000001,7" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.540000000000001" y1="9.54" x2="9.08" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.540000000000001" y1="10.809999999999999" x2="7.175000000000001" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="10.809999999999999" x2="7.8100000000000005" y2="5.7299999999999995" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="10.809999999999999" x2="6.540000000000001" y2="10.809999999999999" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="9.540000000000001" y="10.809999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">G</text>
+<line x1="7.8100000000000005" y1="12.08" x2="7.8100000000000005" y2="9.54" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="7.8100000000000005" y="12.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">K</text>
+<line x1="7.8100000000000005" y1="4.459999999999999" x2="7.81" y2="7" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="7.8100000000000005" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">A</text>
+</svg>

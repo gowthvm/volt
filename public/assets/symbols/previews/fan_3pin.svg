@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.3312 21.62">
+<line x1="7" y1="10.047999999999998" x2="6.746" y2="9.921" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7" y1="10.047999999999998" x2="6.873" y2="10.302" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 7.508 10.556 A 0.5080047844998024 0.5080047844998024 0 0 1 6.492 10.556" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 6.492 10.556 A 0.5080349821928958 0.5080349821928958 0 0 1 7 10.047999999999998" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="8.016,9.54 8.016,11.064 8.778,11.064" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="8.016" y1="9.54" x2="7" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 12.08 8.27 A 2.867458174045574 2.867458174045574 0 0 1 9.54 12.588" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="12.08" y1="7.507999999999999" x2="12.08" y2="6.999999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="12.08" y1="7.812799999999999" x2="12.08" y2="7.4571999999999985" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="12.08" cy="11.064" r="3.2512" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.54 12.588 A 2.8398114536883674 2.8398114536883674 0 0 1 14.620000000000001 12.588" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="12.08" y1="14.315199999999999" x2="12.08" y2="14.721599999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="12.08" y1="17.16" x2="12.08" y2="16.652" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 14.620000000000001 12.588 A 2.920332122534229 2.920332122534229 0 0 1 12.08 8.27" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="12.08" y1="17.16" x2="12.08" y2="14.62" stroke="#ffd60a" stroke-width="0.3088571428571429" stroke-linecap="round"/>
+<text x="12.08" y="17.619999999999997" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">-</text>
+<line x1="12.08" y1="4.459999999999999" x2="12.08" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.3088571428571429" stroke-linecap="round"/>
+<text x="12.08" y="3.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">+</text>
+<line x1="4.46" y1="9.54" x2="7" y2="9.54" stroke="#ffd60a" stroke-width="0.3088571428571429" stroke-linecap="round"/>
+<text x="4" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Tacho</text>
+</svg>

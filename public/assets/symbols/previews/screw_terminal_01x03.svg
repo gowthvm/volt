@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.31 15.620000000000001">
+<rect x="7.8100000000000005" y="11.620000000000001" width="2.54" height="7.62" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="8.5466" y1="4.9398" x2="9.4102" y2="5.7780000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.5466" y1="7.479800000000001" x2="9.4102" y2="8.318000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.5466" y1="10.0198" x2="9.4102" y2="10.858" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="4.7620000000000005" x2="9.588000000000001" y2="5.600200000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="7.3020000000000005" x2="9.588000000000001" y2="8.1402" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="9.842" x2="9.588000000000001" y2="10.680200000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="9.08" cy="5.2700000000000005" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.08" cy="7.8100000000000005" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.08" cy="10.350000000000001" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="5.2700000000000005" x2="7.8100000000000005" y2="5.2700000000000005" stroke="#ffd60a" stroke-width="0.22314285714285717" stroke-linecap="round"/>
+<text x="10.81" y="5.2700000000000005" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_1</text>
+<line x1="4" y1="7.8100000000000005" x2="7.8100000000000005" y2="7.8100000000000005" stroke="#ffd60a" stroke-width="0.22314285714285717" stroke-linecap="round"/>
+<text x="10.81" y="7.8100000000000005" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_2</text>
+<line x1="4" y1="10.350000000000001" x2="7.8100000000000005" y2="10.350000000000001" stroke="#ffd60a" stroke-width="0.22314285714285717" stroke-linecap="round"/>
+<text x="10.81" y="10.350000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_3</text>
+</svg>

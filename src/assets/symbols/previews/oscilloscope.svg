@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.08 19.08">
+<line x1="4.7620000000000005" y1="9.032" x2="4.635" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 4.7620000000000005 9.032 A 0.3810033737480232 0.3810033737480232 0 0 1 5.524 9.032" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="5.524" y1="9.032" x2="5.7780000000000005" y2="10.047999999999998" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 6.54 10.047999999999998 A 0.38100337374802307 0.38100337374802307 0 0 1 5.7780000000000005 10.047999999999998" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.54" y1="10.047999999999998" x2="6.7940000000000005" y2="9.032" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 6.7940000000000005 9.032 A 0.3810033737480232 0.3810033737480232 0 0 1 7.556 9.032" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="7.556" y1="9.032" x2="7.8100000000000005" y2="10.047999999999998" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 8.572 10.047999999999998 A 0.3810033737480236 0.3810033737480236 0 0 1 7.8100000000000005 10.047999999999998" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="8.572" y1="10.047999999999998" x2="8.699" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.54" cy="9.54" r="2.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.7940000000000005" y1="5.729999999999999" x2="7.302" y2="5.729999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.048" y1="5.475999999999999" x2="7.048" y2="5.983999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="14.62" x2="6.54" y2="12.079999999999998" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="6.54" y="15.079999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">-</text>
+<line x1="6.54" y1="4.459999999999999" x2="6.539999999999999" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="6.54" y="3.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">+</text>
+</svg>

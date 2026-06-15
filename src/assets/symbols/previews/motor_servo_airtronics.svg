@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.7 16.001">
+<line x1="14.493" y1="6.667" x2="13.985" y2="6.667" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.493" y1="6.667" x2="14.366" y2="7.048" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.493" y1="10.223" x2="14.112" y2="10.223" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.493" y1="10.223" x2="14.366" y2="9.842" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 14.493 10.223 A 1.9344105083589225 1.9344105083589225 0 0 1 14.493 6.667" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="15.254999999999999" cy="8.445" r="0.1778" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="15.254999999999999" cy="8.445" r="1.4224" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="18.049" cy="5.651" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="18.43" y1="4" x2="14.620000000000001" y2="7.175000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="18.43,6.921 18.43,12.001000000000001 7,12.001000000000001 7,4.889 17.16,4.889" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="18.557000000000002" cy="5.143000000000001" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 18.43 4 A 0.9427724790123209 0.9427724790123209 0 0 1 19.7 5.2700000000000005" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="19.065" cy="4.635" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="19.7" y1="5.2700000000000005" x2="16.271" y2="9.461" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.46" y1="8.445" x2="7" y2="8.445" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+<text x="4" y="8.445" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">+</text>
+<line x1="4.46" y1="10.985" x2="7" y2="10.985" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+<text x="4" y="10.985" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">-</text>
+<line x1="4.46" y1="5.905" x2="7" y2="5.905" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+<text x="4" y="5.905" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">PWM</text>
+</svg>

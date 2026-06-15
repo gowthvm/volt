@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.700000000000003 23.240000000000002">
+<path d="M 7.2261999999999995 11.0226 A 1.9565284583653972 1.9565284583653972 0 1 1 9.7662 9.117600000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.7662 14.197600000000001 A 1.9565284583653977 1.9565284583653977 0 1 1 7.2261999999999995 12.2926" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.2261999999999995 12.2926 A 1.8910794171220424 1.8910794171220424 0 0 1 7.2261999999999995 11.0226" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.7662 9.117600000000001 A 2.5903015992641127 2.5903015992641127 0 1 1 9.7662 14.197600000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="4,4.000000000000001 16.7,4.000000000000001 16.7,19.240000000000002 4,19.240000000000002 4,4.000000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="rgba(255,255,255,0.06)"/>
+<circle cx="7.8612" cy="9.117600000000001" r="0.898" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="7.8612" cy="14.197600000000001" r="0.898" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="10.2742" cy="11.6576" r="1.27" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="19.240000000000002" y1="16.700000000000003" x2="16.7" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.33857142857142863" stroke-linecap="round"/>
+<text x="19.700000000000003" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">N</text>
+<line x1="19.240000000000002" y1="6.540000000000001" x2="16.7" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.33857142857142863" stroke-linecap="round"/>
+<text x="19.700000000000003" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">L</text>
+<line x1="19.240000000000002" y1="11.620000000000001" x2="16.7" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.33857142857142863" stroke-linecap="round"/>
+<text x="19.700000000000003" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">PE</text>
+</svg>

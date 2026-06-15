@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 31.32">
+<rect x="7.000000000000001" y="24.32" width="15.24" height="20.32" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="24.78" y1="6.54" x2="22.240000000000002" y2="6.54" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="25.240000000000002" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">VOUT</text>
+<line x1="14.620000000000001" y1="26.86" x2="14.620000000000001" y2="24.32" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="14.620000000000001" y="27.32" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="4.460000000000001" y1="9.08" x2="7.000000000000001" y2="9.08" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="4" y="9.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">~{SHDN}</text>
+<line x1="4.460000000000001" y1="21.78" x2="7.000000000000001" y2="21.78" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="4" y="21.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">CNEG</text>
+<line x1="4.460000000000001" y1="6.54" x2="7.000000000000001" y2="6.54" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="4" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">VIN</text>
+<line x1="4.460000000000001" y1="14.16" x2="7.000000000000001" y2="14.16" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="4" y="14.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">CPOS</text>
+</svg>

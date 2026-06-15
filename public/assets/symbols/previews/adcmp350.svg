@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.24 23.240000000000002">
+<polyline points="6.999999999999999,6.540000000000001 17.16,11.620000000000001 6.999999999999999,16.700000000000003 6.999999999999999,6.540000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="rgba(255,255,255,0.06)"/>
+<line x1="10.556" y1="11.620000000000001" x2="10.047999999999998" y2="11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="10.556,12.89 11.190999999999999,12.89 12.460999999999999,10.350000000000001 13.096,10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="11.318" y1="11.620000000000001" x2="10.809999999999999" y2="11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.572" y1="11.620000000000001" x2="12.079999999999998" y2="11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="12.334" y1="11.620000000000001" x2="12.841999999999999" y2="11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.096" y1="11.620000000000001" x2="13.604" y2="11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="14.366,12.128 14.873999999999999,12.128 14.366,11.620000000000001 14.873999999999999,11.112000000000002 15.381999999999998,11.620000000000001 14.873999999999999,12.128 15.381999999999998,12.128" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="4.459999999999999" y1="11.620000000000001" x2="6.999999999999999" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.37485714285714283" stroke-linecap="round"/>
+<text x="3.999999999999999" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">VIN</text>
+<line x1="9.54" y1="19.240000000000002" x2="9.54" y2="15.430000000000001" stroke="#ffd60a" stroke-width="0.37485714285714283" stroke-linecap="round"/>
+<text x="9.54" y="12.430000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="22.24" y1="11.620000000000001" x2="17.159999999999997" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.37485714285714283" stroke-linecap="round"/>
+<line x1="9.54" y1="4.000000000000001" x2="9.54" y2="7.8100000000000005" stroke="#ffd60a" stroke-width="0.37485714285714283" stroke-linecap="round"/>
+<text x="9.539999999999997" y="10.81" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VCC</text>
+</svg>

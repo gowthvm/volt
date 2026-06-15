@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.7 17.525">
+<rect x="4" y="10.35" width="12.7" height="6.3500000000000005" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<rect x="4.508" y="9.715" width="1.524" height="4.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="5.27,5.651 5.27,4.889 7.81,4.889 7.81,9.715" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<rect x="12.128" y="9.715" width="1.524" height="4.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="12.89,5.651 12.89,4.889 15.43,4.889 15.43,9.715" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.27" y1="13.525" x2="5.27" y2="9.715" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="5.27" y="6.715" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">R1.1</text>
+<line x1="7.81" y1="13.525" x2="7.8100000000000005" y2="9.715" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="7.8100000000000005" y="6.715" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">R1.2</text>
+<line x1="12.89" y1="13.525" x2="12.89" y2="9.715" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="12.89" y="6.715" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">R2.1</text>
+<line x1="15.43" y1="13.525" x2="15.43" y2="9.715" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="15.43" y="6.715" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">R2.2</text>
+</svg>

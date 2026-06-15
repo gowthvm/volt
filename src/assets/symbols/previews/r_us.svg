@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.032 15.620000000000001">
+<line x1="5.016" y1="5.524000000000001" x2="5.016" y2="5.2700000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="5.016,5.524000000000001 6.032,5.905 5.016,6.2860000000000005 4,6.667000000000001 5.016,7.048" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="5.016,7.048 6.032,7.429 5.016,7.8100000000000005 4,8.191 5.016,8.572000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="5.016,8.572000000000001 6.032,8.953000000000001 5.016,9.334 4,9.715 5.016,10.096" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.016" y1="10.096" x2="5.016" y2="10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.016" y1="4" x2="5.016" y2="5.2700000000000005" stroke="#ffd60a" stroke-width="0.22314285714285717" stroke-linecap="round"/>
+<line x1="5.016" y1="11.620000000000001" x2="5.016" y2="10.350000000000001" stroke="#ffd60a" stroke-width="0.22314285714285717" stroke-linecap="round"/>
+</svg>

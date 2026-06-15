@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 21.16">
+<rect x="7.000000000000001" y="14.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="7.000000000000001" y1="6.54" x2="13.096" y2="6.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.000000000000001" y1="9.08" x2="13.096" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="10.048000000000002" y1="6.54" x2="10.048000000000002" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="10.048000000000002" y1="12.89" x2="19.192" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.826" y1="9.08" x2="11.826" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 14.112000000000002 6.5777 A 0.5093967458130165 0.5093967458130165 0 0 1 13.096 6.5777" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 13.096 9.042300000000001 A 0.5093967458130166 0.5093967458130166 0 0 1 14.112000000000002 9.042300000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.128 6.5777 A 0.5093967458130169 0.5093967458130169 0 0 1 14.112000000000002 6.5777" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 14.112000000000002 9.042300000000001 A 0.5093967458130167 0.5093967458130167 0 0 1 15.128 9.042300000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="14.620000000000001" y1="14.16" x2="14.620000000000001" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 16.144000000000002 6.5777 A 0.509396745813017 0.509396745813017 0 0 1 15.128 6.5777" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.128 9.042300000000001 A 0.5093967458130171 0.5093967458130171 0 0 1 16.144000000000002 9.042300000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="17.16" y1="6.54" x2="16.144000000000002" y2="6.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="6.54" x2="22.240000000000002" y2="6.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="9.08" x2="16.144000000000002" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.16" y1="9.08" x2="22.240000000000002" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.414" y1="9.08" x2="17.414" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="19.192" y1="6.54" x2="19.192" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="9.413,11.620000000000001 10.683000000000002,11.620000000000001 10.048000000000002,10.35 9.413,11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="10.048000000000002" cy="6.54" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="10.683000000000002,10.731 10.683000000000002,10.35 9.413,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="11.191,11.620000000000001 12.461000000000002,11.620000000000001 11.826,10.35 11.191,11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="11.826" cy="9.08" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="11.826" cy="12.89" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="12.461000000000002,10.731 12.461000000000002,10.35 11.191,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="14.620000000000001" cy="12.89" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="16.525000000000002" cy="7.048" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="16.525000000000002" cy="8.572" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="17.414" cy="9.08" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="17.414" cy="12.89" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="18.049,10.731 18.049,10.35 16.779,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="18.049,11.620000000000001 16.779,11.620000000000001 17.414,10.35 18.049,11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="19.192" cy="6.54" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="19.827,10.731 19.827,10.35 18.557000000000002,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="19.827,11.620000000000001 18.557000000000002,11.620000000000001 19.192,10.35 19.827,11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="4.460000000000001" y1="6.54" x2="7.000000000000001" y2="6.54" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">D+_in</text>
+<line x1="4.460000000000001" y1="9.08" x2="7.000000000000001" y2="9.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="9.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">D-_in</text>
+<line x1="14.620000000000001" y1="16.7" x2="14.620000000000001" y2="14.16" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="14.620000000000001" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="17.16" y1="16.7" x2="17.16" y2="14.16" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="17.16" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="24.78" y1="9.08" x2="22.240000000000002" y2="9.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="9.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">D-_out</text>
+<line x1="24.78" y1="6.54" x2="22.240000000000002" y2="6.539999999999999" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">D+_out</text>
+</svg>

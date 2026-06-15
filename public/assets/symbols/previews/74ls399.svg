@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 300">
+<rect x="50" y="50" width="80" height="200" stroke="#ffffff" stroke-width="1.5" fill="rgba(255,255,255,0.04)"/>
+<text x="90" y="150" fill="#888" font-size="3" font-family="monospace" text-anchor="middle" dominant-baseline="middle">U</text>
+<line x1="30" y1="75" x2="50" y2="75" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="55" y="75" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="start" dominant-baseline="middle">Qa</text>
+<line x1="30" y1="125" x2="50" y2="125" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="55" y="125" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="start" dominant-baseline="middle">Qb</text>
+<line x1="30" y1="175" x2="50" y2="175" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="55" y="175" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="start" dominant-baseline="middle">Qc</text>
+<line x1="30" y1="225" x2="50" y2="225" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="55" y="225" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="start" dominant-baseline="middle">Qd</text>
+<line x1="150" y1="60" x2="130" y2="60" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="60" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">S</text>
+<line x1="150" y1="80" x2="130" y2="80" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="80" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I0a</text>
+<line x1="150" y1="100" x2="130" y2="100" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="100" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I1a</text>
+<line x1="150" y1="120" x2="130" y2="120" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="120" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I1b</text>
+<line x1="150" y1="140" x2="130" y2="140" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="140" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I0b</text>
+<line x1="150" y1="160" x2="130" y2="160" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="160" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">CP</text>
+<line x1="150" y1="180" x2="130" y2="180" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="180" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I0c</text>
+<line x1="150" y1="200" x2="130" y2="200" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="200" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I1c</text>
+<line x1="150" y1="220" x2="130" y2="220" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="220" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I1d</text>
+<line x1="150" y1="240" x2="130" y2="240" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="240" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="end" dominant-baseline="middle">I0d</text>
+<line x1="90" y1="30" x2="90" y2="50" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="90" y="25" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="90" y1="270" x2="90" y2="250" stroke="#ffd60a" stroke-width="1.5" stroke-linecap="round"/>
+<text x="90" y="284" fill="#ffd60a" font-size="2" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VCC</text>
+</svg>

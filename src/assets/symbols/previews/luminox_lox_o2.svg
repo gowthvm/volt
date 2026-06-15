@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.21 28.78">
+<rect x="4" y="4" width="0" height="0" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="23.049999999999997" y="21.78" width="10.16" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="28.13" y1="9.079999999999998" x2="28.13" y2="11.62" stroke="#ffd60a" stroke-width="0.5315714285714286" stroke-linecap="round"/>
+<text x="28.13" y="14.62" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Vs</text>
+<line x1="28.13" y1="24.32" x2="28.13" y2="21.78" stroke="#ffd60a" stroke-width="0.5315714285714286" stroke-linecap="round"/>
+<text x="28.13" y="24.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="20.509999999999998" y1="14.16" x2="23.049999999999997" y2="14.16" stroke="#ffd60a" stroke-width="0.5315714285714286" stroke-linecap="round"/>
+<text x="26.049999999999997" y="14.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">TXD</text>
+<line x1="20.509999999999998" y1="16.7" x2="23.049999999999997" y2="16.7" stroke="#ffd60a" stroke-width="0.5315714285714286" stroke-linecap="round"/>
+<text x="26.049999999999997" y="16.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">RXD</text>
+</svg>

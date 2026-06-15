@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.16 26.034">
+<circle cx="7.048" cy="7.301999999999999" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 7.301999999999999 A 0.7620071767497039 0.7620071767497039 0 0 1 7.556 8.825999999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 8.825999999999999 A 0.7620071767497043 0.7620071767497043 0 0 1 7.556 10.349999999999998" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 10.349999999999998 A 0.7620071767497035 0.7620071767497035 0 0 1 7.556 11.873999999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 11.873999999999999 A 0.7620071767497033 0.7620071767497033 0 0 1 7.556 13.398" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 13.398 A 0.7620071767497025 0.7620071767497025 0 0 1 7.556 14.921999999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 14.921999999999999 A 0.762007176749703 0.762007176749703 0 0 1 7.556 16.445999999999998" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="7.556,7.301999999999999 7.556,6.793999999999999 6.54,6.793999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="7.556,16.445999999999998 7.556,16.954 6.54,16.954" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<rect x="8.826" y="22.034" width="0.508" height="18.034" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="10.604,20.764 10.604,22.034 11.620000000000001,22.034" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path d="M 10.604 7.4289999999999985 A 0.7620071767497003 0.7620071767497003 0 0 1 10.604 5.9049999999999985" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 8.953 A 0.7620071767497043 0.7620071767497043 0 0 1 10.604 7.4289999999999985" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 10.476999999999999 A 0.7620071767497032 0.7620071767497032 0 0 1 10.604 8.953" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 17.589 A 0.762007176749703 0.762007176749703 0 0 1 10.604 16.064999999999998" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 19.113 A 0.7620071767497065 0.7620071767497065 0 0 1 10.604 17.589" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 20.637 A 0.7620071767497056 0.7620071767497056 0 0 1 10.604 19.113" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.112" cy="4.761999999999999" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.112" cy="15.43" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="11.620000000000001,4.253999999999999 10.604,4.253999999999999 10.604,5.777999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="11.620000000000001,11.873999999999999 10.604,11.873999999999999 10.604,10.604" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="11.620000000000001,14.413999999999998 10.604,14.413999999999998 10.604,15.937999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="6.793999999999999" x2="6.54" y2="6.793999999999999" stroke="#ffd60a" stroke-width="0.3719142857142857" stroke-linecap="round"/>
+<line x1="4" y1="16.954" x2="6.54" y2="16.954" stroke="#ffd60a" stroke-width="0.3719142857142857" stroke-linecap="round"/>
+<line x1="14.16" y1="4.253999999999999" x2="11.620000000000001" y2="4.253999999999999" stroke="#ffd60a" stroke-width="0.3719142857142857" stroke-linecap="round"/>
+<line x1="14.16" y1="11.873999999999999" x2="11.620000000000001" y2="11.873999999999999" stroke="#ffd60a" stroke-width="0.3719142857142857" stroke-linecap="round"/>
+<line x1="14.16" y1="14.413999999999998" x2="11.620000000000001" y2="14.413999999999998" stroke="#ffd60a" stroke-width="0.3719142857142857" stroke-linecap="round"/>
+<line x1="14.16" y1="22.034" x2="11.620000000000001" y2="22.034" stroke="#ffd60a" stroke-width="0.3719142857142857" stroke-linecap="round"/>
+</svg>

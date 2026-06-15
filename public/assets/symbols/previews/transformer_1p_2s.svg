@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.32 28.32">
+<path d="M 12.89 10.350000000000001 A 1.2888472055677866 1.2888472055677866 0 0 1 11.620000000000001 11.594600000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 12.89 12.890000000000002 A 1.2888472055677853 1.2888472055677853 0 0 1 11.620000000000001 14.134600000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 12.89 15.430000000000001 A 1.2888472055677866 1.2888472055677866 0 0 1 11.620000000000001 16.6746" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 12.89 17.970000000000002 A 1.2888472055677842 1.2888472055677842 0 0 1 11.620000000000001 19.2146" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 9.080000000000002 A 1.2700874554822745 1.2700874554822745 0 0 1 12.89 10.350000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 11.620000000000001 A 1.2700874554822732 1.2700874554822732 0 0 1 12.89 12.890000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 14.160000000000002 A 1.2700874554822736 1.2700874554822736 0 0 1 12.89 15.430000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 16.700000000000003 A 1.2700874554822728 1.2700874554822728 0 0 1 12.89 17.970000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="13.652000000000001" y1="24.32" x2="13.652000000000001" y2="4.000000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.668" y1="4.000000000000002" x2="14.668" y2="24.32" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 15.455400000000001 5.270000000000001 A 1.2280187319599054 1.2280187319599054 0 0 1 16.7 4.000000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.455400000000001 7.810000000000002 A 1.2280187319599083 1.2280187319599083 0 0 1 16.7 6.540000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.455400000000001 10.350000000000001 A 1.2280187319599036 1.2280187319599036 0 0 1 16.7 9.080000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.455400000000001 17.970000000000002 A 1.2280187319599005 1.2280187319599005 0 0 1 16.7 16.700000000000003" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.455400000000001 20.51 A 1.228018731959896 1.228018731959896 0 0 1 16.7 19.240000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.455400000000001 23.050000000000004 A 1.2280187319598936 1.2280187319598936 0 0 1 16.7 21.78" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 6.5146000000000015 A 1.244480862956863 1.244480862956863 0 0 1 15.455400000000001 5.270000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 9.0546 A 1.2444808629568693 1.2444808629568693 0 0 1 15.455400000000001 7.810000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 11.594600000000002 A 1.2444808629568613 1.2444808629568613 0 0 1 15.455400000000001 10.350000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 19.2146 A 1.244480862956864 1.244480862956864 0 0 1 15.455400000000001 17.970000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 21.754600000000003 A 1.2444808629568667 1.2444808629568667 0 0 1 15.455400000000001 20.51" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 24.294600000000003 A 1.244480862956863 1.244480862956863 0 0 1 15.455400000000001 23.050000000000004" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="9.080000000000002" x2="11.620000000000001" y2="9.080000000000002" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.620000000000001" y="9.080000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">AA</text>
+<line x1="4" y1="19.240000000000002" x2="11.620000000000001" y2="19.240000000000002" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.620000000000001" y="19.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">AB</text>
+<line x1="24.32" y1="4.000000000000002" x2="16.7" y2="4" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="13.7" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SA</text>
+<line x1="24.32" y1="11.620000000000001" x2="16.7" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="13.7" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SB</text>
+<line x1="24.32" y1="16.700000000000003" x2="16.7" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="13.7" y="16.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SC</text>
+<line x1="24.32" y1="24.32" x2="16.7" y2="24.32" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="13.7" y="24.32" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SD</text>
+</svg>

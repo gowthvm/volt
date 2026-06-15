@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.985 24.16">
+<rect x="4" y="17.16" width="6.985" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="8.445" y1="17.16" x2="8.445" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="8.445" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="5.905" y1="19.7" x2="5.905" y2="17.16" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="5.905" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="10.985" y1="17.16" x2="10.985" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="10.985" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="5.905" y1="4.46" x2="5.904999999999999" y2="7" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="5.905" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Vin</text>
+<line x1="13.525" y1="12.08" x2="10.985" y2="12.08" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="13.985" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Vout</text>
+</svg>

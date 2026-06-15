@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.31 21.716">
+<line x1="7.8100000000000005" y1="4.508000000000001" x2="8.572" y2="4.508000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="7.048000000000001" x2="8.572" y2="7.048000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="9.588000000000001" x2="8.572" y2="9.588000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="12.128" x2="8.572" y2="12.128" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="14.668000000000001" x2="8.572" y2="14.668000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="17.208000000000002" x2="8.572" y2="17.208000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 9.08 5.016000000000001 A 0.5080047844998024 0.5080047844998024 0 0 1 9.08 4.000000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.08 7.556000000000001 A 0.5080047844998024 0.5080047844998024 0 0 1 9.08 6.540000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.08 10.096 A 0.5080047844998024 0.5080047844998024 0 0 1 9.08 9.080000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.08 12.636000000000001 A 0.5080047844998024 0.5080047844998024 0 0 1 9.08 11.620000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.08 15.176000000000002 A 0.5080047844998024 0.5080047844998024 0 0 1 9.08 14.16" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.08 17.716 A 0.5080047844998059 0.5080047844998059 0 0 1 9.08 16.700000000000003" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="4.508000000000001" x2="7.8100000000000005" y2="4.508000000000001" stroke="#ffd60a" stroke-width="0.31022857142857146" stroke-linecap="round"/>
+<text x="10.81" y="4.508000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_1</text>
+<line x1="4" y1="7.048000000000001" x2="7.8100000000000005" y2="7.048000000000001" stroke="#ffd60a" stroke-width="0.31022857142857146" stroke-linecap="round"/>
+<text x="10.81" y="7.048000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_2</text>
+<line x1="4" y1="9.588000000000001" x2="7.8100000000000005" y2="9.588000000000001" stroke="#ffd60a" stroke-width="0.31022857142857146" stroke-linecap="round"/>
+<text x="10.81" y="9.588000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_3</text>
+<line x1="4" y1="12.128" x2="7.8100000000000005" y2="12.128" stroke="#ffd60a" stroke-width="0.31022857142857146" stroke-linecap="round"/>
+<text x="10.81" y="12.128" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_4</text>
+<line x1="4" y1="14.668000000000001" x2="7.8100000000000005" y2="14.668000000000001" stroke="#ffd60a" stroke-width="0.31022857142857146" stroke-linecap="round"/>
+<text x="10.81" y="14.668000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_5</text>
+<line x1="4" y1="17.208000000000002" x2="7.8100000000000005" y2="17.208000000000002" stroke="#ffd60a" stroke-width="0.31022857142857146" stroke-linecap="round"/>
+<text x="10.81" y="17.208000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_6</text>
+</svg>

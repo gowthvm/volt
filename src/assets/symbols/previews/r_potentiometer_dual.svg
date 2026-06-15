@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 14.556000000000001">
+<rect x="7" y="10.556000000000001" width="5.08" height="2.032" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.540000000000001" y1="7" x2="9.540000000000001" y2="8.016" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.540000000000001" y1="7" x2="9.540000000000001" y2="8.016" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.540000000000001" y1="7" x2="10.048000000000002" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="9.540000000000001,8.397 9.032,7.254 10.048000000000002,7.254 9.540000000000001,8.397" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<line x1="10.302" y1="6.492" x2="10.81" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.318000000000001" y1="6.492" x2="11.826" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="12.334" y1="6.492" x2="12.842" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.350000000000001" y1="6.492" x2="13.858" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.366" y1="6.492" x2="14.874" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.382000000000001" y1="6.492" x2="15.89" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="16.398" y1="6.492" x2="16.906" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.414" y1="6.492" x2="17.922" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="18.43" y1="6.492" x2="18.938000000000002" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="19.446" y1="6.492" x2="19.954" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="19.7" y="10.556000000000001" width="5.08" height="2.032" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="20.462" y1="6.492" x2="20.97" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="21.478" y1="6.492" x2="21.986" y2="6.492" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="22.240000000000002" y1="7" x2="22.240000000000002" y2="8.016" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="22.240000000000002" y1="7" x2="22.240000000000002" y2="8.016" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="22.240000000000002,8.397 21.732,7.254 22.748,7.254 22.240000000000002,8.397" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<polyline points="22.494,6.492 22.748,6.492 22.240000000000002,7" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.73" y1="9.54" x2="7" y2="9.54" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="4" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">1</text>
+<line x1="9.540000000000001" y1="4.46" x2="9.54" y2="7" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="9.540000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">2</text>
+<line x1="13.350000000000001" y1="9.54" x2="12.08" y2="9.54" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="9.08" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">3</text>
+<line x1="18.43" y1="9.54" x2="19.7" y2="9.54" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="22.700000000000003" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">4</text>
+<line x1="22.240000000000002" y1="4.46" x2="22.24" y2="7" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="22.240000000000002" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">5</text>
+<line x1="26.05" y1="9.54" x2="24.78" y2="9.54" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="27.78" y="9.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">6</text>
+</svg>

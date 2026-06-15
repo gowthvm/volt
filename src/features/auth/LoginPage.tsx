@@ -1,0 +1,184 @@
+import { FormEvent, useState } from 'react';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { useAuth } from '@/hooks/useAuth';
+import Logo from '@/components/Logo';
+import Seo from '@/components/Seo';
+
+export default function LoginPage() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [emailError, setEmailError] = useState<string | null>(null);
+  const [passwordError, setPasswordError] = useState<string | null>(null);
+  const [formError, setFormError] = useState<string | null>(null);
+  const [oauthProvider, setOauthProvider] = useState<string | null>(null);
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const { signInWithEmail, signInWithProvider, loading } = useAuth();
+
+  const redirectTo = searchParams.get('redirect_to') || '/editor';
+
+  const validateEmail = (value: string): boolean => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!value.trim()) {
+      setEmailError('Email is required');
+      return false;
+    }
+    if (!emailRegex.test(value)) {
+      setEmailError('Please enter a valid email address');
+      return false;
+    }
+    setEmailError(null);
+    return true;
+  };
+
+  const validatePassword = (value: string): boolean => {
+    if (!value) {
+      setPasswordError('Password is required');
+      return false;
+    }
+    setPasswordError(null);
+    return true;
+  };
+
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setFormError(null);
+
+    const isEmailValid = validateEmail(email);
+    const isPasswordValid = validatePassword(password);
+
+    if (!isEmailValid || !isPasswordValid) return;
+
+    const error = await signInWithEmail(email, password);
+    if (error) {
+      setFormError(error.message);
+      return;
+    }
+
+    navigate(redirectTo);
+  };
+
+  const handleOAuth = async (provider: 'google' | 'github') => {
+    setFormError(null);
+    setOauthProvider(provider);
+    const { url, error } = await signInWithProvider(provider);
+    if (error) {
+      setFormError(error.message);
+      setOauthProvider(null);
+      return;
+    }
+    if (url) {
+      window.location.assign(url);
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-base text-text-primary">
+      <Seo title="Log in — Volt" description="Sign in to Volt to continue designing circuits." path="/login" />
+      <div className="mx-auto flex min-h-screen max-w-3xl items-center justify-center px-6 py-12">
+        <div className="w-full rounded-xl border border-default bg-surface p-10">
+          <header className="mb-8 flex items-center justify-between">
+            <Logo />
+            <Link className="text-sm text-accent transition hover:text-accent-hover" to="/signup">
+              Create account
+            </Link>
+          </header>
+
+          <div className="space-y-5">
+            <h1 className="text-3xl font-semibold text-text-primary">Welcome back.</h1>
+            <p className="text-sm text-text-secondary">Sign in to continue designing with Volt.</p>
+          </div>
+
+          <form className="mt-10 space-y-6" onSubmit={handleSubmit}>
+            {formError ? (
+              <div className="rounded-lg bg-red-500/10 border border-red-500/30 px-4 py-3 text-sm text-red-300">
+                {formError}
+              </div>
+            ) : null}
+
+            <div className="space-y-2">
+              <label className="block text-sm text-text-secondary" htmlFor="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autoComplete="email"
+                value={email}
+                onChange={(e) => { setEmail(e.target.value); if (emailError) setEmailError(null); }}
+                onBlur={() => { if (email) validateEmail(email); }}
+                className={`w-full rounded-md border bg-base px-4 py-3 text-text-primary outline-none transition focus:border-accent focus:ring-2 focus:ring-accent/20 ${emailError ? 'border-red-500/50' : 'border-default'}`}
+                required
+              />
+              {emailError ? <p className="text-xs text-red-400">{emailError}</p> : null}
+            </div>
+
+            <div className="space-y-2">
+              <label className="block text-sm text-text-secondary" htmlFor="password">Password</label>
+              <input
+                id="password"
+                name="password"
+                type="password"
+                autoComplete="current-password"
+                value={password}
+                onChange={(e) => { setPassword(e.target.value); if (passwordError) setPasswordError(null); }}
+                onBlur={() => { if (password) validatePassword(password); }}
+                className={`w-full rounded-md border bg-base px-4 py-3 text-text-primary outline-none transition focus:border-accent focus:ring-2 focus:ring-accent/20 ${passwordError ? 'border-red-500/50' : 'border-default'}`}
+                required
+              />
+              {passwordError ? <p className="text-xs text-red-400">{passwordError}</p> : null}
+            </div>
+
+            <button
+              type="submit"
+              disabled={loading}
+              className="flex w-full items-center justify-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-semibold text-black transition hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-70"
+            >
+              {loading ? (
+                <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-black/30 border-t-black" />
+              ) : null}
+              {loading ? 'Logging in…' : 'Log in'}
+            </button>
+          </form>
+
+          <div className="my-6 flex items-center gap-3 text-sm text-text-secondary">
+            <span className="h-px flex-1 bg-border-default" />
+            Or continue with
+            <span className="h-px flex-1 bg-border-default" />
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2">
+            <button
+              type="button"
+              onClick={() => handleOAuth('google')}
+              disabled={loading && oauthProvider === 'google'}
+              className="flex items-center justify-center gap-2 rounded-md border border-default bg-base px-4 py-3 text-sm text-text-primary transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              {loading && oauthProvider === 'google' ? (
+                <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-text-tertiary/30 border-t-text-tertiary" />
+              ) : null}
+              Continue with Google
+            </button>
+            <button
+              type="button"
+              onClick={() => handleOAuth('github')}
+              disabled={loading && oauthProvider === 'github'}
+              className="flex items-center justify-center gap-2 rounded-md border border-default bg-base px-4 py-3 text-sm text-text-primary transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              {loading && oauthProvider === 'github' ? (
+                <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-text-tertiary/30 border-t-text-tertiary" />
+              ) : null}
+              Continue with GitHub
+            </button>
+          </div>
+
+          <p className="mt-8 text-center text-sm text-text-secondary">
+            New to Volt?{' '}
+            <Link className="text-accent transition hover:text-accent-hover" to="/signup">
+              Create an account
+            </Link>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}

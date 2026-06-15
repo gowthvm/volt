@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.08 14.04">
+<circle cx="7.507999999999999" cy="6.23" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.54" cy="6.23" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.572" cy="6.23" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.507999999999999 5.722 A 1.4388247967479681 1.4388247967479681 0 0 1 9.286 5.722" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.54" y1="7.5" x2="9.54" y2="6.738" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.459999999999999" y1="6.23" x2="6.999999999999999" y2="6.23" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="3.999999999999999" y="6.23" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A</text>
+<line x1="9.54" y1="10.040000000000001" x2="9.54" y2="7.5" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="9.54" y="4.5" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">C</text>
+<line x1="14.62" y1="6.23" x2="12.079999999999998" y2="6.23" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="15.079999999999998" y="6.23" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">B</text>
+</svg>

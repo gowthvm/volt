@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.240000000000002 24.16">
+<rect x="4.000000000000001" y="17.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="6.540000000000001" y1="8.905000000000001" x2="6.540000000000001" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.540000000000001" y1="8.905000000000001" x2="7.175000000000001" y2="8.905000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.540000000000001" y1="9.54" x2="7.175000000000001" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.540000000000001" y1="10.175" x2="7.175000000000001" y2="10.175" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.540000000000001" y1="10.81" x2="7.175000000000001" y2="10.81" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.540000000000001" y1="11.445" x2="7.175000000000001" y2="11.445" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 6.540000000000001 8.905000000000001 A 0.6350057646686724 0.6350057646686724 0 0 1 7.8100000000000005 8.905000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="7.175000000000001" cy="14.620000000000001" r="1.27" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="7.8100000000000005" y1="8.905000000000001" x2="7.8100000000000005" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="6.540000000000001" y="13.985" width="1.27" height="1.905" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="11.620000000000001" y1="4.46" x2="11.620000000000001" y2="7" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="11.620000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">V+</text>
+<line x1="21.78" y1="12.08" x2="19.240000000000002" y2="12.08" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="22.240000000000002" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Signal</text>
+<line x1="11.620000000000001" y1="19.7" x2="11.620000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.3748571428571429" stroke-linecap="round"/>
+<text x="11.620000000000001" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+</svg>

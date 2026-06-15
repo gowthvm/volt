@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.175 14.175">
+<polyline points="5.27,6.413 4,7.175 4.7620000000000005,5.904999999999999 5.27,6.413" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<polyline points="5.397,6.54 4.635,5.778 6.413,4 7.175,4.7620000000000005 5.397,6.54" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="rgba(255,255,255,0.06)"/>
+<text x="4" y="10.175" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">1</text>
+</svg>

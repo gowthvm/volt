@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.32 24.16">
+<rect x="7.8100000000000005" y="17.16" width="12.7" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4" y1="12.08" x2="7.8100000000000005" y2="12.08" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="10.81" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">TRIG</text>
+<line x1="14.16" y1="19.7" x2="14.16" y2="17.16" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.16" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="4" y1="14.620000000000001" x2="7.8100000000000005" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="10.81" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">SET</text>
+<line x1="4" y1="9.54" x2="7.8100000000000005" y2="9.54" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="10.81" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">DIV</text>
+<line x1="14.16" y1="4.46" x2="14.16" y2="7" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.16" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">V+</text>
+<line x1="24.32" y1="12.08" x2="20.509999999999998" y2="12.08" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="17.509999999999998" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">OUT</text>
+</svg>

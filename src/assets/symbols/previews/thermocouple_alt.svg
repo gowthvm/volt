@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.5 13.080000000000002">
+<circle cx="4.452" cy="6.540000000000001" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="7.5" y1="9.080000000000002" x2="7.246" y2="9.080000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="8.6684,4.050800000000001 7.0428,4.050800000000001 4.502800000000001,6.590800000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="8.6684,5.270000000000001 7.0428,5.270000000000001 4.452,6.540000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="8.7192" y1="4.000000000000001" x2="10.04" y2="4.000000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.024000000000001" y1="9.080000000000002" x2="10.04" y2="9.080000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="9.024000000000001,9.080000000000002 6.992,9.080000000000002 4.452,6.540000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="10.04" y1="4.000000000000001" x2="7.5" y2="4" stroke="#ffd60a" stroke-width="0.20714285714285716" stroke-linecap="round"/>
+<text x="4.5" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">+</text>
+<line x1="10.04" y1="9.080000000000002" x2="7.5" y2="9.08" stroke="#ffd60a" stroke-width="0.20714285714285716" stroke-linecap="round"/>
+<text x="10.5" y="9.080000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">-</text>
+</svg>

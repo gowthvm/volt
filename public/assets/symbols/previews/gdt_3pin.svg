@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.6614 18.16">
+<polyline points="6.54,7.8100000000000005 7.8100000000000005,9.08 6.54,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="9.08" x2="7.8100000000000005" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.08" y1="6.54" x2="9.08" y2="7.8100000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.08" y1="7.8100000000000005" x2="7.8100000000000005" y2="6.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.08" y1="7.8100000000000005" x2="10.35" y2="6.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="9.08" cy="9.08" r="3.5814" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.08" y1="10.35" x2="7.8100000000000005" y2="11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.08" y1="10.35" x2="10.35" y2="11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.08" y1="11.620000000000001" x2="9.08" y2="10.35" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="10.985" cy="9.08" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="10.985" cy="9.08" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="10.985" cy="9.08" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.112" cy="9.08" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.08" y1="14.16" x2="9.08" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="4" y1="9.08" x2="6.54" y2="9.08" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="9.08" y1="4" x2="9.08" y2="6.54" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.08 18.16">
+<path d="M 6.032 8.572 A 0.2540023922499012 0.2540023922499012 0 0 1 6.54 8.572" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 5.016 9.08 A 0.2540023922499012 0.2540023922499012 0 0 1 5.524 9.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 6.032 9.08 A 0.2540023922499012 0.2540023922499012 0 0 1 5.524 9.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.032" y1="8.572" x2="6.032" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="8.572" x2="6.54" y2="9.588000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.54" cy="9.08" r="2.54" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<path d="M 7.048 9.588000000000001 A 0.2540023922499012 0.2540023922499012 0 0 1 6.54 9.588000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="7.048" y1="9.588000000000001" x2="7.048" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 7.048 9.08 A 0.2540023922499012 0.2540023922499012 0 0 1 7.556 9.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 8.064 9.08 A 0.2540023922499012 0.2540023922499012 0 0 1 7.556 9.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.54" y1="4" x2="6.539999999999999" y2="6.54" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="6.54" y1="14.16" x2="6.54" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+</svg>

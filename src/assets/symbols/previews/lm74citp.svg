@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.240000000000002 34.32">
+<rect x="7.000000000000001" y="27.32" width="15.24" height="20.32" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="13.858" y1="13.985" x2="13.858" y2="17.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="13.985" x2="14.493" y2="13.985" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="14.620000000000001" x2="14.493" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="15.255" x2="14.493" y2="15.255" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="15.89" x2="14.493" y2="15.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="16.525" x2="14.493" y2="16.525" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 13.858 13.985 A 0.6350057646686702 0.6350057646686702 0 0 1 15.128 13.985" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="14.493" cy="19.7" r="1.27" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="15.128" y1="13.985" x2="15.128" y2="17.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="13.858" y="19.065" width="1.27" height="1.905" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="4.460000000000001" y1="14.620000000000001" x2="7.000000000000001" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">SI/O</text>
+<line x1="4.460000000000001" y1="17.16" x2="7.000000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">SC</text>
+<line x1="14.620000000000001" y1="29.86" x2="14.620000000000001" y2="27.32" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="14.620000000000001" y="30.32" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="14.620000000000001" y1="4.460000000000001" x2="14.620000000000001" y2="7" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="14.620000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">V^{+}</text>
+<line x1="4.460000000000001" y1="19.7" x2="7.000000000000001" y2="19.7" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="4" y="19.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">~{CS}</text>
+</svg>

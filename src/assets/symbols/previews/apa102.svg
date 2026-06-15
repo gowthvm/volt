@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.16 24.16">
+<line x1="13.35" y1="14.620000000000001" x2="13.858" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.35" y1="15.636" x2="13.858" y2="15.636" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="14.366,13.604 13.35,14.620000000000001 13.35,14.112" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="14.366,14.620000000000001 13.35,15.636 13.35,15.128" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="15.763,13.096 15.763,15.636 15.763,16.144" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="16.779,13.604 14.747,13.604 15.763,15.636 16.779,13.604" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="16.779" y1="15.636" x2="14.747" y2="15.636" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="7" y="17.16" width="10.16" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4.46" y1="9.54" x2="7" y2="9.54" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="4" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">DI</text>
+<line x1="4.46" y1="12.08" x2="7" y2="12.08" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="4" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">CI</text>
+<line x1="12.08" y1="19.7" x2="12.08" y2="17.16" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="12.08" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="12.08" y1="4.46" x2="12.08" y2="7" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="12.08" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VCC</text>
+<line x1="19.7" y1="12.08" x2="17.16" y2="12.08" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="20.16" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">CO</text>
+<line x1="19.7" y1="9.54" x2="17.16" y2="9.54" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="20.16" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">DO</text>
+</svg>

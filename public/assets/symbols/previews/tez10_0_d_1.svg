@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.16 18.668">
+<circle cx="7.048" cy="4.762" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 4.762 A 0.7620071767497039 0.7620071767497039 0 0 1 7.556 6.286" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 6.286 A 0.7620071767497043 0.7620071767497043 0 0 1 7.556 7.81" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 7.81 A 0.7620071767497035 0.7620071767497035 0 0 1 7.556 9.334" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 9.334 A 0.7620071767497033 0.7620071767497033 0 0 1 7.556 10.858" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 10.858 A 0.7620071767497025 0.7620071767497025 0 0 1 7.556 12.382" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.556 12.382 A 0.762007176749703 0.762007176749703 0 0 1 7.556 13.905999999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="7.556,4.762 7.556,4.254 6.54,4.254" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="7.556,13.905999999999999 7.556,14.414 6.54,14.414" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<rect x="8.826" y="14.668" width="0.508" height="10.668" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="10.604,6.286 10.604,4.254 11.620000000000001,4.254" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path d="M 10.604 7.81 A 0.7620071767497025 0.7620071767497025 0 0 1 10.604 6.286" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 9.334 A 0.7620071767497033 0.7620071767497033 0 0 1 10.604 7.81" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 10.858 A 0.7620071767497035 0.7620071767497035 0 0 1 10.604 9.334" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.604 12.382 A 0.7620071767497043 0.7620071767497043 0 0 1 10.604 10.858" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.112" cy="5.778" r="0.127" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="11.620000000000001,14.414 10.604,14.414 10.604,12.382" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="4.254" x2="6.54" y2="4.254" stroke="#ffd60a" stroke-width="0.26668571428571425" stroke-linecap="round"/>
+<line x1="4" y1="14.414" x2="6.54" y2="14.414" stroke="#ffd60a" stroke-width="0.26668571428571425" stroke-linecap="round"/>
+<line x1="14.16" y1="4.254" x2="11.620000000000001" y2="4.254" stroke="#ffd60a" stroke-width="0.26668571428571425" stroke-linecap="round"/>
+<line x1="14.16" y1="14.414" x2="11.620000000000001" y2="14.414" stroke="#ffd60a" stroke-width="0.26668571428571425" stroke-linecap="round"/>
+</svg>

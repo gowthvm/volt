@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.556000000000001 19.08">
+<line x1="5.016" y1="6.999999999999999" x2="5.016" y2="7.254" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="5.016,7.254 6.032,7.634999999999999 5.016,8.015999999999998 4,8.396999999999998 5.016,8.777999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="5.016,8.777999999999999 6.032,9.158999999999999 5.016,9.54 4,9.921 5.016,10.302" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="5.016,10.302 6.032,10.683 5.016,11.064 4,11.444999999999999 5.016,11.825999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.016" y1="11.825999999999999" x2="5.016" y2="12.079999999999998" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="6.159,9.54 7.302,9.032 7.302,10.047999999999998 6.159,9.54" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<line x1="7.556" y1="9.54" x2="6.54" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.016" y1="5.729999999999999" x2="5.016" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="5.016" y="3.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">1</text>
+<line x1="8.826" y1="9.54" x2="7.556" y2="9.54" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="10.556000000000001" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">2</text>
+<line x1="5.016" y1="13.35" x2="5.016" y2="12.079999999999998" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="5.016" y="15.079999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">3</text>
+</svg>

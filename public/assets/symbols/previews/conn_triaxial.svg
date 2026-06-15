@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.08 15.3891">
+<line x1="6.999999999999999" y1="5.849099999999999" x2="9.032" y2="5.849099999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 11.318 6.357099999999999 A 1.8491660614420997 1.8491660614420997 0 0 1 7.761999999999999 6.357099999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.54" cy="5.849099999999999" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.683 5.849099999999999 A 1.1430033826157668 1.1430033826157668 0 0 1 8.5161 6.357099999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.761999999999999 5.341099999999999 A 1.8491660614421002 1.8491660614421002 0 0 1 11.318 5.341099999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 8.5161 5.341099999999999 A 1.143032189495056 1.143032189495056 0 0 1 10.683 5.849099999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.54" y1="8.3891" x2="9.54" y2="7.754099999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="10.809999999999999" y1="5.849099999999999" x2="12.079999999999998" y2="5.849099999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.459999999999999" y1="5.849099999999999" x2="6.999999999999999" y2="5.849099999999999" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="3.999999999999999" y="5.849099999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">In1</text>
+<line x1="14.62" y1="5.849099999999999" x2="12.079999999999998" y2="5.849099999999998" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="15.079999999999998" y="5.849099999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">In2</text>
+<line x1="9.54" y1="10.929099999999998" x2="9.54" y2="8.3891" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="9.54" y="11.3891" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Ext</text>
+</svg>

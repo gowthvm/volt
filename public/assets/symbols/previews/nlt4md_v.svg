@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.16 24.16">
+<line x1="7" y1="12.08" x2="9.54" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="9.54" y="13.35" width="0.635" height="2.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="10.81" y="10.175" width="2.54" height="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="10.81" y="14.620000000000001" width="2.54" height="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="12.08" y1="7" x2="12.08" y2="9.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="12.08" cy="12.08" r="5.08" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="12.08" y1="17.16" x2="12.08" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="13.985" y="13.35" width="0.635" height="2.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="17.16" y1="12.08" x2="14.620000000000001" y2="12.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.46" y1="12.08" x2="7" y2="12.08" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="4" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">1-</text>
+<line x1="12.08" y1="19.7" x2="12.08" y2="17.16" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="12.08" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">2+</text>
+<line x1="19.7" y1="12.08" x2="17.16" y2="12.08" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="20.16" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">2-</text>
+<line x1="12.08" y1="4.46" x2="12.08" y2="7" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="12.08" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">1+</text>
+</svg>

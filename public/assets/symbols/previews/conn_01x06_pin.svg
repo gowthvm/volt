@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.31 20.954">
+<rect x="6.23" y="4.2540000000000004" width="0.8636" height="0.25399999999999956" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="6.23" y="6.7940000000000005" width="0.8636" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="6.23" y="9.334000000000001" width="0.8636" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="6.23" y="11.874" width="0.8636" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="6.23" y="14.414000000000001" width="0.8636" height="0.25399999999999956" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="6.23" y="16.954" width="0.8636" height="0.25399999999999956" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="7.5" y1="4.127000000000001" x2="7.0936" y2="4.127000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.5" y1="6.667000000000001" x2="7.0936" y2="6.667000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.5" y1="9.207" x2="7.0936" y2="9.207" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.5" y1="11.747" x2="7.0936" y2="11.747" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.5" y1="14.287" x2="7.0936" y2="14.287" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.5" y1="16.827" x2="7.0936" y2="16.827" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.31" y1="4.127000000000001" x2="7.5" y2="4.127" stroke="#ffd60a" stroke-width="0.29934285714285713" stroke-linecap="round"/>
+<text x="4.5" y="4.127" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_1</text>
+<line x1="11.31" y1="6.667000000000001" x2="7.5" y2="6.667" stroke="#ffd60a" stroke-width="0.29934285714285713" stroke-linecap="round"/>
+<text x="4.5" y="6.667" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_2</text>
+<line x1="11.31" y1="9.207" x2="7.5" y2="9.207" stroke="#ffd60a" stroke-width="0.29934285714285713" stroke-linecap="round"/>
+<text x="4.5" y="9.207" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_3</text>
+<line x1="11.31" y1="11.747" x2="7.5" y2="11.747" stroke="#ffd60a" stroke-width="0.29934285714285713" stroke-linecap="round"/>
+<text x="4.5" y="11.747" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_4</text>
+<line x1="11.31" y1="14.287" x2="7.5" y2="14.286999999999999" stroke="#ffd60a" stroke-width="0.29934285714285713" stroke-linecap="round"/>
+<text x="4.5" y="14.286999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_5</text>
+<line x1="11.31" y1="16.827" x2="7.5" y2="16.826999999999998" stroke="#ffd60a" stroke-width="0.29934285714285713" stroke-linecap="round"/>
+<text x="4.5" y="16.826999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_6</text>
+</svg>

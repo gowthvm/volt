@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.16 20.525">
+<rect x="7" y="13.525" width="10.16" height="9.525" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4.46" y1="5.905" x2="7" y2="5.905" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="4" y="5.905" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">VIN</text>
+<line x1="12.08" y1="16.065" x2="12.08" y2="13.525" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="12.08" y="16.525" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="4.46" y1="8.445" x2="7" y2="8.445" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="4" y="8.445" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">INH</text>
+<line x1="19.7" y1="8.445" x2="17.16" y2="8.445" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="20.16" y="8.445" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">BYP</text>
+<line x1="19.7" y1="5.905" x2="17.16" y2="5.904999999999999" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="20.16" y="5.905" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">VOUT</text>
+</svg>

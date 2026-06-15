@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.509999999999998 24.509999999999998">
+<polyline points="6.54,10.35 9.207,10.35 9.588000000000001,9.969" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="12.89" x2="10.604" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="10.604" cy="9.588" r="0.762" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="11.620000000000001" cy="12.89" r="0.762" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="12.128,7.048 7.3020000000000005,7.048 6.54,7.81" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="13.144" cy="7.048" r="0.762" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="14.16" y1="5.27" x2="6.54" y2="5.27" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.16" y1="5.27" x2="15.938" y2="7.048" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="14.16" cy="10.35" r="6.35" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<circle cx="16.7" cy="7.81" r="0.762" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<path d="M 18.097 15.303 A 1.1709220661402533 1.1709220661402533 0 0 1 19.621000000000002 13.524999999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="12.89" x2="6.54" y2="12.89" stroke="#ffd60a" stroke-width="0.3501428571428571" stroke-linecap="round"/>
+<line x1="4" y1="10.35" x2="6.54" y2="10.35" stroke="#ffd60a" stroke-width="0.3501428571428571" stroke-linecap="round"/>
+<line x1="4" y1="5.27" x2="6.54" y2="5.27" stroke="#ffd60a" stroke-width="0.3501428571428571" stroke-linecap="round"/>
+<line x1="4" y1="7.81" x2="6.54" y2="7.81" stroke="#ffd60a" stroke-width="0.3501428571428571" stroke-linecap="round"/>
+<line x1="14.16" y1="20.509999999999998" x2="14.16" y2="16.7" stroke="#ffd60a" stroke-width="0.3501428571428571" stroke-linecap="round"/>
+</svg>

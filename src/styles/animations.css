@@ -1,0 +1,196 @@
+/* ===== Landing Page Keyframe Animations ===== */
+/* Only transform and opacity — GPU accelerated */
+
+@keyframes fade-slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.05; }
+  50%      { opacity: 0.15; }
+}
+
+@keyframes pulse-glow-cta {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 214, 10, 0.15); }
+  50%      { box-shadow: 0 0 40px rgba(255, 214, 10, 0.35); }
+}
+
+@keyframes pulse-glow-signup {
+  0%, 100% { box-shadow: 0 0 12px rgba(255, 214, 10, 0.1); }
+  50%      { box-shadow: 0 0 24px rgba(255, 214, 10, 0.25); }
+}
+
+@keyframes dot-travel {
+  0%   { offset-distance: 0%; }
+  100% { offset-distance: 100%; }
+}
+
+@keyframes draw-line {
+  from { stroke-dashoffset: 1000; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes border-glow {
+  0%, 100% { border-color: rgba(255, 214, 10, 0); }
+  50%      { border-color: rgba(255, 214, 10, 0.5); }
+}
+
+@keyframes slide-underline {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes checkmark-draw {
+  from { stroke-dashoffset: 20; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes strikethrough-draw {
+  from { stroke-dashoffset: 200; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes ripple {
+  from { width: 0; height: 0; opacity: 0.5; }
+  to   { width: 300px; height: 300px; opacity: 0; }
+}
+
+@keyframes page-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes page-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+/* ===== Utility Classes ===== */
+
+.animate-fade-slide-up {
+  animation: fade-slide-up 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 5s ease-in-out infinite;
+}
+
+.animate-pulse-glow-cta {
+  animation: pulse-glow-cta 2s ease-in-out infinite;
+}
+
+.animate-pulse-glow-signup {
+  animation: pulse-glow-signup 3s ease-in-out infinite;
+}
+
+.animate-draw-line {
+  stroke-dasharray: 1000;
+  animation: draw-line 1s ease-out forwards;
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 214, 10, 0.06) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+.animate-border-glow {
+  animation: border-glow 2s ease-in-out infinite;
+}
+
+.animate-checkmark {
+  stroke-dasharray: 20;
+  animation: checkmark-draw 0.5s ease-out forwards;
+}
+
+.animate-strikethrough {
+  stroke-dasharray: 200;
+  animation: strikethrough-draw 0.6s ease-out forwards;
+}
+
+/* ===== Page Transitions ===== */
+
+.page-enter {
+  animation: page-fade-in 150ms ease-out forwards;
+}
+
+.page-exit {
+  animation: page-fade-out 150ms ease-out forwards;
+}
+
+/* ===== Hero-Specific Animations ===== */
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+@keyframes scroll-indicator {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+.animate-scroll-indicator {
+  animation: scroll-indicator 2s ease-in-out infinite;
+}
+
+/* ===== Reduced Motion ===== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .animate-fade-slide-up {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .animate-fade-in {
+    opacity: 1;
+  }
+
+  .animate-pulse-glow,
+  .animate-pulse-glow-cta,
+  .animate-pulse-glow-signup,
+  .animate-shimmer,
+  .animate-border-glow {
+    animation: none !important;
+  }
+
+  .animate-draw-line,
+  .animate-checkmark,
+  .animate-strikethrough {
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.32 24.509999999999998">
+<rect x="7.8100000000000005" y="16.7" width="12.7" height="12.7" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<polyline points="9.08,10.35 14.16,10.35 19.240000000000002,5.27" stroke="#ffffff" stroke-width="0.508" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="14.16" y1="10.35" x2="19.240000000000002" y2="15.43" stroke="#ffffff" stroke-width="0.508" stroke-linecap="round" fill="none"/>
+<line x1="9.08" y1="20.509999999999998" x2="9.08" y2="16.7" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="9.08" y="13.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="19.240000000000002" y1="7.81" x2="14.16" y2="7.809999999999999" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="11.16" y="7.809999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">NC</text>
+<line x1="24.32" y1="15.43" x2="19.240000000000002" y2="15.43" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="16.240000000000002" y="15.43" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">PORT2</text>
+<line x1="24.32" y1="5.27" x2="19.240000000000002" y2="5.269999999999999" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="16.240000000000002" y="5.269999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">PORT1</text>
+<line x1="19.240000000000002" y1="12.89" x2="14.16" y2="12.889999999999999" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="11.16" y="12.889999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">NC</text>
+<line x1="4" y1="10.35" x2="9.08" y2="10.35" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="12.08" y="10.35" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">SUM</text>
+</svg>

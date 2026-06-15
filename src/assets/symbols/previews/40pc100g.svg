@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.78 24.16">
+<line x1="7.048" y1="11.826" x2="9.588000000000001" y2="9.286" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="8.318000000000001" cy="10.556000000000001" r="2.6162" stroke="#ffffff" stroke-width="0.508" fill="none"/>
+<line x1="8.318000000000001" y1="13.35" x2="8.318000000000001" y2="15.89" stroke="#ffffff" stroke-width="0.508" stroke-linecap="round" fill="none"/>
+<polyline points="9.588000000000001,9.286 9.334,10.302 8.572,9.54 9.588000000000001,9.286" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<rect x="4" y="17.16" width="17.78" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="14.16" y1="4.46" x2="14.16" y2="7" stroke="#ffd60a" stroke-width="0.41114285714285714" stroke-linecap="round"/>
+<text x="14.16" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Vcc</text>
+<line x1="14.16" y1="19.7" x2="14.16" y2="17.16" stroke="#ffd60a" stroke-width="0.41114285714285714" stroke-linecap="round"/>
+<text x="14.16" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="24.32" y1="12.08" x2="21.78" y2="12.08" stroke="#ffd60a" stroke-width="0.41114285714285714" stroke-linecap="round"/>
+<text x="24.78" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Vout</text>
+<line x1="6.54" y1="17.16" x2="6.54" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.41114285714285714" stroke-linecap="round"/>
+<text x="6.54" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="9.08" y1="17.16" x2="9.08" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.41114285714285714" stroke-linecap="round"/>
+<text x="9.08" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="11.620000000000001" y1="17.16" x2="11.620000000000001" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.41114285714285714" stroke-linecap="round"/>
+<text x="11.620000000000001" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+</svg>

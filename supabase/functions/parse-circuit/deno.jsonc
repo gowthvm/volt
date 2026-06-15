@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "serve": "supabase functions serve parse-circuit --env-file ./supabase/.env.local"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.168.0/"
+  }
+}

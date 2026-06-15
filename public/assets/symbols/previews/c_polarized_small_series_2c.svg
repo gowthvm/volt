@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.064 18.16">
+<rect x="4" y="6.997199999999999" width="3.048" height="0.3809999999999998" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<rect x="4" y="7.9878" width="3.048" height="0.381" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="4" y="10.5024" width="3.048" height="0.381" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<rect x="4" y="11.493" width="3.048" height="0.3809999999999998" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="4.254" y1="5.7780000000000005" x2="4.7620000000000005" y2="5.7780000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.254" y1="9.2832" x2="4.7620000000000005" y2="9.2832" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.508" y1="6.032" x2="4.508" y2="5.524" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.508" y1="9.5372" x2="4.508" y2="9.0292" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.524" y1="8.064" x2="5.524" y2="10.096" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="5.524" cy="9.08" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="5.524" y1="4" x2="5.523999999999999" y2="6.54" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="8.064" y1="9.08" x2="5.524" y2="9.08" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="5.524" y1="14.16" x2="5.524" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+</svg>

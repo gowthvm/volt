@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.86 28.32">
+<line x1="9.079999999999998" y1="14.16" x2="12.889999999999999" y2="14.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="9.079999999999998,21.78 16.7,21.78 16.7,16.065" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="9.079999999999998,21.78 9.079999999999998,8.445 16.7,8.445 16.7,10.985" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="12.889999999999999,10.35 12.889999999999999,17.97 20.509999999999998,14.16 12.889999999999999,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="12.889999999999999,14.16 20.509999999999998,10.35 20.509999999999998,17.97 12.889999999999999,14.16" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="16.7" cy="11.620000000000001" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="11.62" y="19.240000000000002" width="10.16" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4" y1="14.16" x2="9.08" y2="14.16" stroke="#ffd60a" stroke-width="0.44085714285714284" stroke-linecap="round"/>
+<line x1="26.86" y1="14.16" x2="20.509999999999998" y2="14.16" stroke="#ffd60a" stroke-width="0.44085714285714284" stroke-linecap="round"/>
+<line x1="4" y1="21.78" x2="9.08" y2="21.78" stroke="#ffd60a" stroke-width="0.44085714285714284" stroke-linecap="round"/>
+<line x1="16.7" y1="24.32" x2="16.7" y2="19.240000000000002" stroke="#ffd60a" stroke-width="0.44085714285714284" stroke-linecap="round"/>
+<text x="16.7" y="16.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="16.7" y1="4" x2="16.7" y2="9.08" stroke="#ffd60a" stroke-width="0.44085714285714284" stroke-linecap="round"/>
+<text x="16.7" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VCC</text>
+</svg>

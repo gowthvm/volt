@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.4 39.4">
+<rect x="4" y="32.4" width="25.4" height="25.4" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="31.939999999999998" y1="12.079999999999998" x2="29.4" y2="12.079999999999998" stroke="#ffd60a" stroke-width="0.5628571428571428" stroke-linecap="round"/>
+<text x="32.4" y="12.079999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">PB0</text>
+<line x1="16.7" y1="34.94" x2="16.7" y2="32.4" stroke="#ffd60a" stroke-width="0.5628571428571428" stroke-linecap="round"/>
+<text x="16.7" y="35.4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="31.939999999999998" y1="14.62" x2="29.4" y2="14.62" stroke="#ffd60a" stroke-width="0.5628571428571428" stroke-linecap="round"/>
+<text x="32.4" y="14.62" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">PB1</text>
+<line x1="31.939999999999998" y1="17.16" x2="29.4" y2="17.16" stroke="#ffd60a" stroke-width="0.5628571428571428" stroke-linecap="round"/>
+<text x="32.4" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">PB2</text>
+<line x1="16.7" y1="4.459999999999999" x2="16.7" y2="7" stroke="#ffd60a" stroke-width="0.5628571428571428" stroke-linecap="round"/>
+<text x="16.7" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VCC</text>
+<line x1="31.939999999999998" y1="19.7" x2="29.4" y2="19.7" stroke="#ffd60a" stroke-width="0.5628571428571428" stroke-linecap="round"/>
+<text x="32.4" y="19.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">~{RESET}/PB3</text>
+</svg>

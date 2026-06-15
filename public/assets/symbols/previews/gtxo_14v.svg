@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 24.16">
+<rect x="7" y="17.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<polyline points="10.175,10.175 10.81,10.175 10.81,8.905000000000001 11.445,8.905000000000001 11.445,10.175 12.08,10.175 12.08,8.905000000000001 12.715,8.905000000000001 12.715,10.175" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="4.460000000000001" y1="12.08" x2="7" y2="12.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Vcontrol</text>
+<line x1="17.16" y1="19.7" x2="17.16" y2="17.16" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="17.16" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="24.78" y1="12.08" x2="22.240000000000002" y2="12.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">OUT</text>
+<line x1="17.16" y1="4.46" x2="17.16" y2="7" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="17.16" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Vcc</text>
+</svg>

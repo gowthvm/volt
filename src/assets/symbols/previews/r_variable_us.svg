@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.572 15.620000000000001">
+<line x1="6.032" y1="5.524000000000001" x2="6.032" y2="5.2700000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="6.032,5.524000000000001 7.048,5.905 6.032,6.2860000000000005 5.016,6.667000000000001 6.032,7.048" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="6.032,7.048 7.048,7.429 6.032,7.8100000000000005 5.016,8.191 6.032,8.572000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="6.032,8.572000000000001 7.048,8.953000000000001 6.032,9.334 5.016,9.715 6.032,10.096" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.032" y1="10.096" x2="6.032" y2="10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="8.318,6.2860000000000005 8.572,5.2700000000000005 7.556,5.524000000000001 8.572,5.2700000000000005 4,9.842" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.032" y1="4" x2="6.032" y2="5.2700000000000005" stroke="#ffd60a" stroke-width="0.22314285714285717" stroke-linecap="round"/>
+<line x1="6.032" y1="11.620000000000001" x2="6.032" y2="10.350000000000001" stroke="#ffd60a" stroke-width="0.22314285714285717" stroke-linecap="round"/>
+</svg>

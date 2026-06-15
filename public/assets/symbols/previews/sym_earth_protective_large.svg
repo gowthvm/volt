@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.620000000000001 15.620000000000001">
+<line x1="6.540000000000001" y1="8.191" x2="9.08" y2="8.191" stroke="#ffffff" stroke-width="0.508" stroke-linecap="round" fill="none"/>
+<line x1="7.556000000000001" y1="10.096" x2="8.064" y2="10.096" stroke="#ffffff" stroke-width="0.508" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="7.175000000000001" x2="7.8100000000000005" y2="4" stroke="#ffffff" stroke-width="0.508" stroke-linecap="round" fill="none"/>
+<circle cx="7.8100000000000005" cy="7.8100000000000005" r="3.81" stroke="#ffffff" stroke-width="0.508" fill="rgba(255,255,255,0.06)"/>
+<polyline points="8.445,9.207 7.175000000000001,9.207 8.445,9.207" stroke="#ffffff" stroke-width="0.508" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="9.715" y1="7.175000000000001" x2="5.905" y2="7.175000000000001" stroke="#ffffff" stroke-width="0.508" stroke-linecap="round" fill="none"/>
+</svg>

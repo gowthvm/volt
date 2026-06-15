@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.480000000000004 38.480000000000004">
+<rect x="9.080000000000002" y="29.400000000000002" width="20.32" height="20.32" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="19.240000000000002" y1="4.000000000000002" x2="19.240000000000002" y2="9.080000000000002" stroke="#ffd60a" stroke-width="0.5497142857142858" stroke-linecap="round"/>
+<text x="19.240000000000002" y="12.080000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VDD</text>
+<line x1="34.480000000000004" y1="21.78" x2="29.400000000000002" y2="21.78" stroke="#ffd60a" stroke-width="0.5497142857142858" stroke-linecap="round"/>
+<text x="26.400000000000002" y="21.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">RA2</text>
+<line x1="4.000000000000002" y1="21.78" x2="9.080000000000002" y2="21.78" stroke="#ffd60a" stroke-width="0.5497142857142858" stroke-linecap="round"/>
+<text x="12.080000000000002" y="21.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">RA1</text>
+<line x1="4.000000000000002" y1="16.700000000000003" x2="9.080000000000002" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.5497142857142858" stroke-linecap="round"/>
+<text x="12.080000000000002" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">RA0</text>
+<line x1="19.240000000000002" y1="34.480000000000004" x2="19.240000000000002" y2="29.400000000000002" stroke="#ffd60a" stroke-width="0.5497142857142858" stroke-linecap="round"/>
+<text x="19.240000000000002" y="26.400000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VSS</text>
+<line x1="34.480000000000004" y1="16.700000000000003" x2="29.400000000000002" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.5497142857142858" stroke-linecap="round"/>
+<text x="26.400000000000002" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">RA3</text>
+</svg>

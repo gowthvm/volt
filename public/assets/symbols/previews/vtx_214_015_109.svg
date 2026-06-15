@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 18.62">
+<rect x="7.000000000000001" y="14.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="9.286000000000001" y1="9.715" x2="11.826" y2="9.715" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 10.556000000000001 8.445 A 0.7157396238651091 0.7157396238651091 0 0 1 9.286000000000001 8.445" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.556000000000001 8.445 A 0.7277778613648588 0.7277778613648588 0 0 1 11.826 8.445" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="17.414" y1="8.445" x2="17.922" y2="8.445" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.414" y1="9.715" x2="19.954" y2="9.715" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="18.43" y1="8.445" x2="18.938000000000002" y2="8.445" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="19.446" y1="8.445" x2="19.954" y2="8.445" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="4" x2="14.620000000000001" y2="5.27" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="6.54" x2="14.620000000000001" y2="7.8100000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="9.08" x2="14.620000000000001" y2="10.35" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="11.620000000000001" x2="14.620000000000001" y2="12.89" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="14.16" x2="14.620000000000001" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="14.620000000000001" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">FG</text>
+<line x1="4.460000000000001" y1="11.620000000000001" x2="7.000000000000001" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">N</text>
+<line x1="4.460000000000001" y1="6.54" x2="7.000000000000001" y2="6.54" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">L</text>
+<line x1="24.78" y1="6.54" x2="22.240000000000002" y2="6.539999999999999" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">DC+</text>
+<line x1="24.78" y1="11.620000000000001" x2="22.240000000000002" y2="11.62" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">DC-</text>
+</svg>

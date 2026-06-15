@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.7 10.54">
+<rect x="7.8100000000000005" y="6.539999999999999" width="5.08" height="2.54" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<rect x="7.8100000000000005" y="5.396999999999999" width="1.27" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="11.620000000000001" y="5.396999999999999" width="1.27" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="5.27" x2="7.8100000000000005" y2="5.27" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="10.81" y="5.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_1</text>
+<line x1="16.7" y1="5.27" x2="12.89" y2="5.269999999999999" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="9.89" y="5.269999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_2</text>
+</svg>

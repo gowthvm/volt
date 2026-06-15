@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="38" viewBox="-8 0 130 38">
+  <path style="fill:none;stroke:#000;stroke-width:2;stroke-linecap:round" d="M10,24h35M100,24h-35l-20-12v24l20-12 M65,12v24M10,24h35M65,4l-5,10M62,5l3-1l1,3M58,1l-5,10M55,2l3-1l1,3"/>
+  <switch font-size="8" font-family="sans-serif" text-anchor="middle">
+    <text systemLanguage="ar" x="10" y="19">مصعد<tspan x="100">مهبط</tspan></text>
+    <text systemLanguage="az" x="10" y="19">Anod<tspan x="100">Katod</tspan></text>
+    <text systemLanguage="ca" x="10" y="19">Ànode<tspan x="100">Càtode</tspan></text>
+    <text systemLanguage="ckb" x="10" y="19">ئانۆد<tspan x="100">کاتۆد</tspan></text>
+    <text systemLanguage="cs" x="10" y="19">Anoda<tspan x="100">Katoda</tspan></text>
+    <text systemLanguage="cy" x="10" y="19">Anod<tspan x="100">Cathod</tspan></text>
+    <text systemLanguage="da" x="10" y="19">Anode<tspan x="100">Katode</tspan></text>
+    <text systemLanguage="es" x="10" y="19">Ánodo<tspan x="100">Cátodo</tspan></text>
+    <text systemLanguage="et" x="10" y="19">Anood<tspan x="100">Katood</tspan></text>
+    <text systemLanguage="eu" x="10" y="19">Anodo<tspan x="100">Katodo</tspan></text>
+    <text systemLanguage="fa" x="10" y="19">آند<tspan x="100">کاتد</tspan></text>
+    <text systemLanguage="fi" x="10" y="19">Anodi<tspan x="100">Katodi</tspan></text>
+    <text systemLanguage="fr" x="10" y="19">Anode<tspan x="100">Cathode</tspan></text>
+    <text systemLanguage="hi" x="10" y="19">धनाग्र<tspan x="100">कैथोड</tspan></text>
+    <text systemLanguage="id" x="10" y="19">Anode<tspan x="100">Katode</tspan></text>
+    <text systemLanguage="io" x="10" y="19">Anodo<tspan x="100">Katodo</tspan></text>
+    <text systemLanguage="is" x="10" y="19">Forskaut<tspan x="100">Bakskaut</tspan></text>
+    <text systemLanguage="it" x="10" y="19">Anodo<tspan x="100">Catodo</tspan></text>
+    <text systemLanguage="ja" x="10" y="19">アノード<tspan x="100">カソード</tspan></text>
+    <text systemLanguage="ko" x="10" y="19">양극<tspan x="100">캐소드</tspan></text>
+    <text systemLanguage="lv" x="10" y="19">Anods<tspan x="100">Katods</tspan></text>
+    <text systemLanguage="pl" x="10" y="19">Anoda<tspan x="100">Katoda</tspan></text>
+    <text systemLanguage="pt" x="10" y="19">Ânodo<tspan x="100">Cátodo</tspan></text>
+    <text systemLanguage="sh" x="10" y="19">Anoda<tspan x="100">Katoda</tspan></text>
+    <text systemLanguage="si" x="10" y="19">ඇනෝඩය<tspan x="100">කැතෝඩය</tspan></text>
+    <text systemLanguage="sk" x="10" y="19">Anóda<tspan x="100">Katóda</tspan></text>
+    <text systemLanguage="tg" x="10" y="19">Анод<tspan x="100">Катод</tspan></text>
+    <text systemLanguage="th" x="10" y="19">แอโนด<tspan x="100">แคโทด</tspan></text>
+    <text systemLanguage="uk" x="10" y="19">Анод<tspan x="100">Катод</tspan></text>
+    <text systemLanguage="ur" x="10" y="19">مثبیرہ<tspan x="100">منفیرہ</tspan></text>
+    <text systemLanguage="vi" x="10" y="19">dương cực<tspan x="100">ca-tốt</tspan></text>
+    <text systemLanguage="zh" x="10" y="19">陽極<tspan x="100">陰極</tspan></text>
+    <text x="10" y="19">Anode<tspan x="100">Cathode</tspan></text>
+  </switch>
+</svg>

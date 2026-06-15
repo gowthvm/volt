@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 18.62">
+<rect x="7.000000000000001" y="14.62" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="14.620000000000001" y1="4.459999999999999" x2="14.620000000000001" y2="5.729999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="6.999999999999999" x2="14.620000000000001" y2="8.27" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="9.54" x2="14.620000000000001" y2="10.809999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.620000000000001" y1="12.079999999999998" x2="14.620000000000001" y2="13.35" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.460000000000001" y1="12.079999999999998" x2="7.000000000000001" y2="12.079999999999998" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="12.079999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">-Vin</text>
+<line x1="4.460000000000001" y1="6.999999999999999" x2="7.000000000000001" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="6.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">+Vin</text>
+<line x1="24.78" y1="12.079999999999998" x2="22.240000000000002" y2="12.079999999999998" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="12.079999999999998" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">-Vout</text>
+<line x1="24.78" y1="6.999999999999999" x2="22.240000000000002" y2="6.999999999999998" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="6.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">+Vout</text>
+<line x1="14.620000000000001" y1="4.459999999999999" x2="14.620000000000001" y2="6.999999999999999" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="14.620000000000001" y="3.999999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NTC</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.32 25.78">
+<polyline points="10.35,5.270000000000001 11.620000000000001,4.000000000000001 16.7,4.000000000000001 17.97,5.270000000000001 17.97,17.97 16.7,19.240000000000002 11.620000000000001,19.240000000000002 10.35,17.97 10.35,5.270000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="rgba(255,255,255,0.06)"/>
+<path d="M 12.89 7.8100000000000005 A 1.2888472055677866 1.2888472055677866 0 0 1 11.620000000000001 9.0546" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 12.89 10.350000000000001 A 1.2888472055677853 1.2888472055677853 0 0 1 11.620000000000001 11.594600000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 12.89 12.89 A 1.2888472055677866 1.2888472055677866 0 0 1 11.620000000000001 14.1346" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 12.89 15.430000000000001 A 1.2888472055677842 1.2888472055677842 0 0 1 11.620000000000001 16.6746" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 6.540000000000001 A 1.2700874554822745 1.2700874554822745 0 0 1 12.89 7.8100000000000005" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 9.080000000000002 A 1.2700874554822732 1.2700874554822732 0 0 1 12.89 10.350000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 11.620000000000001 A 1.2700874554822736 1.2700874554822736 0 0 1 12.89 12.89" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 14.16 A 1.2700874554822728 1.2700874554822728 0 0 1 12.89 15.430000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="13.525" y1="6.540000000000001" x2="13.525" y2="16.700000000000003" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="14.795" y1="16.700000000000003" x2="14.795" y2="6.540000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 15.455400000000001 7.8100000000000005 A 1.2280187319599036 1.2280187319599036 0 0 1 16.7 6.540000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.455400000000001 10.350000000000001 A 1.2280187319599005 1.2280187319599005 0 0 1 16.7 9.080000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.455400000000001 12.89 A 1.2280187319599005 1.2280187319599005 0 0 1 16.7 11.620000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 9.0546 A 1.2444808629568613 1.2444808629568613 0 0 1 15.455400000000001 7.8100000000000005" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 11.594600000000002 A 1.2444808629568629 1.2444808629568629 0 0 1 15.455400000000001 10.350000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7 14.1346 A 1.2444808629568642 1.2444808629568642 0 0 1 15.455400000000001 12.89" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.4808 15.430000000000001 A 1.2283301630408887 1.2283301630408887 0 0 1 16.7254 14.16" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.7254 16.6746 A 1.2439692528368727 1.2439692528368727 0 0 1 15.4808 15.430000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="14.16" y1="21.78" x2="14.16" y2="19.240000000000002" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="4" y1="6.540000000000001" x2="11.620000000000001" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.620000000000001" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">AA</text>
+<line x1="4" y1="16.700000000000003" x2="11.620000000000001" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.620000000000001" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">AB</text>
+<line x1="24.32" y1="16.700000000000003" x2="16.7" y2="16.7" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="13.7" y="16.7" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SA</text>
+<line x1="24.32" y1="6.540000000000001" x2="16.7" y2="6.54" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="13.7" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SB</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.4 30.86">
+<rect x="9.079999999999998" y="21.78" width="15.24" height="17.78" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="29.4" y1="11.620000000000001" x2="24.32" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.47714285714285715" stroke-linecap="round"/>
+<text x="21.32" y="11.62" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">OUT</text>
+<line x1="16.7" y1="26.86" x2="16.7" y2="21.78" stroke="#ffd60a" stroke-width="0.47714285714285715" stroke-linecap="round"/>
+<text x="16.7" y="18.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="4" y1="6.540000000000001" x2="9.08" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.47714285714285715" stroke-linecap="round"/>
+<text x="12.08" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">~{OC}</text>
+<line x1="4" y1="16.700000000000003" x2="9.08" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.47714285714285715" stroke-linecap="round"/>
+<text x="12.08" y="16.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">~{EN}</text>
+<line x1="29.4" y1="6.540000000000001" x2="24.32" y2="6.54" stroke="#ffd60a" stroke-width="0.47714285714285715" stroke-linecap="round"/>
+<text x="21.32" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">IN</text>
+</svg>

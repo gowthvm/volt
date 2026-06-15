@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.3891 15.3712">
+<line x1="6.999999999999999" y1="5.8312" x2="9.032" y2="5.8312" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.999999999999999" y1="8.3712" x2="8.651" y2="6.7202" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="9.54" cy="5.8312" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.683 5.8312 A 1.1430033826157668 1.1430033826157668 0 0 1 8.5161 6.3392" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.761999999999999 5.3232 A 1.8491315211202333 1.8491315211202333 0 0 1 11.3891 5.8312" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 8.5161 5.3232 A 1.143032189495056 1.143032189495056 0 0 1 10.683 5.8312" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.54" y1="8.3712" x2="9.54" y2="7.6091999999999995" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 11.3891 5.8312 A 1.8337304479466567 1.8337304479466567 0 0 1 8.777999999999999 7.4822" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4.459999999999999" y1="5.8312" x2="6.999999999999999" y2="5.8312" stroke="#ffd60a" stroke-width="0.21984428571428571" stroke-linecap="round"/>
+<text x="3.999999999999999" y="5.8312" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">In1</text>
+<line x1="4.459999999999999" y1="8.3712" x2="6.999999999999999" y2="8.3712" stroke="#ffd60a" stroke-width="0.21984428571428571" stroke-linecap="round"/>
+<text x="3.999999999999999" y="8.3712" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">In2</text>
+<line x1="9.54" y1="10.911200000000001" x2="9.54" y2="8.3712" stroke="#ffd60a" stroke-width="0.21984428571428571" stroke-linecap="round"/>
+<text x="9.54" y="11.3712" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Ext</text>
+</svg>

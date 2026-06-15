@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.08 15.620000000000001">
+<line x1="6.999999999999999" y1="5.2700000000000005" x2="9.54" y2="5.2700000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="6.999999999999999,6.540000000000001 6.999999999999999,4 9.54,5.2700000000000005 6.999999999999999,6.540000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.999999999999999" y1="10.350000000000001" x2="9.54" y2="10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.999999999999999" y1="10.350000000000001" x2="9.54" y2="10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="6.999999999999999,11.620000000000001 6.999999999999999,9.08 9.54,10.350000000000001 6.999999999999999,11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="6.999999999999999,11.620000000000001 6.999999999999999,9.08 9.54,10.350000000000001 6.999999999999999,11.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="9.54,5.2700000000000005 12.079999999999998,5.2700000000000005 12.079999999999998,10.350000000000001 9.54,10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="10.174999999999999,5.905 10.174999999999999,6.540000000000001 9.54,6.540000000000001 9.54,4 8.905,4 8.905,4.635000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="10.174999999999999,10.985 10.174999999999999,11.620000000000001 9.54,11.620000000000001 9.54,9.08 8.905,9.08 8.905,9.715" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="10.174999999999999,10.985 10.174999999999999,11.620000000000001 9.54,11.620000000000001 9.54,9.08 8.905,9.08 8.905,9.715" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="12.079999999999998" cy="7.8100000000000005" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="4.459999999999999" y1="5.2700000000000005" x2="6.999999999999999" y2="5.2700000000000005" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="3.999999999999999" y="5.2700000000000005" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A1</text>
+<line x1="14.62" y1="7.8100000000000005" x2="12.079999999999998" y2="7.8100000000000005" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="15.079999999999998" y="7.8100000000000005" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">K</text>
+<line x1="4.459999999999999" y1="10.350000000000001" x2="6.999999999999999" y2="10.350000000000001" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="3.999999999999999" y="10.350000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A2</text>
+</svg>

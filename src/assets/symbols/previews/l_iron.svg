@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.524000000000001 17.35">
+<path d="M 4.000000000000001 5.2700000000000005 A 0.6350057646686704 0.6350057646686704 0 0 1 4.000000000000001 6.540000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 4.000000000000001 6.540000000000001 A 0.6350057646686701 0.6350057646686701 0 0 1 4.000000000000001 7.8100000000000005" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 4.000000000000001 7.8100000000000005 A 0.6350057646686699 0.6350057646686699 0 0 1 4.000000000000001 9.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 4.000000000000001 9.08 A 0.6350057646686695 0.6350057646686695 0 0 1 4.000000000000001 10.350000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="5.016000000000001" y1="5.2700000000000005" x2="5.016000000000001" y2="10.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.524000000000001" y1="10.350000000000001" x2="5.524000000000001" y2="5.2700000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.000000000000001" y1="4" x2="4.000000000000001" y2="5.2700000000000005" stroke="#ffd60a" stroke-width="0.2478571428571429" stroke-linecap="round"/>
+<text x="4" y="8.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">1</text>
+<line x1="4.000000000000001" y1="11.620000000000001" x2="4.000000000000001" y2="10.350000000000001" stroke="#ffd60a" stroke-width="0.2478571428571429" stroke-linecap="round"/>
+<text x="4.000000000000001" y="13.350000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">2</text>
+</svg>

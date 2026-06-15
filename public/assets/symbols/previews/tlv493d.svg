@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.97 31.78">
+<rect x="7.000000000000001" y="24.78" width="13.969999999999999" height="17.78" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4.460000000000001" y1="14.620000000000001" x2="7.000000000000001" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="4" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">SCL/INT</text>
+<line x1="17.16" y1="27.32" x2="17.16" y2="24.78" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="17.16" y="27.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="14.620000000000001" y1="27.32" x2="14.620000000000001" y2="24.78" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="14.620000000000001" y="27.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="14.620000000000001" y1="4.460000000000001" x2="14.620000000000001" y2="7" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="14.620000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VDD</text>
+<line x1="12.080000000000002" y1="27.32" x2="12.080000000000002" y2="24.78" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="12.080000000000002" y="27.78" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="4.460000000000001" y1="17.16" x2="7.000000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.454" stroke-linecap="round"/>
+<text x="4" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">SDA/ADDR</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.32 28.32">
+<line x1="6.54" y1="14.16" x2="9.08" y2="14.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="24.32" x2="9.08" y2="24.32" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="11.620000000000001,6.54 14.16,7.8100000000000005 11.620000000000001,9.08 11.620000000000001,6.54" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="11.620000000000001,9.08 14.16,10.35 11.620000000000001,11.620000000000001 11.620000000000001,9.08" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="11.620000000000001,9.08 9.08,9.08 9.08,14.16 9.08,19.240000000000002 11.620000000000001,19.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="11.620000000000001,16.7 11.620000000000001,19.240000000000002 14.16,17.97 11.620000000000001,16.7" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="11.620000000000001,19.240000000000002 14.16,20.509999999999998 11.620000000000001,21.78 11.620000000000001,19.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="14.16" cy="11.366" r="0.762" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="14.16,14.922 10.35,14.922 10.35,24.32 9.08,24.32" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="14.16" y1="17.97" x2="14.16" y2="12.128" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="16.7,9.08 16.7,6.54 14.16,7.8100000000000005 16.7,9.08" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="16.7,9.08 16.7,11.620000000000001 14.16,10.35 16.7,9.08" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="16.7,16.7 16.7,19.240000000000002 14.16,17.97 16.7,16.7" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="16.7,19.240000000000002 14.16,20.509999999999998 16.7,21.78 16.7,19.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="19.240000000000002" y1="9.08" x2="16.7" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="19.240000000000002" y1="19.240000000000002" x2="16.7" y2="19.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="11.620000000000001" y="19.240000000000002" width="5.08" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="24.32" y1="9.08" x2="19.240000000000002" y2="9.079999999999998" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="24.32" y1="19.240000000000002" x2="19.240000000000002" y2="19.24" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="4" y1="14.16" x2="9.08" y2="14.16" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="4" y1="24.32" x2="9.08" y2="24.32" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="14.16" y1="24.32" x2="14.16" y2="19.240000000000002" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.16" y="16.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="14.16" y1="4" x2="14.159999999999998" y2="9.08" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<text x="14.159999999999998" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VCC</text>
+</svg>

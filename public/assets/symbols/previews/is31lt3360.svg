@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.970000000000002 21.16">
+<rect x="7.000000000000002" y="14.16" width="13.969999999999999" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="23.51" y1="11.620000000000001" x2="20.970000000000002" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.39957142857142863" stroke-linecap="round"/>
+<text x="23.970000000000002" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">LX</text>
+<line x1="13.350000000000001" y1="16.700000000000003" x2="13.350000000000001" y2="14.16" stroke="#ffd60a" stroke-width="0.39957142857142863" stroke-linecap="round"/>
+<text x="13.350000000000001" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="4.460000000000001" y1="11.620000000000001" x2="7.000000000000001" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.39957142857142863" stroke-linecap="round"/>
+<text x="4" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">ADJ</text>
+<line x1="23.51" y1="6.540000000000001" x2="20.970000000000002" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.39957142857142863" stroke-linecap="round"/>
+<text x="23.970000000000002" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">ISENSE</text>
+<line x1="4.460000000000001" y1="6.540000000000001" x2="7.000000000000001" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.39957142857142863" stroke-linecap="round"/>
+<text x="4" y="6.540000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">VIN</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.89 21.97">
+<rect x="4" y="12.89" width="1.27" height="2.54" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="5.2700000000000005" y="15.43" width="5.08" height="11.43" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<polyline points="7.8100000000000005,10.35 8.445,10.985 9.08,10.35 10.350000000000001,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="8.445" y1="5.524" x2="8.699" y2="6.032" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.588000000000001" y1="10.604" x2="9.842" y2="11.112" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="10.350000000000001,5.27 7.175000000000001,5.27 7.175000000000001,10.35 6.540000000000001,10.985 5.905,10.35" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="10.350000000000001,7.81 8.445,7.81 8.445,5.524 8.191,6.032" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="10.350000000000001,12.89 9.588000000000001,12.89 9.588000000000001,10.604 9.334,11.112" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="17.97" x2="7.8100000000000005" y2="15.43" stroke="#ffd60a" stroke-width="0.31385714285714283" stroke-linecap="round"/>
+<line x1="12.89" y1="5.27" x2="10.350000000000001" y2="5.27" stroke="#ffd60a" stroke-width="0.31385714285714283" stroke-linecap="round"/>
+<line x1="12.89" y1="7.81" x2="10.350000000000001" y2="7.809999999999999" stroke="#ffd60a" stroke-width="0.31385714285714283" stroke-linecap="round"/>
+<line x1="12.89" y1="10.35" x2="10.350000000000001" y2="10.35" stroke="#ffd60a" stroke-width="0.31385714285714283" stroke-linecap="round"/>
+<line x1="12.89" y1="12.89" x2="10.350000000000001" y2="12.889999999999999" stroke="#ffd60a" stroke-width="0.31385714285714283" stroke-linecap="round"/>
+</svg>

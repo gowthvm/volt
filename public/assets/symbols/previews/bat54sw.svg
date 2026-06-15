@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.240000000000002 16.58">
+<polyline points="7.175000000000001,6.23 7.175000000000001,8.77 9.080000000000002,7.5 7.175000000000001,6.23" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="7.5" x2="10.350000000000001" y2="7.5" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.445" y1="8.77" x2="8.445" y2="8.516" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.080000000000002" y1="6.23" x2="9.715000000000002" y2="6.23" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.080000000000002" y1="8.77" x2="8.445" y2="8.77" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.080000000000002" y1="8.77" x2="9.080000000000002" y2="6.23" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.715000000000002" y1="6.23" x2="9.715000000000002" y2="6.484" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.715000000000002" y1="7.5" x2="13.525" y2="7.5" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="11.620000000000001" cy="7.5" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="12.89" y1="7.5" x2="15.430000000000001" y2="7.5" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="13.525,6.23 13.525,8.77 15.430000000000001,7.5 13.525,6.23" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="14.795000000000002" y1="8.77" x2="14.795000000000002" y2="8.516" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.430000000000001" y1="6.23" x2="16.065" y2="6.23" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.430000000000001" y1="8.77" x2="14.795000000000002" y2="8.77" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.430000000000001" y1="8.77" x2="15.430000000000001" y2="6.23" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="16.065" y1="6.23" x2="16.065" y2="6.484" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.000000000000001" y1="7.5" x2="7.8100000000000005" y2="7.5" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.81" y="7.5" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A</text>
+<line x1="19.240000000000002" y1="7.5" x2="15.430000000000001" y2="7.499999999999999" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="12.430000000000001" y="7.499999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">K</text>
+<line x1="11.620000000000001" y1="12.58" x2="11.620000000000001" y2="7.5" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="11.620000000000001" y="4.5" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">COM</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 18.16">
+<rect x="7.000000000000001" y="14.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="13.858" y1="5.905" x2="13.858" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="5.905" x2="14.493" y2="5.905" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="6.54" x2="14.493" y2="6.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="7.175" x2="14.493" y2="7.175" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="7.8100000000000005" x2="14.493" y2="7.8100000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="8.445" x2="14.493" y2="8.445" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 13.858 5.905 A 0.6350057646686702 0.6350057646686702 0 0 1 15.128 5.905" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="14.493" cy="11.620000000000001" r="1.27" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="15.128" y1="5.905" x2="15.128" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="13.858" y="10.985" width="1.27" height="1.905" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="7.000000000000001" y1="11.620000000000001" x2="9.540000000000001" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="12.540000000000001" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">NC</text>
+<line x1="4.460000000000001" y1="9.08" x2="7.000000000000001" y2="9.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="9.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">PG</text>
+<line x1="24.78" y1="6.54" x2="22.240000000000002" y2="6.539999999999999" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">OUT</text>
+<line x1="4.460000000000001" y1="6.54" x2="7.000000000000001" y2="6.54" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="6.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">VDD</text>
+<line x1="24.78" y1="11.620000000000001" x2="22.240000000000002" y2="11.62" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="11.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">GND</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.32 29.240000000000002">
+<rect x="7" y="22.240000000000002" width="20.32" height="15.24" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<rect x="11.190999999999999" y="15.128" width="3.0480000000000005" height="1.016" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="15.763,20.462 9.54,20.462 9.54,14.620000000000001 11.064,14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="15.89,15.89 15.89,15.255 15.89,14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="19.7,14.620000000000001 14.239,14.620000000000001 16.271,14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="19.7,14.620000000000001 19.7,10.81 24.78,10.81" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="24.78" y1="11.953000000000001" x2="24.78" y2="7.000000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="24.78" y1="17.287" x2="24.78" y2="22.240000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="24.78,20.462 15.89,20.462 15.89,19.192" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="9.54" y1="14.620000000000001" x2="7" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="12.08" y="19.192" width="7.62" height="3.302" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="22.494" y1="12.715000000000002" x2="22.494" y2="16.525000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="22.494" y1="14.620000000000001" x2="19.7" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="23.002" y1="12.334000000000001" x2="23.002" y2="13.350000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="23.002" y1="14.112000000000002" x2="23.002" y2="15.128" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="23.002" y1="15.89" x2="23.002" y2="16.906000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="23.002,16.398 25.542,16.398 25.542,12.842 23.002,12.842" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="23.256,14.620000000000001 24.272,14.239 24.272,15.001000000000001 23.256,14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<circle cx="23.891" cy="14.620000000000001" r="2.794" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="24.78" y1="12.080000000000002" x2="24.78" y2="12.842" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="24.78" cy="12.842" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="24.78" cy="16.398" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="24.78,17.16 24.78,14.620000000000001 23.002,14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="24.78" y1="18.557000000000002" x2="19.826999999999998" y2="18.557000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="25.034,14.112000000000002 25.161,14.239 25.923000000000002,14.239 26.05,14.366000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="25.542,14.239 25.161,14.874 25.923000000000002,14.874 25.542,14.239" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="9.032,16.398 9.159,16.525000000000002 9.921,16.525000000000002 10.048,16.652" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="9.54" cy="14.620000000000001" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="9.54,16.525000000000002 9.159,17.16 9.921,17.16 9.54,16.525000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="9.54,18.557000000000002 9.921,17.922 9.159,17.922 9.54,18.557000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="10.048,18.684 9.921,18.557000000000002 9.159,18.557000000000002 9.032,18.43" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="15.89" cy="14.620000000000001" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="15.89" cy="20.462" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="19.192,11.445 19.319,11.572000000000001 20.081,11.572000000000001 20.208,11.699000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="19.7,11.572000000000001 19.319,12.207 20.081,12.207 19.7,11.572000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="19.7,13.604000000000001 20.081,12.969000000000001 19.319,12.969000000000001 19.7,13.604000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="19.7" cy="14.620000000000001" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="20.208,13.731000000000002 20.081,13.604000000000001 19.319,13.604000000000001 19.192,13.477" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="24.78" cy="10.81" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="24.78" cy="18.557000000000002" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<circle cx="24.78" cy="20.462" r="0.2794" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="4.460000000000001" y1="14.620000000000001" x2="7" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="4" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">G</text>
+<line x1="24.78" y1="4.460000000000001" x2="24.78" y2="7.000000000000001" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="24.78" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">D</text>
+<line x1="24.78" y1="24.78" x2="24.78" y2="22.240000000000002" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="24.78" y="25.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">S</text>
+<line x1="24.78" y1="4.460000000000001" x2="24.78" y2="7.000000000000001" stroke="#ffd60a" stroke-width="0.44742857142857145" stroke-linecap="round"/>
+<text x="24.78" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">D</text>
+</svg>

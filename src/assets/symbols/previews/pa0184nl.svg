@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.16 18.16">
+<path d="M 6.54 7.556 A 0.7620071767497031 0.7620071767497031 0 0 1 6.54 9.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 6.54 9.08 A 0.7620071767497038 0.7620071767497038 0 0 1 6.54 10.604" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 6.54 10.604 A 0.7620071767497039 0.7620071767497039 0 0 1 6.54 12.128" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.54" y1="4" x2="6.54" y2="6.032" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.54" cy="6.7940000000000005" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="6.54" y1="12.128" x2="6.54" y2="14.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.445" y1="5.905" x2="8.445" y2="12.254999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.715" y1="5.905" x2="9.715" y2="12.254999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="4" x2="11.620000000000001" y2="6.032" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="11.620000000000001" cy="6.7940000000000005" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="11.620000000000001" y1="12.128" x2="11.620000000000001" y2="14.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 11.620000000000001 7.556 A 0.7620071767497039 0.7620071767497039 0 0 1 11.620000000000001 6.032" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 9.08 A 0.7620071767497038 0.7620071767497038 0 0 1 11.620000000000001 7.556" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 10.604 A 0.7620071767497031 0.7620071767497031 0 0 1 11.620000000000001 9.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.620000000000001 12.128 A 0.762007176749703 0.762007176749703 0 0 1 11.620000000000001 10.604" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 6.54 6.032 A 0.762007176749703 0.762007176749703 0 0 1 6.54 7.556" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="4" x2="6.54" y2="4" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="14.16" y1="4" x2="11.620000000000001" y2="4" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="14.16" y1="14.16" x2="11.620000000000001" y2="14.16" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="4" y1="14.16" x2="6.54" y2="14.16" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+</svg>

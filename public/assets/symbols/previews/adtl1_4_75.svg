@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.32 13.08">
+<polyline points="7.3020000000000005,5.016000000000001 7.3020000000000005,4.000000000000001 6.54,4.000000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="7.3020000000000005,8.064 7.3020000000000005,9.080000000000002 6.54,9.080000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path d="M 8.826 5.016000000000001 A 0.7620071767497021 0.7620071767497021 0 0 1 7.3020000000000005 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.3020000000000005 8.064 A 0.7620071767497048 0.7620071767497048 0 0 1 8.826 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.35 5.016000000000001 A 0.7620071767497043 0.7620071767497043 0 0 1 8.826 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 8.826 8.064 A 0.7620071767497021 0.7620071767497021 0 0 1 10.35 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.874 5.016000000000001 A 0.7620071767497021 0.7620071767497021 0 0 1 10.35 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.35 8.064 A 0.7620071767497048 0.7620071767497048 0 0 1 11.874 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 13.398 5.016000000000001 A 0.7620071767497034 0.7620071767497034 0 0 1 11.874 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.874 8.064 A 0.7620071767497034 0.7620071767497034 0 0 1 13.398 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="13.398" y1="5.016000000000001" x2="14.922" y2="5.016000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.398" y1="8.064" x2="14.922" y2="8.064" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 16.446 5.016000000000001 A 0.7620071767497034 0.7620071767497034 0 0 1 14.922 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 14.922 8.064 A 0.7620071767497034 0.7620071767497034 0 0 1 16.446 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 17.97 5.016000000000001 A 0.7620071767497048 0.7620071767497048 0 0 1 16.446 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 16.446 8.064 A 0.7620071767497021 0.7620071767497021 0 0 1 17.97 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 19.494 5.016000000000001 A 0.7620071767497021 0.7620071767497021 0 0 1 17.97 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 17.97 8.064 A 0.7620071767497043 0.7620071767497043 0 0 1 19.494 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 21.018 5.016000000000001 A 0.7620071767497048 0.7620071767497048 0 0 1 19.494 5.016000000000001" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 19.494 8.064 A 0.7620071767497021 0.7620071767497021 0 0 1 21.018 8.064" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="21.018,5.016000000000001 21.018,4.000000000000001 21.78,4.000000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="21.018,8.064 21.018,9.080000000000002 21.78,9.080000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="4.000000000000001" x2="6.54" y2="4.000000000000001" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="4" y1="9.080000000000002" x2="6.54" y2="9.080000000000002" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="24.32" y1="9.080000000000002" x2="21.78" y2="9.08" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+<line x1="24.32" y1="4.000000000000001" x2="21.78" y2="4" stroke="#ffd60a" stroke-width="0.4045714285714286" stroke-linecap="round"/>
+</svg>

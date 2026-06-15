@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.27 16.765">
+<line x1="4" y1="4" x2="5.27" y2="4" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="12.64" x2="4" y2="4" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="12.64" x2="5.27" y2="12.64" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.27" y1="4" x2="5.27" y2="5.1450000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.27" y1="7.6850000000000005" x2="5.27" y2="6.415" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.27" y1="10.225" x2="5.27" y2="8.955" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.27" y1="11.495000000000001" x2="5.27" y2="12.765" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 5.27 6.415 A 0.8888359123267133 0.8888359123267133 0 0 1 5.27 5.1450000000000005" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 5.27 8.955 A 0.8888359123267142 0.8888359123267142 0 0 1 5.27 7.6850000000000005" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 5.27 11.495000000000001 A 0.8980874524714828 0.8980874524714828 0 0 1 5.27 10.225" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+</svg>

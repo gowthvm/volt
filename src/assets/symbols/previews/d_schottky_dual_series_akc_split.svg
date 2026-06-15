@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.54 10.54">
+<polyline points="7,3.9999999999999996 9.54,5.27 7,6.539999999999999 7,3.9999999999999996 7,3.9999999999999996 7,3.9999999999999996" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="9.54" y1="5.27" x2="7" y2="5.27" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="10.048,4.254 10.048,3.9999999999999996 9.54,3.9999999999999996 9.54,6.539999999999999 9.032,6.539999999999999 9.032,6.286" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="6.491999999999999,4.254 6.491999999999999,3.9999999999999996 7,3.9999999999999996 7,6.539999999999999 7.507999999999999,6.539999999999999 7.507999999999999,6.286" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="7" y1="5.27" x2="9.54" y2="5.27" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="9.54,3.9999999999999996 7,5.27 9.54,6.539999999999999 9.54,3.9999999999999996 9.54,3.9999999999999996 9.54,3.9999999999999996" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="12.08" y1="5.27" x2="9.54" y2="5.27" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="12.54" y="5.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">K</text>
+<line x1="4.459999999999999" y1="5.27" x2="7" y2="5.27" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="4" y="5.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A</text>
+<line x1="4.459999999999999" y1="5.27" x2="7" y2="5.27" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="4" y="5.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">K</text>
+</svg>

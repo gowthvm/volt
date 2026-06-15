@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.240000000000002 18.414">
+<line x1="7.048000000000001" y1="9.841999999999999" x2="9.080000000000002" y2="9.841999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="9.588000000000001" cy="9.841999999999999" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="9.588000000000001" y1="9.841999999999999" x2="9.080000000000002" y2="9.841999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="10.604000000000001" y1="6.031999999999998" x2="10.604000000000001" y2="8.572" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="10.604000000000001,11.111999999999998 10.604000000000001,13.652 12.89,12.381999999999998 10.604000000000001,11.111999999999998" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="11.620000000000001" cy="9.841999999999999" r="4.572" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<polyline points="12.89,6.031999999999998 12.89,8.572 10.604000000000001,7.301999999999999 12.89,6.031999999999998" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="12.89" y1="11.111999999999998" x2="12.89" y2="13.652" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="13.906,7.301999999999999 9.588000000000001,7.301999999999999 9.588000000000001,12.381999999999998 13.906,12.381999999999998 13.906,7.301999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="13.906" cy="9.841999999999999" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="14.414000000000001,5.523999999999999 15.938,3.999999999999999 15.176000000000002,3.999999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="15.684000000000001,6.793999999999999 17.208000000000002,5.269999999999999 16.446,5.269999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="15.684000000000001" y1="9.841999999999999" x2="13.906" y2="9.841999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.938" y1="3.999999999999999" x2="15.938" y2="4.761999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="17.208000000000002" y1="5.269999999999999" x2="17.208000000000002" y2="6.031999999999998" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="19.240000000000002" y1="9.841999999999999" x2="15.430000000000001" y2="9.841999999999999" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="12.430000000000001" y="9.841999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">KA</text>
+<line x1="4.000000000000001" y1="9.841999999999999" x2="7.048000000000001" y2="9.841999999999999" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.048000000000002" y="9.841999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">AK</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.588 15.445">
+<rect x="4" y="8.953" width="6.096" height="4.953" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4.508" y1="7.937" x2="4.508" y2="5.905" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="5.143,7.937 6.413,7.3020000000000005 6.413,8.572 5.143,7.937" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.143" y1="8.572" x2="5.143" y2="7.3020000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.032" y1="5.905" x2="4.508" y2="5.905" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.286" y1="5.143000000000001" x2="6.286" y2="5.143000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="6.286,5.905 7.556,5.2700000000000005 7.556,6.54 6.286,5.905" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="6.286" y1="6.667" x2="6.286" y2="5.143000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.413" y1="7.937" x2="4.508" y2="7.937" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.413" y1="7.937" x2="7.683" y2="7.937" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.667" y1="5.143000000000001" x2="6.286" y2="5.143000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="7.048" cy="7.937" r="0.2032" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="7.048" y1="8.445" x2="7.048" y2="7.937" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="7.8100000000000005,7.937 9.08,7.3020000000000005 9.08,8.572 7.8100000000000005,7.937" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="7.8100000000000005" y1="8.572" x2="7.8100000000000005" y2="7.3020000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.937" y1="5.905" x2="6.032" y2="5.905" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.937" y1="5.905" x2="6.032" y2="5.905" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.937" y1="5.905" x2="9.588000000000001" y2="5.905" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="9.588000000000001" cy="5.905" r="0.2032" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="9.588000000000001" y1="7.937" x2="7.683" y2="7.937" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.588000000000001" y1="7.937" x2="7.683" y2="7.937" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="9.588000000000001" y1="7.937" x2="9.588000000000001" y2="5.905" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.048" y1="10.985" x2="7.048" y2="8.445" stroke="#ffd60a" stroke-width="0.23697142857142858" stroke-linecap="round"/>
+<text x="7.048" y="11.445" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">I/O</text>
+<line x1="12.128" y1="5.905" x2="9.588000000000001" y2="5.905" stroke="#ffd60a" stroke-width="0.23697142857142858" stroke-linecap="round"/>
+<text x="12.588000000000001" y="5.905" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">GND</text>
+</svg>

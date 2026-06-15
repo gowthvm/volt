@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.08 15.4383">
+<line x1="6.999999999999999" y1="5.8983" x2="8.396999999999998" y2="5.8983" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="8.905" cy="5.8983" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 7.761999999999999 5.3903 A 1.8320571423433791 1.8320571423433791 0 0 1 11.318 5.3903" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 11.318 6.4063 A 1.8587660388821385 1.8587660388821385 0 0 1 7.761999999999999 6.4063" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.54" y1="8.4383" x2="9.54" y2="7.6762999999999995" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="10.174999999999999" cy="5.8983" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="10.809999999999999" y1="5.8983" x2="12.079999999999998" y2="5.8983" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.459999999999999" y1="5.8983" x2="6.999999999999999" y2="5.8983" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="3.999999999999999" y="5.8983" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">In1</text>
+<line x1="14.62" y1="5.8983" x2="12.079999999999998" y2="5.898299999999999" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="15.079999999999998" y="5.8983" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">In2</text>
+<line x1="9.54" y1="10.9783" x2="9.54" y2="8.4383" stroke="#ffd60a" stroke-width="0.2725714285714285" stroke-linecap="round"/>
+<text x="9.54" y="11.4383" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Ext</text>
+</svg>

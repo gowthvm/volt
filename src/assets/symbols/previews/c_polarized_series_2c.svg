@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.826 23.240000000000002">
+<rect x="3.9999999999999996" y="7.302000000000001" width="4.572" height="0.508" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<rect x="3.9999999999999996" y="14.795000000000002" width="4.572" height="0.508" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4.507999999999999" y1="5.524000000000001" x2="5.523999999999999" y2="5.524000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.507999999999999" y1="13.144000000000002" x2="5.523999999999999" y2="13.144000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.016" y1="5.016000000000001" x2="5.016" y2="6.032000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.016" y1="12.636000000000001" x2="5.016" y2="13.652000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.286" y1="6.540000000000001" x2="6.286" y2="6.794000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.286" y1="8.826" x2="6.286" y2="14.287" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.286" cy="11.620000000000001" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="6.286" y1="16.700000000000003" x2="6.286" y2="16.192" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="3.9999999999999996" y="8.826" width="4.572" height="0.508" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="3.9999999999999996" y="16.319000000000003" width="4.572" height="0.508" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="6.286" y1="4.000000000000001" x2="6.285999999999999" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<line x1="8.826" y1="11.620000000000001" x2="6.286" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<line x1="6.286" y1="19.240000000000002" x2="6.286" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 26.700000000000003">
+<rect x="7.000000000000001" y="19.700000000000003" width="15.24" height="12.7" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="14.620000000000001" y1="14.620000000000001" x2="14.620000000000001" y2="15.636000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="13.604000000000001" y="14.620000000000001" width="2.032" height="5.08" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="16.906000000000002,12.842 16.906000000000002,11.318000000000001 15.636000000000001,12.080000000000002 16.906000000000002,12.842" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<line x1="19.700000000000003" y1="12.080000000000002" x2="16.906000000000002" y2="12.080000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="12.080000000000002" y1="4.460000000000001" x2="12.08" y2="7.000000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="12.080000000000002" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VDD</text>
+<line x1="14.620000000000001" y1="22.240000000000002" x2="14.620000000000001" y2="19.700000000000003" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="14.620000000000001" y="22.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VSS</text>
+<line x1="4.460000000000001" y1="14.620000000000001" x2="7.000000000000001" y2="14.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">U/~{D}</text>
+<line x1="4.460000000000001" y1="17.16" x2="7.000000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">~{CS}</text>
+<line x1="24.78" y1="12.080000000000002" x2="22.240000000000002" y2="12.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="12.080000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">W</text>
+</svg>

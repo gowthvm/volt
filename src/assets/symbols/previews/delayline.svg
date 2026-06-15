@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.81 24.16">
+<line x1="6.999999999999999" y1="7" x2="6.999999999999999" y2="17.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 10.809999999999999 8.27 A 1.288847205567787 1.288847205567787 0 0 1 9.54 9.5146" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.809999999999999 10.81 A 1.2888472055677864 1.2888472055677864 0 0 1 9.54 12.0546" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.809999999999999 13.35 A 1.2888472055677858 1.2888472055677858 0 0 1 9.54 14.5946" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.809999999999999 15.89 A 1.2888472055677873 1.2888472055677873 0 0 1 9.54 17.1346" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.54 7 A 1.2700874554822745 1.2700874554822745 0 0 1 10.809999999999999 8.27" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.54 9.54 A 1.2700874554822739 1.2700874554822739 0 0 1 10.809999999999999 10.81" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.54 12.08 A 1.2700874554822734 1.2700874554822734 0 0 1 10.809999999999999 13.35" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.54 14.620000000000001 A 1.2700874554822714 1.2700874554822714 0 0 1 10.809999999999999 15.89" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.54" y1="4.46" x2="9.54" y2="7" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="9.54" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">1</text>
+<line x1="9.54" y1="19.7" x2="9.54" y2="17.16" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="9.54" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">2</text>
+<line x1="4.459999999999999" y1="12.08" x2="6.999999999999999" y2="12.08" stroke="#ffd60a" stroke-width="0.34514285714285714" stroke-linecap="round"/>
+<text x="3.999999999999999" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">COMMUN</text>
+</svg>

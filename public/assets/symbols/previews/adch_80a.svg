@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 18.62">
+<rect x="7.000000000000001" y="14.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="12.080000000000002" y1="6.54" x2="10.81" y2="6.54" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 12.080000000000002 6.54 A 0.6350057646686711 0.6350057646686711 0 0 1 13.350000000000001 6.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 13.350000000000001 6.54 A 0.6350057646686693 0.6350057646686693 0 0 1 14.620000000000001 6.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 14.620000000000001 6.54 A 0.6350057646686706 0.6350057646686706 0 0 1 15.89 6.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 15.89 6.54 A 0.6350057646686689 0.6350057646686689 0 0 1 17.16 6.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="17.16" y="6.54" width="1.27" height="0" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.540000000000001" y1="14.16" x2="9.540000000000001" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="9.540000000000001" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="12.080000000000002" y1="14.16" x2="12.080000000000002" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="12.080000000000002" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="24.78" y1="9.08" x2="22.240000000000002" y2="9.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="9.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">DC</text>
+<line x1="14.620000000000001" y1="14.16" x2="14.620000000000001" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="14.620000000000001" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="17.16" y1="14.16" x2="17.16" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="17.16" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">NC</text>
+<line x1="4.460000000000001" y1="9.08" x2="7.000000000000001" y2="9.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="9.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">RF&DC</text>
+</svg>

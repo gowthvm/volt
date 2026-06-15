@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.89 17.35">
+<polyline points="4,7.8100000000000005 9.08,7.8100000000000005 12.89,4" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="4,7.8100000000000005 4,12.255 9.08,12.255 12.89,8.445 12.89,4 7.8100000000000005,4 4,7.8100000000000005" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="rgba(255,255,255,0.06)"/>
+<rect x="4.635" y="9.715" width="3.8100000000000005" height="1.27" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="5.1937999999999995" y1="9.3848" x2="5.2446" y2="9.1816" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="5.27" cy="10.985" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="5.2954" y1="9.029200000000001" x2="5.3462" y2="8.7752" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.2954" y1="9.4864" x2="5.651" y2="9.4864" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.397" y1="9.1308" x2="5.7018" y2="9.1308" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.4986" y1="8.724400000000001" x2="5.8034" y2="8.724400000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.8034" y1="9.4356" x2="5.8542000000000005" y2="9.1816" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.905" y1="9.029200000000001" x2="5.9558" y2="8.7752" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.1082" y1="9.3848" x2="6.159000000000001" y2="9.1816" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.2097999999999995" y1="9.029200000000001" x2="6.2606" y2="8.7752" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.2097999999999995" y1="9.4864" x2="6.5654" y2="9.4864" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.3114" y1="9.1308" x2="6.6162" y2="9.1308" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.413" y1="8.724400000000001" x2="6.7178" y2="8.724400000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.7178" y1="9.4356" x2="6.7686" y2="9.1816" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.8194" y1="9.029200000000001" x2="6.8702000000000005" y2="8.7752" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.022600000000001" y1="9.3848" x2="7.0733999999999995" y2="9.1816" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.1242" y1="9.029200000000001" x2="7.175" y2="8.7752" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.1242" y1="9.4864" x2="7.4798" y2="9.4864" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.2258" y1="9.1308" x2="7.5306" y2="9.1308" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.3274" y1="8.724400000000001" x2="7.6322" y2="8.724400000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.6322" y1="9.4356" x2="7.683" y2="9.1816" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.7338000000000005" y1="9.029200000000001" x2="7.7846" y2="8.7752" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="7.8100000000000005" cy="10.985" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="9.08" y1="7.8100000000000005" x2="9.08" y2="12.255" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4" y1="12.89" x2="4" y2="10.350000000000001" stroke="#ffd60a" stroke-width="0.2478571428571429" stroke-linecap="round"/>
+<text x="4" y="13.350000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">PAD</text>
+</svg>

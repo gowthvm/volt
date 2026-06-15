@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.31 23.240000000000002">
+<rect x="7.8100000000000005" y="19.240000000000002" width="2.54" height="15.24" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="8.5466" y1="4.9398" x2="9.4102" y2="5.778" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.5466" y1="7.479799999999999" x2="9.4102" y2="8.318" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.5466" y1="10.0198" x2="9.4102" y2="10.858" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.5466" y1="12.5598" x2="9.4102" y2="13.398" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.5466" y1="15.099799999999998" x2="9.4102" y2="15.937999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.5466" y1="17.6398" x2="9.4102" y2="18.478" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="4.762" x2="9.588000000000001" y2="5.6002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="7.302" x2="9.588000000000001" y2="8.1402" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="9.841999999999999" x2="9.588000000000001" y2="10.6802" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="12.382" x2="9.588000000000001" y2="13.2202" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="14.922" x2="9.588000000000001" y2="15.7602" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.7244" y1="17.462" x2="9.588000000000001" y2="18.3002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="9.08" cy="5.27" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.08" cy="7.81" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.08" cy="10.35" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.08" cy="12.89" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.08" cy="15.43" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.08" cy="17.97" r="0.635" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="5.27" x2="7.8100000000000005" y2="5.27" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.81" y="5.27" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_1</text>
+<line x1="4" y1="7.81" x2="7.8100000000000005" y2="7.81" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.81" y="7.81" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_2</text>
+<line x1="4" y1="10.35" x2="7.8100000000000005" y2="10.35" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.81" y="10.35" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_3</text>
+<line x1="4" y1="12.89" x2="7.8100000000000005" y2="12.89" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.81" y="12.89" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_4</text>
+<line x1="4" y1="15.43" x2="7.8100000000000005" y2="15.43" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.81" y="15.43" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_5</text>
+<line x1="4" y1="17.97" x2="7.8100000000000005" y2="17.97" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<text x="10.81" y="17.97" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_6</text>
+</svg>

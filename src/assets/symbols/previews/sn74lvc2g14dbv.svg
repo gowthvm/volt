@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.240000000000002 29.240000000000002">
+<rect x="7.000000000000001" y="22.240000000000002" width="15.24" height="15.24" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<polyline points="13.096,11.318000000000001 15.128,12.588000000000001 13.096,13.858 13.096,11.318000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="13.096" y1="12.588000000000001" x2="10.81" y2="12.588000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="13.096,15.382000000000001 15.128,16.652 13.096,17.922 13.096,15.382000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="13.096" y1="16.652" x2="10.81" y2="16.652" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="13.604000000000001,12.842 13.604000000000001,12.334000000000001 13.858,12.334000000000001 13.858,12.842 13.350000000000001,12.842" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="13.604000000000001,16.906000000000002 13.604000000000001,16.398 13.858,16.398 13.858,16.906000000000002 13.350000000000001,16.906000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="12.334000000000001" x2="14.112000000000002" y2="12.334000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="13.858" y1="16.398" x2="14.112000000000002" y2="16.398" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="15.509" cy="12.588000000000001" r="0.381" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="15.509" cy="16.652" r="0.381" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="15.89" y1="12.588000000000001" x2="18.43" y2="12.588000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="15.89" y1="16.652" x2="18.43" y2="16.652" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="4.460000000000001" y1="12.080000000000002" x2="7.000000000000001" y2="12.080000000000002" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="12.080000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">1A</text>
+<line x1="14.620000000000001" y1="24.78" x2="14.620000000000001" y2="22.240000000000002" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="14.620000000000001" y="25.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="4.460000000000001" y1="17.16" x2="7.000000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="4" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">2A</text>
+<line x1="24.78" y1="17.16" x2="22.240000000000002" y2="17.16" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="17.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">2Y</text>
+<line x1="14.620000000000001" y1="4.460000000000001" x2="14.620000000000001" y2="7.000000000000001" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="14.620000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">V_{CC}</text>
+<line x1="24.78" y1="12.080000000000002" x2="22.240000000000002" y2="12.08" stroke="#ffd60a" stroke-width="0.41771428571428576" stroke-linecap="round"/>
+<text x="25.240000000000002" y="12.080000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">1Y</text>
+</svg>

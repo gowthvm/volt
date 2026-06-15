@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.94 28.32">
+<line x1="14.160000000000002" y1="15.43" x2="16.700000000000003" y2="15.43" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="15.430000000000001,12.89 14.160000000000002,14.16 15.430000000000001,15.43 16.700000000000003,14.16 15.430000000000001,12.89" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="rgba(255,255,255,0.06)"/>
+<path d="M 19.240000000000002 9.08 A 5.080048281895649 5.080048281895649 0 0 1 19.240000000000002 19.240000000000002" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="19.240000000000002,19.240000000000002 11.620000000000001,19.240000000000002 11.620000000000001,9.08 19.240000000000002,9.08" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="rgba(255,255,255,0.06)"/>
+<line x1="4.000000000000002" y1="11.620000000000001" x2="11.620000000000001" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.5134285714285713" stroke-linecap="round"/>
+<line x1="4.000000000000002" y1="16.7" x2="11.620000000000001" y2="16.7" stroke="#ffd60a" stroke-width="0.5134285714285713" stroke-linecap="round"/>
+<line x1="19.240000000000002" y1="24.32" x2="19.240000000000002" y2="19.240000000000002" stroke="#ffd60a" stroke-width="0.5134285714285713" stroke-linecap="round"/>
+<text x="19.240000000000002" y="16.240000000000002" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="31.94" y1="14.16" x2="24.32" y2="14.159999999999998" stroke="#ffd60a" stroke-width="0.5134285714285713" stroke-linecap="round"/>
+<line x1="19.240000000000002" y1="4" x2="19.240000000000002" y2="9.08" stroke="#ffd60a" stroke-width="0.5134285714285713" stroke-linecap="round"/>
+<text x="19.240000000000002" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VCC</text>
+</svg>

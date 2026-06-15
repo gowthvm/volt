@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.240000000000002 34.32">
+<line x1="6.540000000000001" y1="17.16" x2="8.826" y2="17.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="7.8100000000000005" y="21.605" width="7.62" height="8.89" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<circle cx="9.461000000000002" cy="17.16" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.969000000000001" y1="17.033" x2="14.16" y2="15.255" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="16.906" x2="11.620000000000001" y2="16.652" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="16.906" x2="11.620000000000001" y2="16.652" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="17.414" x2="11.620000000000001" y2="17.16" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="17.922" x2="11.620000000000001" y2="17.668" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="18.43" x2="11.620000000000001" y2="18.176000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="18.938" x2="11.620000000000001" y2="18.684" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="19.446" x2="11.620000000000001" y2="19.192" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="19.954" x2="11.620000000000001" y2="19.7" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="20.462" x2="11.620000000000001" y2="20.208" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="20.97" x2="11.620000000000001" y2="20.716" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="21.478" x2="11.620000000000001" y2="21.224" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="11.620000000000001" y1="22.240000000000002" x2="11.620000000000001" y2="21.732" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="13.779" cy="14.620000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="13.779" cy="19.7" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="16.700000000000003" y1="14.620000000000001" x2="14.414000000000001" y2="14.620000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="16.700000000000003" y1="19.7" x2="14.414000000000001" y2="19.7" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="7.8100000000000005" y="27.32" width="7.62" height="20.32" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="19.240000000000002" y1="19.7" x2="16.700000000000003" y2="19.7" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<line x1="11.620000000000001" y1="24.78" x2="11.620000000000001" y2="22.240000000000002" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<line x1="19.240000000000002" y1="14.620000000000001" x2="16.700000000000003" y2="14.62" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<line x1="4.000000000000001" y1="17.16" x2="6.540000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<line x1="11.620000000000001" y1="29.86" x2="11.620000000000001" y2="27.32" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="11.620000000000001" y="30.32" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="11.620000000000001" y1="4.460000000000001" x2="11.620000000000001" y2="7" stroke="#ffd60a" stroke-width="0.49028571428571427" stroke-linecap="round"/>
+<text x="11.620000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">V+</text>
+</svg>

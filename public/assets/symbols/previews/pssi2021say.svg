@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.08 23.7">
+<rect x="4.46" y="16.700000000000003" width="5.08" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="5.2219999999999995" y1="7.175000000000001" x2="5.984" y2="7.175000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.2219999999999995" y1="11.112000000000002" x2="5.984" y2="11.112000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.603" y1="6.794000000000001" x2="5.603" y2="7.556000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7" y1="6.540000000000001" x2="7" y2="7.175000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7" y1="7.683000000000002" x2="7" y2="10.477" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="7" cy="8.445" r="1.27" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="7" cy="9.715000000000002" r="1.27" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="7,10.604000000000001 6.746,10.096 7.254,10.096 7,10.604000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="9.54,9.080000000000002 8.778,9.080000000000002 8.778,8.953000000000001 8.524000000000001,9.080000000000002 8.778,9.207 8.778,9.080000000000002" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="9.54,11.620000000000001 7,11.620000000000001 7,10.985000000000001" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="12.08" y1="11.620000000000001" x2="9.54" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+<line x1="4.46" y1="14.16" x2="7" y2="14.16" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+<text x="4" y="14.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">NC</text>
+<line x1="7" y1="19.240000000000002" x2="7" y2="16.700000000000003" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+<text x="7" y="19.700000000000003" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+<line x1="12.08" y1="9.080000000000002" x2="9.54" y2="9.08" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+<line x1="7" y1="4.000000000000001" x2="6.999999999999999" y2="6.540000000000001" stroke="#ffd60a" stroke-width="0.3385714285714286" stroke-linecap="round"/>
+</svg>

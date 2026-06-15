@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.620000000000001 18.16">
+<rect x="5.7780000000000005" y="7.302" width="1.524" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="5.7780000000000005" y="11.112" width="1.524" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<path d="M 9.08 7.556 A 2.962265351812369 2.962265351812369 0 0 1 9.08 10.604" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.588000000000001" y1="9.08" x2="10.35" y2="9.08" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.54" y1="6.54" x2="6.54" y2="7.048" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="6.54" cy="9.08" r="2.54" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="6.54" y1="11.620000000000001" x2="6.54" y2="11.112" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="7.556" cy="10.35" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="6.54" y1="14.16" x2="6.54" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="11.620000000000001" y1="9.08" x2="10.35" y2="9.08" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+<line x1="6.54" y1="4" x2="6.539999999999999" y2="6.54" stroke="#ffd60a" stroke-width="0.25942857142857145" stroke-linecap="round"/>
+</svg>

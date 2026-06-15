@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.700000000000003 14.04">
+<line x1="13.350000000000001" y1="7.5" x2="13.350000000000001" y2="6.23" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.000000000000002" y1="6.23" x2="19.700000000000003" y2="6.23" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="7.000000000000002,7.5 12.080000000000002,4.960000000000001 12.080000000000002,7.5 7.000000000000002,4.960000000000001 7.000000000000002,7.5" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="10.048000000000002,4.960000000000001 9.540000000000001,4.960000000000001 9.540000000000001,7.5 9.032000000000002,7.5" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="13.350000000000001" cy="6.23" r="0.254" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<polyline points="14.620000000000001,7.5 14.620000000000001,4.960000000000001 19.700000000000003,7.5 19.700000000000003,4.960000000000001 14.620000000000001,7.5" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<polyline points="17.668,4.960000000000001 17.16,4.960000000000001 17.16,7.5 16.652,7.5" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="4.460000000000001" y1="6.23" x2="7.000000000000001" y2="6.23" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="4" y="6.23" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A1</text>
+<line x1="22.240000000000002" y1="6.23" x2="19.700000000000003" y2="6.23" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="22.700000000000003" y="6.23" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">A2</text>
+<line x1="13.350000000000001" y1="10.040000000000001" x2="13.350000000000001" y2="7.5" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="13.350000000000001" y="4.5" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">common</text>
+</svg>

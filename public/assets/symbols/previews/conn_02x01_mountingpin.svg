@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.7 14.548">
+<rect x="7.8100000000000005" y="6.7379999999999995" width="5.08" height="2.54" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<rect x="7.8100000000000005" y="5.595" width="1.27" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="9.334" y1="7.5" x2="11.366" y2="7.5" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<rect x="11.620000000000001" y="5.595" width="1.27" height="0.254" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4" y1="5.468" x2="7.8100000000000005" y2="5.468" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="10.81" y="5.468" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">Pin_1</text>
+<line x1="16.7" y1="5.468" x2="12.89" y2="5.467999999999999" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="9.89" y="5.467999999999999" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">Pin_2</text>
+<line x1="10.35" y1="10.548" x2="10.35" y2="7.5" stroke="#ffd60a" stroke-width="0.2957142857142857" stroke-linecap="round"/>
+<text x="10.350000000000001" y="4.5" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">MountPin</text>
+</svg>

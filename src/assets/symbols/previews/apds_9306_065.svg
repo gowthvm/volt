@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.700000000000003 24.16">
+<polyline points="8.27,10.81 9.54,9.54 12.715,9.54 12.715,12.08 9.54,12.08 8.27,10.81" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<rect x="4.46" y="17.16" width="15.24" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<polyline points="7,13.604 7,10.81 8.27,10.81" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="5.857" y1="12.842" x2="4.968" y2="13.731" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.857" y1="12.842" x2="5.349" y2="12.842" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.857" y1="12.842" x2="5.857" y2="13.35" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.984" y1="11.826" x2="5.095" y2="12.715" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.984" y1="11.826" x2="5.476" y2="11.826" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="5.984" y1="11.826" x2="5.984" y2="12.334" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="6.238" y1="11.445" x2="7.889" y2="11.445" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<polyline points="6.238,13.096 7.889,13.096 7,11.445 6.238,13.096" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff"/>
+<line x1="7.2540000000000004" y1="13.604" x2="6.746" y2="13.604" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="22.240000000000002" y1="12.08" x2="19.7" y2="12.08" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="22.700000000000003" y="12.08" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SCL</text>
+<line x1="22.240000000000002" y1="9.54" x2="19.7" y2="9.54" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="22.700000000000003" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">SDA</text>
+<line x1="14.620000000000001" y1="4.46" x2="14.62" y2="7" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="14.620000000000001" y="4" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">VDD</text>
+<line x1="22.240000000000002" y1="14.620000000000001" x2="19.7" y2="14.62" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="22.700000000000003" y="14.620000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">INT</text>
+<line x1="4.46" y1="9.54" x2="7" y2="9.54" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="4" y="9.54" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">NC</text>
+<line x1="14.620000000000001" y1="19.7" x2="14.620000000000001" y2="17.16" stroke="#ffd60a" stroke-width="0.38142857142857145" stroke-linecap="round"/>
+<text x="14.620000000000001" y="20.16" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="middle" dominant-baseline="middle">GND</text>
+</svg>

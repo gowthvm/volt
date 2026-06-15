@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.240000000000002 18.16">
+<circle cx="9.588000000000001" cy="6.54" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.588000000000001" cy="9.08" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="9.588000000000001" cy="11.620000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="10.096" y1="6.413" x2="13.9822" y2="5.3716" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="10.096" y1="8.953" x2="13.9822" y2="7.9116" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="10.096" y1="11.493" x2="13.9822" y2="10.4516" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<circle cx="13.652000000000001" cy="6.54" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="13.652000000000001" cy="9.08" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="13.652000000000001" cy="11.620000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="7.8100000000000005" y="14.16" width="7.62" height="10.16" stroke="#ffffff" stroke-width="0.3" fill="rgba(255,255,255,0.06)"/>
+<line x1="4.000000000000001" y1="6.54" x2="9.080000000000002" y2="6.54" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<line x1="4.000000000000001" y1="9.08" x2="9.080000000000002" y2="9.08" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<line x1="4.000000000000001" y1="11.620000000000001" x2="9.080000000000002" y2="11.620000000000001" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<line x1="19.240000000000002" y1="11.620000000000001" x2="14.16" y2="11.62" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<line x1="19.240000000000002" y1="9.08" x2="14.16" y2="9.08" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+<line x1="19.240000000000002" y1="6.54" x2="14.16" y2="6.539999999999999" stroke="#ffd60a" stroke-width="0.332" stroke-linecap="round"/>
+</svg>

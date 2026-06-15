@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.08 19.176000000000002">
+<circle cx="7.507999999999999" cy="4.508000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="7.507999999999999" cy="14.668000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.572" cy="9.588000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.572" cy="14.668000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="7.507999999999999" cy="9.588000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<circle cx="11.572" cy="4.508000000000001" r="0.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<rect x="8.142999999999999" y="10.096" width="0.635" height="6.096" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<rect x="10.302" y="10.096" width="0.635" height="6.096" stroke="#ffffff" stroke-width="0.3" fill="#ffffff"/>
+<line x1="4.459999999999999" y1="4.508000000000001" x2="6.999999999999999" y2="4.508000000000001" stroke="#ffd60a" stroke-width="0.27394285714285715" stroke-linecap="round"/>
+<text x="3.999999999999999" y="4.508000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">A</text>
+<line x1="4.459999999999999" y1="9.588000000000001" x2="6.999999999999999" y2="9.588000000000001" stroke="#ffd60a" stroke-width="0.27394285714285715" stroke-linecap="round"/>
+<text x="3.999999999999999" y="9.588000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">B</text>
+<line x1="4.459999999999999" y1="14.668000000000001" x2="6.999999999999999" y2="14.668000000000001" stroke="#ffd60a" stroke-width="0.27394285714285715" stroke-linecap="round"/>
+<text x="3.999999999999999" y="14.668000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">C</text>
+<line x1="14.62" y1="14.668000000000001" x2="12.079999999999998" y2="14.668000000000001" stroke="#ffd60a" stroke-width="0.27394285714285715" stroke-linecap="round"/>
+<text x="15.079999999999998" y="14.668000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">A</text>
+<line x1="14.62" y1="9.588000000000001" x2="12.079999999999998" y2="9.588000000000001" stroke="#ffd60a" stroke-width="0.27394285714285715" stroke-linecap="round"/>
+<text x="15.079999999999998" y="9.588000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">B</text>
+<line x1="14.62" y1="4.508000000000001" x2="12.079999999999998" y2="4.508000000000001" stroke="#ffd60a" stroke-width="0.27394285714285715" stroke-linecap="round"/>
+<text x="15.079999999999998" y="4.508000000000001" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">C</text>
+</svg>

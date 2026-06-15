@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.54 14.604">
+<line x1="6.999999999999999" y1="8.064" x2="6.999999999999999" y2="10.604" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.507999999999999" y1="6.286" x2="7.507999999999999" y2="7.048" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.507999999999999" y1="7.048" x2="8.27" y2="6.286" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="7.507999999999999" y1="7.048" x2="8.27" y2="7.048" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.524" y1="6.794" x2="8.524" y2="7.555999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.524" y1="7.555999999999999" x2="9.286" y2="6.794" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<line x1="8.524" y1="7.555999999999999" x2="9.286" y2="7.555999999999999" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 8.27 6.286 A 0.5679673249682348 0.5679673249682348 0 0 1 9.032 5.523999999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.793999999999999 4.762 A 0.5679673249682335 0.5679673249682335 0 0 1 9.032 5.523999999999999" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<polyline points="9.54,8.064 9.54,10.604 6.999999999999999,9.334 9.54,8.064" stroke="#ffffff" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<line x1="9.54" y1="9.334" x2="6.999999999999999" y2="9.334" stroke="#ffffff" stroke-width="0.3" stroke-linecap="round" fill="none"/>
+<path d="M 9.286 6.794 A 0.5679673249682331 0.5679673249682331 0 0 1 10.047999999999998 6.032" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 9.793999999999999 4.762 A 0.5679673249682391 0.5679673249682391 0 0 1 10.556 4" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.809999999999999 5.27 A 0.5679673249682328 0.5679673249682328 0 0 1 10.047999999999998 6.032" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<path d="M 10.809999999999999 5.27 A 0.5679673249682344 0.5679673249682344 0 0 1 11.572 4.508" stroke="#ffffff" stroke-width="0.3" fill="none"/>
+<line x1="4.459999999999999" y1="9.334" x2="6.999999999999999" y2="9.334" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="3.999999999999999" y="9.334" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="start" dominant-baseline="middle">K</text>
+<line x1="12.079999999999998" y1="9.334" x2="9.54" y2="9.334" stroke="#ffd60a" stroke-width="0.23628571428571427" stroke-linecap="round"/>
+<text x="12.54" y="9.334" fill="#ffd60a" font-size="1" font-family="monospace" text-anchor="end" dominant-baseline="middle">A</text>
+</svg>
