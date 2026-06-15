@@ -148,13 +148,22 @@ export default function BlueprintCanvas() {
     }
   }, [refImage]);
 
+  const scheduleRender = useCallback(() => {
+    if (frameRef.current != null) return;
+    frameRef.current = requestAnimationFrame(() => {
+      frameRef.current = null;
+      drawRef.current();
+    });
+  }, []);
+
   const syncCamera = useCallback(
     (x: number, y: number, z: number) => {
       const zz = clamp(z, MIN_ZOOM, MAX_ZOOM);
       cameraRef.current = { x, y, zoom: zz };
       setCamera({ x, y, zoom: zz });
+      scheduleRender();
     },
-    [setCamera]
+    [setCamera, scheduleRender]
   );
 
   // Sync camera ref with store
@@ -184,14 +193,6 @@ export default function BlueprintCanvas() {
     if (w) obs.observe(w);
     return () => obs.disconnect();
   }, [resizeCanvas]);
-
-  const scheduleRender = useCallback(() => {
-    if (frameRef.current != null) return;
-    frameRef.current = requestAnimationFrame(() => {
-      frameRef.current = null;
-      drawRef.current();
-    });
-  }, []);
 
   useEffect(() => {
     scheduleRender();
