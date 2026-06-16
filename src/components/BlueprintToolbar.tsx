@@ -45,35 +45,35 @@ export default function BlueprintToolbar() {
       key={t.id}
       title={t.label}
       onClick={() => setTool(t.id)}
-      className={`flex h-11 w-11 items-center justify-center rounded-lg transition-all duration-150 ${
-        tool === t.id ? 'bg-accent text-black' : 'text-text-tertiary hover:text-white'
+      className={`flex h-11 w-11 items-center justify-center rounded-lg transition duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+        tool === t.id ? 'bg-accent text-black' : 'text-text-tertiary hover:text-text-primary'
       }`}
     >
       {t.id === 'pen' ? (
-        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
           <path d="M12 1.5l2.5 2.5L5 13.5 1 15l1.5-4L12 1.5z" />
         </svg>
       ) : t.id === 'line' ? (
-        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
           <line x1="2" y1="14" x2="14" y2="2" />
         </svg>
       ) : t.id === 'rect' ? (
-        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
           <rect x="2" y="3" width="12" height="10" rx="1" />
         </svg>
       ) : t.id === 'circle' ? (
-        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
           <circle cx="8" cy="8" r="6" />
         </svg>
       ) : t.id === 'eraser' ? (
-        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M1 14l8-8M5 14l8-8M5 14H1v-4l4 4z" />
           <path d="M9 6l3.5-3.5a1 1 0 011.4 0l1.1 1.1a1 1 0 010 1.4L12 8.5" />
         </svg>
       ) : t.id === 'text' ? (
         <span className="text-sm font-bold">T</span>
       ) : (
-        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M5 14l4-4 4 4M5 2l4 4 4-4" />
         </svg>
       )}
@@ -101,7 +101,7 @@ export default function BlueprintToolbar() {
             key={w}
             title={WIDTH_LABELS[w]}
             onClick={() => setWidth(w)}
-            className={`flex h-8 w-8 items-center justify-center rounded-md transition-colors ${width === w ? 'text-accent' : 'text-text-tertiary hover:text-white'}`}
+             className={`flex h-8 w-8 items-center justify-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${width === w ? 'text-accent' : 'text-text-tertiary hover:text-text-primary'}`}
           >
             <div className="rounded-full bg-current" style={{ width: Math.max(3, w), height: Math.max(3, w) }} />
           </button>
@@ -116,7 +116,7 @@ export default function BlueprintToolbar() {
             key={c}
             title={COLOR_NAMES[c]}
             onClick={() => setColor(c)}
-            className={`flex h-6 w-6 items-center justify-center rounded-full transition-all ${color === c ? 'ring-2 ring-accent ring-offset-1 ring-offset-black' : ''}`}
+             className={`flex h-6 w-6 items-center justify-center rounded-full transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${color === c ? 'ring-2 ring-accent ring-offset-1 ring-offset-black' : ''}`}
           >
             <div className="h-4 w-4 rounded-full border border-default" style={{ backgroundColor: c }} />
           </button>
@@ -128,7 +128,7 @@ export default function BlueprintToolbar() {
       <button
         title="Upload image"
         onClick={handleUpload}
-        className="flex h-10 w-10 items-center justify-center rounded-lg text-text-tertiary hover:text-white transition-colors"
+        className="flex h-10 w-10 items-center justify-center rounded-lg text-text-tertiary hover:text-text-primary transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
       >
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <rect x="2" y="2" width="12" height="12" rx="2" />

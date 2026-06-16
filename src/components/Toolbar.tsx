@@ -13,7 +13,7 @@ export default function Toolbar() {
         aria-label="Pen tool"
         aria-pressed={tool === 'pen'}
         onClick={() => setTool('pen')}
-        className={`px-3 py-2 rounded focus-visible:ring-2 focus-visible:ring-accent ${tool === 'pen' ? 'bg-accent' : 'bg-surface'}`}
+        className={`px-3 py-2 rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${tool === 'pen' ? 'bg-accent text-black' : 'bg-surface'}`}
       >
         Pen
       </button>
@@ -21,14 +21,14 @@ export default function Toolbar() {
         aria-label="Eraser tool"
         aria-pressed={tool === 'eraser'}
         onClick={() => setTool('eraser')}
-        className={`px-3 py-2 rounded focus-visible:ring-2 focus-visible:ring-accent ${tool === 'eraser' ? 'bg-accent' : 'bg-surface'}`}
+        className={`px-3 py-2 rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${tool === 'eraser' ? 'bg-accent text-black' : 'bg-surface'}`}
       >
         Eraser
       </button>
-      <button aria-label="Undo" onClick={undo} className="px-3 py-2 rounded bg-surface focus-visible:ring-2 focus-visible:ring-accent">
+      <button aria-label="Undo" onClick={undo} className="px-3 py-2 rounded bg-surface focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
         Undo
       </button>
-      <button aria-label="Redo" onClick={redo} className="px-3 py-2 rounded bg-surface focus-visible:ring-2 focus-visible:ring-accent">
+      <button aria-label="Redo" onClick={redo} className="px-3 py-2 rounded bg-surface focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
         Redo
       </button>
     </div>

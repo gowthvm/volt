@@ -45,8 +45,8 @@ export default function ContextMenu({ menu, onClose }: { menu: ContextMenuState;
           onClick={() => { item.action(); onClose(); }}
           className={`flex w-full items-center justify-between px-3 py-1.5 text-left text-xs transition ${
             item.danger
-              ? 'text-red hover:bg-red/10'
-              : 'text-text-primary hover:bg-accent/10'
+              ? 'text-red hover:bg-white/5'
+              : 'text-text-primary hover:bg-white/5'
           }`}
         >
           <span>{item.label}</span>

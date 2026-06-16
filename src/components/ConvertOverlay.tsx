@@ -94,7 +94,7 @@ export default function ConvertOverlay({
       {phase === 'analysing' && (
         <div className="flex flex-col items-center gap-6">
           <div className="h-10 w-10 animate-spin rounded-full border-2 border-accent border-t-transparent" />
-          <p className="text-lg font-medium text-accent">Analysing your circuit...</p>
+          <p className="text-lg text-accent">Analysing your circuit...</p>
         </div>
       )}
 
@@ -105,20 +105,20 @@ export default function ConvertOverlay({
               <polyline points="20 6 9 17 4 12" />
             </svg>
           </div>
-          <h2 className="mt-4 text-lg font-semibold text-text-primary">Circuit recognised</h2>
+          <h2 className="mt-4 text-lg font-medium text-text-primary">Circuit recognised</h2>
           <p className="mt-1 text-sm text-text-secondary">
             {result.count} component{result.count !== 1 ? 's' : ''} found. Switch to CAD mode to view and simulate?
           </p>
           <div className="mt-6 flex gap-3">
             <button
               onClick={handleSwitchToCad}
-              className="flex-1 rounded-md bg-accent px-4 py-2.5 text-sm font-semibold text-black transition-opacity hover:opacity-90"
+              className="flex-1 rounded-md bg-accent px-4 py-3 text-sm font-medium text-black transition-opacity hover:opacity-90"
             >
               Switch to CAD
             </button>
             <button
               onClick={onClose}
-              className="flex-1 rounded-md border border-default px-4 py-2.5 text-sm text-text-secondary transition-colors hover:border-accent hover:text-accent"
+              className="flex-1 rounded-md border border-default px-4 py-3 text-sm text-text-secondary transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Keep editing
             </button>
@@ -135,12 +135,12 @@ export default function ConvertOverlay({
               <line x1="9" y1="9" x2="15" y2="15" />
             </svg>
           </div>
-          <h2 className="mt-4 text-lg font-semibold text-text-primary">Could not recognise circuit</h2>
+          <h2 className="mt-4 text-lg font-medium text-text-primary">Could not recognise circuit</h2>
           <p className="mt-1 text-sm text-text-secondary">{errorMsg}</p>
           <div className="mt-6 flex gap-3">
             <button
               onClick={onClose}
-              className="flex-1 rounded-md border border-default px-4 py-2.5 text-sm text-text-secondary transition-colors hover:border-accent hover:text-accent"
+              className="flex-1 rounded-md border border-default px-4 py-3 text-sm text-text-secondary transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Dismiss
             </button>

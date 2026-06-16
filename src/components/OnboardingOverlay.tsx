@@ -67,7 +67,7 @@ export default function OnboardingOverlay() {
         </div>
 
         <h3 style={{
-          fontSize: 18, fontWeight: 600, color: 'var(--text-primary)',
+          fontSize: 18, fontWeight: 500, color: 'var(--text-primary)',
           margin: '0 0 8px 0', fontFamily: 'inherit',
         }}>
           {step.title}
@@ -113,7 +113,7 @@ export default function OnboardingOverlay() {
                 background: 'var(--accent)',
                 border: 'none',
                 color: '#000',
-                fontSize: 12, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit',
+                fontSize: 12, fontWeight: 500, cursor: 'pointer', fontFamily: 'inherit',
               }}
             >
               {isLast ? 'Get Started' : 'Next'}

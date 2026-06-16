@@ -130,7 +130,7 @@ export default function HeroSection() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-base px-5 pt-14">
       <DotGrid />
-      <div className="pointer-events-none absolute top-1/3 left-1/2 h-[500px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/[0.04] blur-[150px] animate-pulse-glow" />
+      <div className="pointer-events-none absolute top-1/3 left-1/2 h-[500px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/[0.04] blur-[150px] animate-pulse-glow" />
 
       {/* Floating circuit path decorations */}
       <svg
@@ -158,20 +158,20 @@ export default function HeroSection() {
           className="animate-pulse-glow"
           style={{ animationDuration: '8s', animationDelay: '2s' }}
         />
-        <circle cx="200" cy="100" r="2" fill="rgba(255,214,10,0.4)" />
-        <circle cx="400" cy="300" r="2" fill="rgba(255,214,10,0.4)" />
-        <circle cx="600" cy="150" r="2" fill="rgba(255,214,10,0.4)" />
+        <circle cx="200" cy="100" r="2" fill="rgba(255,255,255,0.15)" />
+        <circle cx="400" cy="300" r="2" fill="rgba(255,255,255,0.15)" />
+        <circle cx="600" cy="150" r="2" fill="rgba(255,255,255,0.15)" />
       </svg>
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
         <div className="mb-6 inline-flex animate-fade-in items-center gap-2 rounded-full border border-default bg-surface px-4 py-1.5 text-[12px] font-medium text-text-tertiary" style={{ animationDelay: '200ms', opacity: 0 }}>
-          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+          <span className="h-1.5 w-1.5 rounded-full bg-text-secondary" />
           Circuit design at the speed of sketching
         </div>
 
         <h1
           ref={headlineRef}
-          className="mb-6 font-display text-[clamp(2.5rem,8vw,6rem)] font-bold leading-[0.95] tracking-tighter"
+          className="mb-6 font-display text-[clamp(2.5rem,8vw,6rem)] font-bold leading-tight tracking-tighter"
         >
           <span className="headline-word block animate-fade-slide-up text-text-primary" style={{ opacity: 0 }}>
             Draw.
@@ -181,7 +181,7 @@ export default function HeroSection() {
           </span>
           <span className="headline-word block animate-fade-slide-up" style={{ opacity: 0 }}>
             <span
-              className="bg-gradient-to-r from-white via-accent to-accent bg-clip-text text-transparent"
+              className="bg-gradient-to-r from-white via-text-secondary to-text-secondary bg-clip-text text-transparent"
               style={{
                 backgroundSize: '200% 100%',
                 animation: 'gradient-shift 4s ease-in-out infinite',
@@ -193,7 +193,7 @@ export default function HeroSection() {
         </h1>
 
         <p
-          className="mx-auto mb-10 max-w-xl animate-fade-in text-[clamp(0.95rem,2vw,1.15rem)] leading-relaxed text-text-secondary"
+          className="mx-auto mb-10 max-w-xl animate-fade-in text-[clamp(0.95rem,2vw,1.15rem)] leading-normal text-text-secondary"
           style={{ animationDelay: '500ms', opacity: 0 }}
         >
           The fastest way to design circuits. Sketch components, connect wires, simulate instantly.
@@ -205,7 +205,7 @@ export default function HeroSection() {
         >
           <Link
             to={isAuthenticated ? '/editor' : '/signup'}
-            className="pointer-events-auto inline-flex items-center gap-2 rounded-md bg-accent px-7 py-3 text-[14px] font-semibold text-black transition hover:brightness-110 active:scale-[0.97] hover:shadow-[0_0_24px_rgba(255,214,10,0.25)]"
+            className="pointer-events-auto inline-flex items-center gap-2 rounded-md bg-accent px-6 py-3 text-[14px] font-medium text-black transition hover:brightness-110 active:scale-[0.97] hover:shadow-[0_0_24px_rgba(255,214,10,0.25)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             Start designing
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -214,7 +214,7 @@ export default function HeroSection() {
           </Link>
           <a
             href="#how-it-works"
-            className="pointer-events-auto inline-flex items-center gap-2 rounded-md border border-default bg-surface px-7 py-3 text-[14px] font-medium text-text-secondary transition hover:bg-hover hover:text-text-primary active:scale-[0.97]"
+            className="pointer-events-auto inline-flex items-center gap-2 rounded-md border border-default bg-surface px-6 py-3 text-[14px] font-medium text-text-secondary transition hover:bg-white/5 hover:text-text-primary active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             See how it works
           </a>
@@ -231,7 +231,7 @@ export default function HeroSection() {
             />
             <circle
               r="3"
-              fill="#ffd60a"
+              fill="rgba(255,255,255,0.4)"
               className="animate-pulse-glow"
               style={{
                 offsetPath: "path('M10 20 L70 20 L70 10 L130 10 L130 30 L190 30 L190 10 L250 10 L250 20 L310 20')",
@@ -243,9 +243,9 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="absolute bottom-12 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-white/20">
+      <div className="absolute bottom-12 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-text-tertiary">
         <div className="flex flex-col items-center gap-1">
-          <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-white/15">Scroll</span>
+          <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-text-tertiary">Scroll</span>
           <div className="relative h-10 w-px overflow-hidden">
             <div className="absolute top-0 h-full w-full bg-gradient-to-b from-white/20 to-transparent animate-scroll-indicator" />
           </div>

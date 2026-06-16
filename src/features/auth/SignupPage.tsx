@@ -80,13 +80,13 @@ export default function SignupPage() {
         <div className="w-full rounded-xl border border-default bg-surface p-10">
           <header className="mb-8 flex items-center justify-between">
             <Logo />
-            <Link className="text-sm text-accent transition hover:text-accent-hover" to="/login">
+            <Link className="text-sm text-text-primary transition hover:text-text-secondary" to="/login">
               Log in
             </Link>
           </header>
 
           <div className="space-y-5">
-            <h1 className="text-3xl font-semibold text-text-primary">Create your account.</h1>
+            <h1 className="text-3xl font-medium text-text-primary">Create your account.</h1>
             <p className="text-sm text-text-secondary">
               Sign up and start designing circuits immediately.
             </p>
@@ -94,7 +94,7 @@ export default function SignupPage() {
 
           <form className="mt-10 space-y-6" onSubmit={handleSubmit}>
             {formError ? (
-              <div className="rounded-lg bg-red-500/10 border border-red-500/30 px-4 py-3 text-sm text-red-300">
+              <div className="rounded-lg bg-red/10 border border-red/30 px-4 py-3 text-sm text-red">
                 {formError}
               </div>
             ) : null}
@@ -109,10 +109,10 @@ export default function SignupPage() {
                 value={email}
                 onChange={(e) => { setEmail(e.target.value); if (emailError) setEmailError(null); }}
                 onBlur={() => { if (email) validateEmail(email); }}
-                className={`w-full rounded-md border bg-base px-4 py-3 text-text-primary outline-none transition focus:border-accent focus:ring-2 focus:ring-accent/20 ${emailError ? 'border-red-500/50' : 'border-default'}`}
+                className={`w-full rounded-md border bg-base px-4 py-3 text-text-primary outline-none transition focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${emailError ? 'border-red-500/50' : 'border-default'}`}
                 required
               />
-              {emailError ? <p className="text-xs text-red-400">{emailError}</p> : null}
+              {emailError ? <p className="text-xs text-red">{emailError}</p> : null}
             </div>
 
             <div className="space-y-2">
@@ -125,16 +125,16 @@ export default function SignupPage() {
                 value={password}
                 onChange={(e) => { setPassword(e.target.value); if (passwordError) setPasswordError(null); }}
                 onBlur={() => { if (password) validatePassword(password); }}
-                className={`w-full rounded-md border bg-base px-4 py-3 text-text-primary outline-none transition focus:border-accent focus:ring-2 focus:ring-accent/20 ${passwordError ? 'border-red-500/50' : 'border-default'}`}
+                className={`w-full rounded-md border bg-base px-4 py-3 text-text-primary outline-none transition focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${passwordError ? 'border-red-500/50' : 'border-default'}`}
                 required
               />
-              {passwordError ? <p className="text-xs text-red-400">{passwordError}</p> : null}
+              {passwordError ? <p className="text-xs text-red">{passwordError}</p> : null}
             </div>
 
             <button
               type="submit"
               disabled={loading}
-              className="flex w-full items-center justify-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-semibold text-black transition hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-70"
+              className="flex w-full items-center justify-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-medium text-black transition hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               {loading ? (
                 <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-black/30 border-t-black" />
@@ -154,7 +154,7 @@ export default function SignupPage() {
               type="button"
               onClick={() => handleOAuth('google')}
               disabled={loading && oauthProvider === 'google'}
-              className="flex items-center justify-center gap-2 rounded-md border border-default bg-base px-4 py-3 text-sm text-text-primary transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-60"
+              className="flex items-center justify-center gap-2 rounded-md border border-default bg-base px-4 py-3 text-sm text-text-primary transition hover:border-default disabled:cursor-not-allowed disabled:opacity-60"
             >
               {loading && oauthProvider === 'google' ? (
                 <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-text-tertiary/30 border-t-text-tertiary" />
@@ -165,7 +165,7 @@ export default function SignupPage() {
               type="button"
               onClick={() => handleOAuth('github')}
               disabled={loading && oauthProvider === 'github'}
-              className="flex items-center justify-center gap-2 rounded-md border border-default bg-base px-4 py-3 text-sm text-text-primary transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-60"
+              className="flex items-center justify-center gap-2 rounded-md border border-default bg-base px-4 py-3 text-sm text-text-primary transition hover:border-default disabled:cursor-not-allowed disabled:opacity-60"
             >
               {loading && oauthProvider === 'github' ? (
                 <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-text-tertiary/30 border-t-text-tertiary" />
@@ -176,7 +176,7 @@ export default function SignupPage() {
 
           <p className="mt-8 text-center text-sm text-text-secondary">
             Already have an account?{' '}
-            <Link className="text-accent transition hover:text-accent-hover" to="/login">
+            <Link className="text-text-primary transition hover:text-text-secondary" to="/login">
               Log in
             </Link>
           </p>

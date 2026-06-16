@@ -4,6 +4,7 @@ import { useCanvasStore } from '@/store/canvasStore';
 import { useSimulationStore } from '@/store/simulationStore';
 import useSchematicStore from '@/store/schematicStore';
 import { useProjectStore } from '@/store/projectStore';
+import useHistoryStore from '@/store/historyStore';
 
 const TOOLS: { id: 'select' | 'wire' | 'pan'; label: string; shortcut: string; icon: React.ReactNode }[] = [
   {
@@ -11,7 +12,7 @@ const TOOLS: { id: 'select' | 'wire' | 'pan'; label: string; shortcut: string; i
     label: 'Select',
     shortcut: 'V',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M4 2v12l4-4 4 4 1-3-4-2 4-3-4-2z" />
       </svg>
     ),
@@ -21,7 +22,7 @@ const TOOLS: { id: 'select' | 'wire' | 'pan'; label: string; shortcut: string; i
     label: 'Wire',
     shortcut: 'W',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
         <path d="M2 14L7 9" />
         <path d="M7 9l3-3" />
         <path d="M10 6l4-4" />
@@ -34,7 +35,7 @@ const TOOLS: { id: 'select' | 'wire' | 'pan'; label: string; shortcut: string; i
     label: 'Pan',
     shortcut: 'H',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M8 2v12M2 8h12M5 5l3-3 3 3M5 11l3 3 3-3M11 5l3 3-3 3M5 5l-3 3 3 3" />
       </svg>
     ),
@@ -57,6 +58,8 @@ export default function LeftToolbar() {
   const hasRun = useSimulationStore((s) => s.hasRun);
   const simResult = useSimulationStore((s) => s.result);
   const clearResults = useSimulationStore((s) => s.clearResults);
+  const canUndo = useHistoryStore((s) => s.commands.length > 0);
+  const canRedo = useHistoryStore((s) => s.future.length > 0);
 
   const zoomToFit = useCallback(() => {
     const strokes = useDrawingStore.getState().strokes;
@@ -86,7 +89,7 @@ export default function LeftToolbar() {
 
   return (
     <div
-      className="flex flex-col items-center gap-2 rounded-xl border border-default bg-surface px-2.5 py-3 shadow-md"
+      className="flex flex-col items-center gap-2 rounded-xl border border-default bg-surface px-3 py-3 shadow-md"
       role="toolbar"
       aria-label="CAD tools"
     >
@@ -98,10 +101,10 @@ export default function LeftToolbar() {
           aria-label={t.label}
           aria-pressed={tool === t.id}
           onClick={() => setTool(t.id as any)}
-          className={`flex h-9 w-9 items-center justify-center rounded-md transition-all duration-150 ${
+          className={`flex h-9 w-9 items-center justify-center rounded-md transition duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
             tool === t.id
               ? 'bg-accent text-black'
-              : 'text-text-tertiary hover:text-white'
+              : 'text-text-tertiary hover:text-text-primary'
           }`}
         >
           {t.icon}
@@ -117,7 +120,7 @@ export default function LeftToolbar() {
           title="Zoom in"
           aria-label="Zoom in"
           onClick={() => setCamera(useCanvasStore.getState().offset, Math.min(4, zoom * 1.15))}
-          className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary hover:text-white transition-colors text-lg leading-none"
+          className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary hover:text-text-primary transition-colors text-lg leading-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           +
         </button>
@@ -126,7 +129,7 @@ export default function LeftToolbar() {
           title="Zoom out"
           aria-label="Zoom out"
           onClick={() => setCamera(useCanvasStore.getState().offset, Math.max(0.25, zoom / 1.15))}
-          className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary hover:text-white transition-colors text-lg leading-none"
+          className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary hover:text-text-primary transition-colors text-lg leading-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           −
         </button>
@@ -134,9 +137,9 @@ export default function LeftToolbar() {
           title="Zoom to fit (Ctrl+0)"
           aria-label="Zoom to fit"
           onClick={zoomToFit}
-          className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary hover:text-white transition-colors text-xs"
+          className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary hover:text-text-primary transition-colors text-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
             <rect x="2" y="2" width="5" height="5" rx="1" />
             <rect x="9" y="2" width="5" height="5" rx="1" />
             <rect x="2" y="9" width="5" height="5" rx="1" />
@@ -153,11 +156,11 @@ export default function LeftToolbar() {
         title={simResult?.error ? `Error: ${simResult.error}` : 'Simulate'}
         aria-label="Run simulation"
         onClick={isRunning ? undefined : (hasRun ? clearResults : runSimulation)}
-        className={`flex h-9 w-9 items-center justify-center rounded-md transition-all duration-150 ${
+        className={`flex h-9 w-9 items-center justify-center rounded-md transition duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
           isRunning ? 'opacity-50 cursor-wait'
           : simResult?.error ? 'text-red'
           : simResult?.success ? 'text-accent'
-          : 'text-text-tertiary hover:text-white'
+          : 'text-text-tertiary hover:text-text-primary'
         }`}
       >
         {isRunning ? (
@@ -165,17 +168,17 @@ export default function LeftToolbar() {
             <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="2" strokeDasharray="28" strokeDashoffset="8" strokeLinecap="round" />
           </svg>
         ) : simResult?.success ? (
-          <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="4 8 7 11 12 5" />
           </svg>
         ) : simResult?.error ? (
-          <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
             <circle cx="8" cy="8" r="6" />
             <line x1="6" y1="6" x2="10" y2="10" />
             <line x1="10" y1="6" x2="6" y2="10" />
           </svg>
         ) : (
-          <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
             <polygon points="5,3 13,8 5,13" />
           </svg>
         )}
@@ -188,9 +191,10 @@ export default function LeftToolbar() {
       <div className="flex flex-col items-center gap-1">
         <button
           onClick={handleUndo}
+          disabled={!canUndo}
           aria-label="Undo (Ctrl+Z)"
           title="Undo (Ctrl+Z)"
-          className="flex h-9 w-9 items-center justify-center rounded-md text-text-tertiary hover:text-white transition-colors"
+          className={`flex h-9 w-9 items-center justify-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${canUndo ? 'text-text-tertiary hover:text-text-primary' : 'text-text-tertiary opacity-30 cursor-not-allowed'}`}
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="6 3 2 7 6 11" />
@@ -199,9 +203,10 @@ export default function LeftToolbar() {
         </button>
         <button
           onClick={handleRedo}
+          disabled={!canRedo}
           aria-label="Redo (Ctrl+Shift+Z)"
           title="Redo (Ctrl+Shift+Z)"
-          className="flex h-9 w-9 items-center justify-center rounded-md text-text-tertiary hover:text-white transition-colors"
+          className={`flex h-9 w-9 items-center justify-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${canRedo ? 'text-text-tertiary hover:text-text-primary' : 'text-text-tertiary opacity-30 cursor-not-allowed'}`}
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="10 3 14 7 10 11" />

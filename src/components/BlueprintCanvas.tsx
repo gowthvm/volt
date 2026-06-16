@@ -394,7 +394,6 @@ export default function BlueprintCanvas() {
       const canvas = canvasRef.current;
       const wrapper = wrapperRef.current;
       if (!canvas || !wrapper) return;
-      canvas.setPointerCapture(e.pointerId);
 
       const rect = wrapper.getBoundingClientRect();
       const sx = e.clientX - rect.left;
@@ -406,9 +405,12 @@ export default function BlueprintCanvas() {
       pointerDownPos.current = { x: sx, y: sy };
 
       if (spacePan || tool === 'pan') {
+        canvas.setPointerCapture(e.pointerId);
         panStartRef.current = { x: sx, y: sy, camX: cam.x, camY: cam.y };
         return;
       }
+
+      canvas.setPointerCapture(e.pointerId);
 
       if (tool === 'pen') {
         pushUndoState();
@@ -526,8 +528,10 @@ export default function BlueprintCanvas() {
         }
         dragStartRef.current = null;
         setLivePoints(null);
-      } else if (tool === 'eraser') {
+      } else {
         drawingRef.current = null;
+        dragStartRef.current = null;
+        setLivePoints(null);
       }
     },
     [tool, color, width, addPrimitive, shiftHeld]
@@ -593,7 +597,7 @@ export default function BlueprintCanvas() {
         <input
           autoFocus
           type="text"
-          className="absolute rounded border border-accent bg-base px-2 py-1 text-sm text-text-primary outline-none"
+          className="absolute rounded border border-accent bg-base px-2 py-1 text-sm text-text-primary outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           style={{ left: inlineEdit.screenX, top: inlineEdit.screenY, minWidth: 120 }}
           onKeyDown={(e) => {
             if (e.key === 'Enter') handleTextConfirm((e.target as HTMLInputElement).value);

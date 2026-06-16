@@ -192,30 +192,30 @@ export default function EditorShell() {
   const formatTime = (date: string | null) => date ? new Date(date).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) : '';
   const handleClearBlueprint = () => useBlueprintStore.getState().clearAll();
 
-  const btnBase = 'flex items-center justify-center border-subtle bg-surface/80 text-text-tertiary backdrop-blur-sm transition hover:text-accent';
+  const btnBase = 'flex items-center justify-center border-default bg-surface/80 text-text-tertiary backdrop-blur-sm transition hover:text-accent';
 
   return (
     <div className="flex min-h-screen flex-col bg-base text-text-primary">
       {/* ==================== HEADER (48px) ==================== */}
-      <header className="flex h-12 items-center justify-between border-b border-subtle bg-base px-4">
+      <header className="flex h-12 items-center justify-between border-b border-default bg-base px-4">
         {/* Left: toggle + logo */}
         <div className="flex items-center gap-3">
           <button
             onClick={() => setLeftPanelOpen((p) => !p)}
             title="Component Browser (B)"
-            className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary transition hover:bg-hover hover:text-accent"
+            className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary transition hover:bg-white/5 hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" className={leftPanelOpen ? '' : 'rotate-180'}>
               <path d="M9 18l6-6-6-6" />
             </svg>
           </button>
-          <Link to="/" className="text-base font-bold tracking-tight text-text-primary transition-colors hover:text-accent">
+          <Link to="/" className="text-base font-bold tracking-tight text-text-primary transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
             Volt
           </Link>
           <span className="text-xs text-text-tertiary hidden sm:inline">{'//'}</span>
           <button
             onClick={() => { setEditNameValue(projectName); setEditingName(true); }}
-            className="truncate max-w-[160px] text-sm font-medium text-text-primary transition-colors hover:text-accent"
+            className="truncate max-w-[160px] text-sm font-medium text-text-primary transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             {projectName}
           </button>
@@ -228,20 +228,20 @@ export default function EditorShell() {
           <span className="text-xs text-text-tertiary hidden sm:inline">{'//'}</span>
           <div className="relative flex items-center rounded-full border border-default bg-base p-0.5">
             <div
-              className="absolute top-0.5 bottom-0.5 rounded-full bg-accent transition-all duration-200 ease-out"
+              className="absolute top-0.5 bottom-0.5 rounded-full bg-accent transition duration-500 ease-out"
               style={{ width: 'calc(50% - 2px)', left: mode === 'cad' ? '2px' : 'calc(50% + 0px)' }}
             />
             <button
               onClick={() => handleModeChange('cad')}
               disabled={isTransitioning}
-              className={`relative z-10 rounded-full px-5 py-1 text-xs font-medium transition-colors duration-150 ${mode === 'cad' ? 'text-black' : 'text-text-primary hover:text-white'} ${isTransitioning ? 'cursor-default opacity-50' : ''}`}
+              className={`relative z-10 rounded-full px-5 py-1 text-xs font-medium transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${mode === 'cad' ? 'text-black' : 'text-text-primary hover:text-text-primary'} ${isTransitioning ? 'cursor-default opacity-50' : ''}`}
             >
               CAD
             </button>
             <button
               onClick={() => handleModeChange('blueprint')}
               disabled={isTransitioning}
-              className={`relative z-10 rounded-full px-5 py-1 text-xs font-medium transition-colors duration-150 ${mode === 'blueprint' ? 'text-black' : 'text-text-primary hover:text-white'} ${isTransitioning ? 'cursor-default opacity-50' : ''}`}
+              className={`relative z-10 rounded-full px-5 py-1 text-xs font-medium transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${mode === 'blueprint' ? 'text-black' : 'text-text-primary hover:text-text-primary'} ${isTransitioning ? 'cursor-default opacity-50' : ''}`}
             >
               Blueprint
             </button>
@@ -254,22 +254,22 @@ export default function EditorShell() {
           <div className="relative">
             <button
               onClick={() => setExportOpen(!exportOpen)}
-              className="rounded-md border border-default bg-base px-3 py-1.5 text-xs text-text-secondary transition hover:border-accent hover:text-accent"
+              className="rounded-md border border-default bg-base px-3 py-1.5 text-xs text-text-secondary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Export
             </button>
             {exportOpen && (
               <div className="absolute right-0 top-full mt-1.5 w-28 rounded-md border border-default bg-surface shadow-md py-1 z-50 backdrop-blur-lg">
-                <button onClick={handleExportSVG} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-hover hover:text-accent">SVG</button>
-                <button onClick={handleExportPNG} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-hover hover:text-accent">PNG</button>
-                <button onClick={handleExportJSON} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-hover hover:text-accent">JSON</button>
+                <button onClick={handleExportSVG} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-white/5 hover:text-accent">SVG</button>
+                <button onClick={handleExportPNG} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-white/5 hover:text-accent">PNG</button>
+                <button onClick={handleExportJSON} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-white/5 hover:text-accent">JSON</button>
               </div>
             )}
           </div>
           {mode === 'cad' && (
             <button
               onClick={runSimulation}
-              className="rounded-md bg-accent px-4 py-1.5 text-xs font-semibold text-black transition hover:brightness-110"
+              className="rounded-md bg-accent px-4 py-1.5 text-xs font-medium text-black transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Simulate
             </button>
@@ -280,24 +280,24 @@ export default function EditorShell() {
             className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary transition hover:text-accent"
           >
             {theme === 'dark' ? (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
             ) : (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
             )}
           </button>
           <div className="relative">
             <button
               aria-label="User menu"
               onClick={() => setUserMenuOpen(!userMenuOpen)}
-              className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary transition hover:text-accent"
+            className="flex h-8 w-8 items-center justify-center rounded-md text-text-tertiary transition hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg>
             </button>
             {userMenuOpen && (
               <div className="absolute right-0 top-full mt-1.5 w-32 rounded-md border border-default bg-surface shadow-md py-1 z-50 backdrop-blur-lg">
                 <div className="px-3 py-1.5 text-xs text-text-tertiary truncate">{user?.email ?? 'Guest'}</div>
                 <div className="mx-2 h-px bg-border-subtle" />
-                <button onClick={handleSignOut} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-hover hover:text-accent">Sign out</button>
+                <button onClick={handleSignOut} className="block w-full px-3 py-1.5 text-left text-xs text-text-secondary transition hover:bg-white/5 hover:text-accent">Sign out</button>
               </div>
             )}
           </div>
@@ -331,35 +331,35 @@ export default function EditorShell() {
 
           {/* Left panel */}
           <div
-            className={`absolute left-0 top-0 bottom-0 z-20 w-[280px] overflow-y-auto border-r border-subtle bg-surface/95 backdrop-blur-xl transition-transform duration-200 ease-out will-change-transform ${
+            className={`absolute left-0 top-0 bottom-0 z-20 w-[280px] overflow-y-auto border-r border-default bg-surface/95 backdrop-blur-xl transition-transform duration-250 ease-out will-change-transform ${
               (phase === 'outgoing' && mode === 'cad') ? '-translate-x-full' :
               (phase === 'incoming' && mode === 'cad') ? 'translate-x-0' :
               leftPanelOpen ? 'translate-x-0' : '-translate-x-full'
             }`}
           >
-            <div className="flex items-center justify-between px-5 pt-5 pb-0">
-              <span className="text-xs font-semibold uppercase tracking-[0.12em] text-text-tertiary">Components</span>
-              <button onClick={() => setLeftPanelOpen(false)} className="text-text-tertiary transition hover:text-accent">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            <div className="flex items-center justify-between px-4 pt-4 pb-0">
+              <span className="text-xs font-medium uppercase tracking-[0.12em] text-text-tertiary">Components</span>
+              <button onClick={() => setLeftPanelOpen(false)} className="text-text-tertiary transition hover:bg-white/5 hover:text-accent rounded-md p-1">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
               </button>
             </div>
-            <div className="p-5">
+            <div className="p-4">
               <KicadSymbolBrowser />
             </div>
           </div>
 
           {/* Right panel */}
           <div
-            className={`absolute right-0 top-0 bottom-0 z-20 w-[280px] overflow-y-auto border-l border-subtle bg-surface/95 backdrop-blur-xl transition-transform duration-200 ease-out will-change-transform ${
+            className={`absolute right-0 top-0 bottom-0 z-20 w-[280px] overflow-y-auto border-l border-default bg-surface/95 backdrop-blur-xl transition-transform duration-250 ease-out will-change-transform ${
               (phase === 'outgoing' && mode === 'cad') ? 'translate-x-full' :
               (phase === 'incoming' && mode === 'cad') ? 'translate-x-0' :
               rightPanelOpen ? 'translate-x-0' : 'translate-x-full'
             }`}
           >
             <div className="flex items-center justify-between px-4 pt-4 pb-0">
-              <span className="text-xs font-semibold uppercase tracking-[0.12em] text-text-tertiary">Properties</span>
-              <button onClick={() => setRightPanelOpen(false)} className="text-text-tertiary transition hover:text-accent">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+              <span className="text-xs font-medium uppercase tracking-[0.12em] text-text-tertiary">Properties</span>
+              <button onClick={() => setRightPanelOpen(false)} className="text-text-tertiary transition hover:bg-white/5 hover:text-accent rounded-md p-1">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
               </button>
             </div>
             <div className="px-4 pt-3 pb-4">
@@ -371,7 +371,7 @@ export default function EditorShell() {
           <button
             onClick={() => setRightPanelOpen((p) => !p)}
             title="Properties (I)"
-            className={`${btnBase} absolute right-0 top-1/2 -translate-y-1/2 z-20 h-12 w-6 rounded-l-md border border-r-0`}
+            className={`${btnBase} absolute right-0 top-1/2 -translate-y-1/2 z-20 h-12 w-6 rounded-l-md border border-r-0 border-default`}
           >
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" className={rightPanelOpen ? '' : 'rotate-180'}>
               <path d="M15 18l-6-6 6-6" />
@@ -384,7 +384,7 @@ export default function EditorShell() {
           <Minimap rightPanelOpen={rightPanelOpen} />
 
           {/* Floating toolbar */}
-          <div className={`absolute top-4 z-30 transition-all duration-200 ease-out ${leftPanelOpen ? 'left-[296px]' : 'left-4'}`}>
+          <div className={`absolute top-4 z-30 transition duration-150 ease-out ${leftPanelOpen ? 'left-[296px]' : 'left-4'}`}>
             <LeftToolbar />
           </div>
         </div>
@@ -404,7 +404,7 @@ export default function EditorShell() {
 
           {/* Blueprint toolbar */}
           <div
-            className="absolute left-4 top-4 z-10 transition-all duration-150 ease-out"
+            className="absolute left-4 top-4 z-10 transition duration-150 ease-out"
             style={{
               transform: phase === 'outgoing' ? 'translateX(-20px)' : 'translateX(0)',
               opacity: phase === 'outgoing' ? 0 : 1,
@@ -415,7 +415,7 @@ export default function EditorShell() {
 
           {/* Convert + Clear buttons */}
           <div
-            className="absolute right-4 top-4 z-10 flex items-center gap-2 transition-all duration-150 ease-out"
+            className="absolute right-4 top-4 z-10 flex items-center gap-2 transition duration-150 ease-out"
             style={{
               transform: phase === 'outgoing' ? 'translateX(20px)' : 'translateX(0)',
               opacity: phase === 'outgoing' ? 0 : 1,
@@ -423,13 +423,13 @@ export default function EditorShell() {
           >
             <button
               onClick={() => setShowConvert(true)}
-              className="rounded-md bg-accent px-5 py-2 text-sm font-semibold text-black transition hover:brightness-110 hover:scale-[1.02] active:scale-[0.98]"
+              className="rounded-md bg-accent px-5 py-2 text-sm font-medium text-black transition hover:brightness-110 hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Convert to Circuit
             </button>
             <button
               onClick={handleClearBlueprint}
-              className="rounded-md border border-default bg-surface/80 px-3 py-2 text-xs text-text-secondary backdrop-blur-lg transition hover:border-red/50 hover:text-red"
+              className="rounded-md border border-default bg-surface/80 px-3 py-2 text-xs text-text-secondary backdrop-blur-lg transition hover:border-red/50 hover:text-red focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Clear
             </button>

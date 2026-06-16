@@ -26,7 +26,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="mt-8 text-center text-[11px] text-white/15 md:text-left">
+        <div className="mt-8 text-center text-[11px] text-text-tertiary md:text-left">
           &copy; 2026 Volt. All rights reserved.
         </div>
       </div>

@@ -67,7 +67,7 @@ export default function ProjectsPage() {
             <span>{user?.email}</span>
             <button
               onClick={handleSignOut}
-              className="rounded-full border border-default bg-elevated px-4 py-2 text-sm text-text-primary transition hover:border-accent hover:text-accent focus-visible:ring-2 focus-visible:ring-accent"
+              className="rounded-full border border-default bg-elevated px-4 py-2 text-sm text-text-primary transition hover:border-default hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Sign out
             </button>
@@ -75,10 +75,10 @@ export default function ProjectsPage() {
         </header>
 
         <div className="mb-8 flex items-center justify-between">
-          <h1 className="text-2xl font-semibold tracking-tight">Projects</h1>
+          <h1 className="text-2xl font-medium tracking-tight">Projects</h1>
           <button
             onClick={handleCreate}
-            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-black transition hover:bg-accent-hover focus-visible:ring-2 focus-visible:ring-accent"
+            className="rounded-full bg-accent px-6 py-3 text-sm font-medium text-black transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             New project
           </button>
@@ -96,7 +96,7 @@ export default function ProjectsPage() {
             {projects.map((p) => (
               <div
                 key={p.id}
-                className="group relative rounded-lg border border-default bg-surface p-5 shadow-md transition hover:border-accent/40"
+                className="group relative rounded-lg border border-default bg-surface p-5 shadow-md transition hover:border-default"
               >
                 {editingId === p.id ? (
                   <input
@@ -108,12 +108,12 @@ export default function ProjectsPage() {
                       if (e.key === 'Enter') commitRename();
                       if (e.key === 'Escape') setEditingId(null);
                     }}
-                    className="mb-3 w-full rounded-md border border-default bg-base px-2 py-1 text-sm text-text-primary outline-none focus:border-accent"
+                    className="mb-3 w-full rounded-md border border-default bg-base px-2 py-1 text-sm text-text-primary outline-none focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                     aria-label="Project name"
                   />
                 ) : (
                   <h3
-                    className="mb-1 cursor-pointer text-base font-medium text-text-primary transition hover:text-accent"
+                    className="mb-1 cursor-pointer text-base font-medium text-text-primary transition hover:text-text-primary"
                     onClick={() => handleOpen(p.id)}
                     onDoubleClick={() => startRename(p)}
                   >
@@ -134,7 +134,7 @@ export default function ProjectsPage() {
                     title="Duplicate"
                     aria-label={`Duplicate ${p.name}`}
                     onClick={async () => { await duplicateProject(p.id); }}
-                    className="flex h-7 w-7 items-center justify-center rounded-md border border-default bg-base text-xs text-text-secondary transition hover:border-accent hover:text-accent focus-visible:ring-2 focus-visible:ring-accent"
+                    className="flex h-7 w-7 items-center justify-center rounded-md border border-default bg-base text-xs text-text-secondary transition hover:border-default hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   >
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                       <rect x="2" y="2" width="7" height="7" rx="1" />
@@ -145,7 +145,7 @@ export default function ProjectsPage() {
                     title="Rename"
                     aria-label={`Rename ${p.name}`}
                     onClick={() => startRename(p)}
-                    className="flex h-7 w-7 items-center justify-center rounded-md border border-default bg-base text-xs text-text-secondary transition hover:border-accent hover:text-accent focus-visible:ring-2 focus-visible:ring-accent"
+                    className="flex h-7 w-7 items-center justify-center rounded-md border border-default bg-base text-xs text-text-secondary transition hover:border-default hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   >
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                       <path d="M8.5 1.5L10.5 3.5L3.5 10.5L1 11L1.5 8.5L8.5 1.5Z" />
@@ -159,7 +159,7 @@ export default function ProjectsPage() {
                         await deleteProject(p.id);
                         setDeleteConfirm(null);
                       }}
-                      className="flex h-7 w-7 items-center justify-center rounded-md border border-red-500 bg-red-500/10 text-xs text-red-400 transition focus-visible:ring-2 focus-visible:ring-accent"
+                      className="flex h-7 w-7 items-center justify-center rounded-md border border-red-500 bg-red-500/10 text-xs text-red-400 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                     >
                       ✓
                     </button>
@@ -169,7 +169,7 @@ export default function ProjectsPage() {
                       aria-label={`Delete ${p.name}`}
                       onClick={() => setDeleteConfirm(p.id)}
                       onBlur={() => setTimeout(() => setDeleteConfirm(null), 2000)}
-                      className="flex h-7 w-7 items-center justify-center rounded-md border border-default bg-base text-xs text-text-secondary transition hover:border-red-500 hover:text-red-400 focus-visible:ring-2 focus-visible:ring-accent"
+                      className="flex h-7 w-7 items-center justify-center rounded-md border border-default bg-base text-xs text-text-secondary transition hover:border-red-500 hover:text-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                     >
                       <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                         <path d="M1.5 3H10.5" /><path d="M4 3V1.5A0.5 0.5 0 0 1 4.5 1H7.5A0.5 0.5 0 0 1 8 1.5V3" /><path d="M2.5 3L3.5 10.5H8.5L9.5 3" />

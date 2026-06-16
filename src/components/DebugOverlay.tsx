@@ -37,7 +37,7 @@ export default function DebugOverlay() {
   if (!info) return null;
 
   return (
-    <div className="fixed right-3 bottom-3 z-[99999] bg-base/60 text-text-primary p-2.5 rounded-md text-xs">
+    <div className="fixed right-3 bottom-3 z-[99999] bg-base/60 text-text-primary p-2 rounded-md text-xs">
       <div className="mb-1.5">DPR: {info.dpr}</div>
       <div>Canvas: {info.canvas ? `${info.canvas.clientW}x${info.canvas.clientH} (px buffer ${info.canvas.widthProp})` : 'no canvas'}</div>
       <div>Wrapper: {info.wrapper.clientW}x{info.wrapper.clientH}</div>

@@ -54,14 +54,14 @@ export default function RecognitionPanel() {
 
   return (
     <div ref={panelRef} className={`absolute right-4 top-20 w-80 bg-surface border border-default rounded-xl shadow-lg z-50 overflow-hidden transition-opacity duration-150 ${hidden ? 'opacity-0 pointer-events-none' : ''}`}>
-      <div className="bg-accent text-black px-4 py-2.5 flex items-center justify-between">
-        <h2 className="text-sm font-semibold tracking-tight">Recognition Result</h2>
+      <div className="bg-accent text-black px-4 py-2 flex items-center justify-between">
+        <h2 className="text-sm font-medium tracking-tight">Recognition Result</h2>
         <button
           onClick={handleDiscard}
-          className="p-1 rounded-sm hover:bg-base/10 transition"
+          className="p-1 rounded hover:bg-white/5 transition"
           aria-label="Close panel"
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <line x1="18" y1="6" x2="6" y2="18"/>
             <line x1="6" y1="6" x2="18" y2="18"/>
           </svg>
@@ -70,7 +70,7 @@ export default function RecognitionPanel() {
 
       <div className="p-3 max-h-80 overflow-y-auto">
         {error && (
-          <div className="flex items-start gap-2 p-2.5 bg-red/10 border border-red/30 rounded-lg mb-3">
+          <div className="flex items-start gap-2 p-3 bg-red/10 border border-red/30 rounded-lg mb-3">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mt-0.5 shrink-0">
               <circle cx="12" cy="12" r="10"/>
               <line x1="12" y1="8" x2="12" y2="12"/>
@@ -79,10 +79,10 @@ export default function RecognitionPanel() {
             <div className="flex-1 text-xs text-red leading-relaxed">{error}</div>
             <button
               onClick={handleDismissError}
-              className="p-0.5 rounded-sm hover:bg-red/20 transition"
+              className="p-0.5 rounded hover:bg-white/5 transition"
               aria-label="Dismiss error"
             >
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="18" y1="6" x2="6" y2="18"/>
                 <line x1="6" y1="6" x2="18" y2="18"/>
               </svg>
@@ -95,7 +95,7 @@ export default function RecognitionPanel() {
             {recognitionResult.map((comp, i) => (
               <li
                 key={i}
-                className="flex items-center justify-between px-2.5 py-2 rounded-lg bg-surface border border-subtle"
+                className="flex items-center justify-between px-3 py-2 rounded-lg bg-surface border border-default"
               >
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-medium text-text-primary uppercase tracking-wider">
@@ -133,13 +133,13 @@ export default function RecognitionPanel() {
         <div className="flex gap-2 px-3 pb-3">
           <button
             onClick={handleApplyAll}
-            className="flex-1 px-3 py-1.5 text-xs font-medium bg-accent text-black rounded-md hover:brightness-110 transition"
+            className="flex-1 px-3 py-1.5 text-xs font-medium bg-accent text-black rounded-md hover:brightness-110 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             Apply All
           </button>
           <button
             onClick={handleDiscard}
-            className="px-3 py-1.5 text-xs font-medium border border-default rounded-md hover:border-red/50 hover:text-red transition"
+            className="px-3 py-1.5 text-xs font-medium border border-default rounded-md hover:border-red/50 hover:text-red transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             Discard
           </button>

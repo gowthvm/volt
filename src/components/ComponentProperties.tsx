@@ -71,7 +71,7 @@ function NumInput({
       max={max}
       step={step}
       placeholder={placeholder}
-      className="w-20 rounded-md border border-subtle bg-surface px-2 py-1 text-right text-sm font-mono text-text-primary outline-none transition focus:border-accent focus:ring-1 focus:ring-accent/40"
+      className="w-20 rounded-md border border-default bg-surface px-2 py-1 text-right text-sm font-mono text-text-primary outline-none transition focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
     />
   );
 }
@@ -98,6 +98,7 @@ export default function ComponentProperties() {
   const updateComponent = useSchematicStore((s) => s.updateComponent);
   const rotateComponent = useSchematicStore((s) => s.rotateComponent);
   const simResult = useSimulationStore((s) => s.result);
+  const runSimulation = useSimulationStore((s) => s.runSimulation);
   const strokes = useDrawingStore((s) => s.strokes);
   const camera = useCanvasStore((s) => ({ offset: { x: s.offset.x, y: s.offset.y }, zoom: s.zoom }));
   const generateShareToken = useProjectStore((s) => s.generateShareToken);
@@ -151,7 +152,7 @@ export default function ComponentProperties() {
   const renderBody = () => {
     if (!comp) {
       return (
-        <div className="rounded-lg border border-subtle bg-base p-5">
+        <div className="rounded-lg border border-default bg-base p-5">
           <p className="text-xs uppercase tracking-[0.3em] text-text-secondary">Properties</p>
           <p className="mt-4 text-sm text-text-secondary">Select a component</p>
         </div>
@@ -162,7 +163,7 @@ export default function ComponentProperties() {
 
     return (
       <>
-        <div className="rounded-lg border border-subtle bg-base p-5">
+        <div className="rounded-lg border border-default bg-base p-5">
           <p className="text-xs uppercase tracking-[0.3em] text-text-secondary">Properties</p>
           <div className="mt-4 space-y-3">
             <div className="flex items-center justify-between text-sm">
@@ -184,7 +185,7 @@ export default function ComponentProperties() {
               <select
                 value={st}
                 onChange={(e) => updateParams('simType', e.target.value)}
-                className="w-36 rounded-md border border-subtle bg-surface px-2 py-1 text-right text-sm text-text-primary outline-none transition focus:border-accent focus:ring-1 focus:ring-accent/40"
+                className="w-36 rounded-md border border-default bg-surface px-2 py-1 text-right text-sm text-text-primary outline-none transition focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
               >
                 {SIM_TYPES.map((t) => (
                   <option key={t.value} value={t.value}>{t.label}</option>
@@ -201,8 +202,8 @@ export default function ComponentProperties() {
                   {((comp.rotation * 180 / Math.PI) % 360 + 360) % 360}°
                 </span>
                 <button
-                  onClick={() => { rotateComponent(comp.id); }}
-                  className="rounded-md border border-subtle bg-surface px-2 py-1 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent"
+                  onClick={() => { rotateComponent(comp.id); runSimulation(); }}
+                  className="rounded-md border border-default bg-surface px-2 py-1 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   title="Rotate 90° clockwise (R)"
                 >
                   ↻
@@ -219,7 +220,7 @@ export default function ComponentProperties() {
         </div>
 
         {simResult && simResult.success && (
-          <div className="rounded-lg border border-subtle bg-base p-5">
+        <div className="rounded-lg border border-default bg-base p-5">
             <p className="text-xs uppercase tracking-[0.3em] text-text-secondary">Simulation</p>
             <div className="mt-4 space-y-3">
               <div className="flex items-center justify-between text-sm">
@@ -253,7 +254,7 @@ export default function ComponentProperties() {
         {simResult && !simResult.success && (
           <div className="rounded-lg border border-red/30 bg-red/10 p-5">
             <p className="text-xs uppercase tracking-[0.3em] text-red">Simulation Error</p>
-            <p className="mt-2 text-sm text-red-300">{simResult.error ?? 'Unknown error'}</p>
+            <p className="mt-2 text-sm text-red">{simResult.error ?? 'Unknown error'}</p>
           </div>
         )}
       </>
@@ -262,26 +263,26 @@ export default function ComponentProperties() {
 
   return (
     <div className="space-y-5">
-      <div className="rounded-lg border border-subtle bg-base p-5">
+      <div className="rounded-lg border border-default bg-base p-5">
         <p className="text-xs uppercase tracking-[0.3em] text-text-secondary">Export</p>
         <div className="mt-4 grid grid-cols-3 gap-2">
           <button onClick={handleExportSVG}
-            className="rounded-md border border-subtle bg-surface px-3 py-2 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent">SVG</button>
+            className="rounded-md border border-default bg-surface px-3 py-2 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">SVG</button>
           <button onClick={handleExportPNG}
-            className="rounded-md border border-subtle bg-surface px-3 py-2 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent">PNG</button>
+            className="rounded-md border border-default bg-surface px-3 py-2 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">PNG</button>
           <button onClick={handleExportJSON}
-            className="rounded-md border border-subtle bg-surface px-3 py-2 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent">JSON</button>
+            className="rounded-md border border-default bg-surface px-3 py-2 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">JSON</button>
         </div>
       </div>
 
-      <div className="rounded-lg border border-subtle bg-base p-5">
+      <div className="rounded-lg border border-default bg-base p-5">
         <p className="text-xs uppercase tracking-[0.3em] text-text-secondary">Share</p>
         <div className="mt-4">
           {!showShare ? (
             <button
               onClick={handleShare}
               disabled={sharing || !currentProjectId}
-              className="w-full rounded-md border border-subtle bg-surface px-4 py-2 text-sm font-medium text-text-primary transition hover:border-accent hover:text-accent disabled:opacity-40"
+              className="w-full rounded-md border border-default bg-surface px-4 py-2 text-sm font-medium text-text-primary transition hover:border-accent hover:text-accent disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               {sharing ? 'Generating…' : !currentProjectId ? 'Save project first' : 'Generate share link'}
             </button>
@@ -292,12 +293,12 @@ export default function ComponentProperties() {
                   data-share-url
                   readOnly
                   value={shareUrl}
-                  className="flex-1 rounded-md border border-subtle bg-surface px-2 py-1.5 text-xs text-text-primary outline-none"
+                  className="flex-1 rounded-md border border-default bg-surface px-2 py-1.5 text-xs text-text-primary outline-none"
                   onClick={(e) => e.currentTarget.select()}
                 />
                 <button
                   onClick={handleCopyLink}
-                  className="rounded-md border border-subtle bg-surface px-2.5 py-1.5 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent"
+                  className="rounded-md border border-default bg-surface px-3 py-1.5 text-xs font-medium text-text-primary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                 >
                   Copy
                 </button>

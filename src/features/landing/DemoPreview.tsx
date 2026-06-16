@@ -13,21 +13,21 @@ const MOCK_COMPONENTS = [
 
 export default function DemoPreview() {
   return (
-    <section className="relative -mt-32 pb-32">
+    <section className="relative -mt-16 pb-16">
       <div className="mx-auto max-w-6xl px-5">
-        <div className="relative overflow-hidden rounded-lg border border-default bg-surface shadow-2xl">
+        <div className="relative overflow-hidden rounded-lg border border-default bg-surface shadow-lg">
           <div className="flex h-[28px] items-center gap-1.5 border-b border-subtle px-4">
             <span className="h-2 w-2 rounded-full bg-red-500/60" />
             <span className="h-2 w-2 rounded-full bg-accent" />
             <span className="h-2 w-2 rounded-full bg-green-500/60" />
-            <span className="ml-3 font-mono text-[10px] text-white/20">volt.app — /editor</span>
+            <span className="ml-3 font-mono text-[10px] text-text-tertiary">volt.app — /editor</span>
           </div>
           <div className="aspect-[16/9] bg-surface p-3">
             <div className="flex h-full gap-3">
               {/* Left panel — component list mockup with bottom blur fade */}
               <div className="relative flex w-[140px] flex-col rounded-xl border border-subtle bg-black/40">
                 <div className="flex-shrink-0 border-b border-subtle px-3 py-2">
-                  <span className="text-[9px] font-semibold uppercase tracking-[0.15em] text-white/30">Components</span>
+                  <span className="text-[9px] font-medium uppercase tracking-[0.15em] text-text-tertiary">Components</span>
                 </div>
                 <div className="flex-1 overflow-y-auto px-2 py-2 space-y-1">
                   {MOCK_COMPONENTS.map((c) => (
@@ -35,12 +35,12 @@ export default function DemoPreview() {
                       key={c.ref}
                       className="flex cursor-pointer items-center gap-2 rounded-md px-2 py-1.5 transition hover:bg-white/5"
                     >
-                      <div className="flex h-6 w-6 items-center justify-center rounded border border-default bg-hover text-[9px] font-mono text-accent">
+                      <div className="flex h-6 w-6 items-center justify-center rounded border border-default bg-hover text-[9px] font-mono text-text-secondary">
                         {c.symbol}
                       </div>
                       <div className="min-w-0 flex-1">
-                        <div className="truncate text-[10px] font-medium text-white/80">{c.name}</div>
-                        <div className="text-[8px] text-white/30">{c.ref}</div>
+                        <div className="truncate text-[10px] font-medium text-text-primary">{c.name}</div>
+                        <div className="text-[8px] text-text-tertiary">{c.ref}</div>
                       </div>
                     </div>
                   ))}

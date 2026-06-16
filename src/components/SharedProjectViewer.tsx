@@ -66,7 +66,7 @@ export default function SharedProjectViewer() {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-base">
         <p className="text-sm text-red-400">{error}</p>
-        <Link to="/" className="rounded-lg border border-subtle bg-surface px-4 py-2 text-sm text-text-primary transition hover:border-accent hover:text-accent">
+        <Link to="/" className="rounded-lg border border-default bg-surface px-4 py-2 text-sm text-text-primary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
           Back to Volt
         </Link>
       </div>
@@ -91,20 +91,20 @@ export default function SharedProjectViewer() {
 
   return (
     <div className="flex min-h-screen flex-col bg-base text-text-primary">
-      <header className="flex items-center justify-between border-b border-subtle bg-surface px-6 py-4">
+      <header className="flex items-center justify-between border-b border-default bg-surface px-6 py-4">
         <div className="flex items-center gap-4">
           <Link
             to="/"
-            className="rounded-lg border border-subtle bg-base px-3 py-2 text-sm text-text-secondary transition hover:border-accent hover:text-accent"
+            className="rounded-lg border border-default bg-base px-3 py-2 text-sm text-text-secondary transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             Volt
           </Link>
           <span className="text-sm font-medium text-text-primary">{name}</span>
         </div>
-        <p className="text-xs text-text-secondary/60">Shared circuit — read-only</p>
+        <p className="text-xs text-text-secondary">Shared circuit — read-only</p>
       </header>
       <main className="flex flex-1 items-center justify-center p-8">
-        <div className="max-h-full max-w-full overflow-auto rounded-xl border border-subtle bg-surface p-4">
+        <div           className="max-h-full max-w-full overflow-auto rounded-xl border border-default bg-surface p-4">
           <svg
             viewBox={`${minX - padding} ${minY - padding} ${vbW} ${vbH}`}
             className="h-auto w-full"

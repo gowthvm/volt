@@ -9,9 +9,9 @@
   --bg-active: #222222;
 
   /* Border colors */
-  --border-subtle: #1a1a1a;
-  --border-default: #2a2a2a;
-  --border-strong: #3a3a3a;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.18);
 
   /* Text colors */
   --text-primary: #ffffff;

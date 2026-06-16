@@ -21,14 +21,14 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-slow ${
         scrolled ? 'bg-black/80 backdrop-blur-xl border-b border-subtle' : 'bg-transparent'
       }`}
     >
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-5 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
           <span className="flex h-7 w-7 items-center justify-center rounded-md bg-accent text-[11px] font-bold text-black">V</span>
-          <span className="text-[15px] font-semibold tracking-tight text-text-primary">Volt</span>
+          <span className="text-[15px] font-bold tracking-tight text-text-primary">Volt</span>
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -36,10 +36,10 @@ export default function Navbar() {
             <a
               key={l.label}
               href={l.href}
-              className="group relative text-[13px] text-text-secondary transition hover:text-text-primary"
+              className="group relative text-[13px] text-text-secondary transition hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               {l.label}
-              <span className="absolute -bottom-0.5 left-0 h-px w-full origin-left scale-x-0 bg-accent transition-transform duration-300 group-hover:scale-x-100" />
+              <span className="absolute -bottom-0.5 left-0 h-px w-full origin-left scale-x-0 bg-accent transition-transform duration-base group-hover:scale-x-100" />
             </a>
           ))}
         </div>
@@ -48,7 +48,7 @@ export default function Navbar() {
           {isAuthenticated ? (
             <Link
               to="/editor"
-              className="rounded-md border border-default bg-surface px-4 py-1.5 text-[13px] font-medium text-text-secondary transition hover:bg-hover hover:text-text-primary"
+              className="rounded-md border border-default bg-surface px-4 py-1.5 text-[13px] font-medium text-text-secondary transition hover:bg-white/5 hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Open Editor
             </Link>
@@ -56,13 +56,13 @@ export default function Navbar() {
             <>
               <Link
                 to="/login"
-                className="rounded-md px-4 py-1.5 text-[13px] font-medium text-text-secondary transition hover:text-text-primary"
+                className="rounded-md px-4 py-1.5 text-[13px] font-medium text-text-secondary transition hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
               >
                 Log in
               </Link>
               <Link
                 to="/signup"
-                className="animate-pulse-glow-signup rounded-md bg-accent px-4 py-1.5 text-[13px] font-semibold text-black transition hover:bg-accent-hover"
+                className="animate-pulse-glow-signup rounded-md bg-accent px-4 py-1.5 text-[13px] font-medium text-black transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
               >
                 Sign up
               </Link>
@@ -103,7 +103,7 @@ export default function Navbar() {
                 key={l.label}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="block rounded-md px-3 py-2 text-[14px] text-text-secondary transition hover:bg-hover hover:text-text-primary"
+                className="block rounded-md px-3 py-2 text-[14px] text-text-secondary transition hover:bg-white/5 hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
               >
                 {l.label}
               </a>
@@ -113,7 +113,7 @@ export default function Navbar() {
               <Link
                 to="/editor"
                 onClick={() => setOpen(false)}
-                className="block rounded-md bg-accent px-3 py-2 text-center text-[14px] font-semibold text-black"
+                className="block rounded-md bg-accent px-3 py-2 text-center text-[14px] font-medium text-black"
               >
                 Open Editor
               </Link>
@@ -122,14 +122,14 @@ export default function Navbar() {
                 <Link
                   to="/login"
                   onClick={() => setOpen(false)}
-                  className="block rounded-md px-3 py-2 text-[14px] text-text-secondary transition hover:bg-hover hover:text-text-primary"
+                  className="block rounded-md px-3 py-2 text-[14px] text-text-secondary transition hover:bg-white/5 hover:text-text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                 >
                   Log in
                 </Link>
                 <Link
                   to="/signup"
                   onClick={() => setOpen(false)}
-                  className="block rounded-md bg-accent px-3 py-2 text-center text-[14px] font-semibold text-black"
+                  className="block rounded-md bg-accent px-3 py-2 text-center text-[14px] font-medium text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                 >
                   Sign up
                 </Link>

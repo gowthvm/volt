@@ -333,7 +333,7 @@ export default function KicadSymbolBrowser() {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         placeholder="Search components..."
-        className="w-full rounded-md border border-default bg-surface px-3.5 py-2.5 text-xs text-text-primary outline-none placeholder:text-text-secondary/40 focus:border-accent focus:ring-1 focus:ring-accent/40"
+        className="w-full rounded-md border border-default bg-surface px-3 py-2 text-xs text-text-primary outline-none placeholder:text-text-tertiary focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
       />
 
       {/* Category tabs */}
@@ -345,7 +345,7 @@ export default function KicadSymbolBrowser() {
             className={`rounded-md px-3 py-1.5 text-[11px] font-medium transition ${
               category === cat.id
                 ? 'bg-accent text-black'
-                : 'bg-surface text-text-secondary hover:text-text-primary border border-default'
+                : 'bg-surface text-text-secondary hover:bg-white/5 hover:text-text-primary border border-default'
             }`}
           >
             {cat.label}
@@ -355,7 +355,7 @@ export default function KicadSymbolBrowser() {
 
       {/* Quick-access toolbar (10 most common) */}
       {quickItems && quickItems.length > 0 && (
-        <div className="mt-5 grid grid-cols-5 gap-2">
+        <div className="mt-4 grid grid-cols-5 gap-2">
           {quickItems.map((item) => (
             <div
               key={item.id}
@@ -369,7 +369,7 @@ export default function KicadSymbolBrowser() {
               }}
               onClick={() => handleAddComponent(item.entry)}
               title={item.label}
-              className="flex cursor-grab flex-col items-center gap-1 rounded-lg border border-default bg-surface px-2 py-2.5 transition hover:border-accent hover:bg-accent/5 active:cursor-grabbing focus-visible:ring-2 focus-visible:ring-accent"
+              className="flex cursor-grab flex-col items-center gap-1 rounded-lg border border-default bg-surface px-2 py-2 transition hover:border-accent hover:bg-white/5 active:cursor-grabbing focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               <img
                 src={`${PREVIEW_BASE}${item.entry.id}.svg`}
@@ -387,7 +387,7 @@ export default function KicadSymbolBrowser() {
 
       {/* Results count */}
       {!loading && (
-        <p className="mt-3 text-[11px] text-text-secondary/40">
+        <p className="mt-3 text-[11px] text-text-tertiary">
           {filtered.length} component{filtered.length !== 1 ? 's' : ''}
           {filtered.length > 200 && ' (showing first 200)'}
         </p>
@@ -396,10 +396,10 @@ export default function KicadSymbolBrowser() {
       {/* Results list */}
       <div className="mt-2 max-h-72 space-y-1 overflow-y-auto">
         {loading && (
-          <p className="py-6 text-center text-xs text-text-secondary/60">Loading…</p>
+          <p className="py-6 text-center text-xs text-text-tertiary">Loading…</p>
         )}
         {!loading && filtered.length === 0 && (
-          <p className="py-6 text-center text-xs text-text-secondary/60">
+          <p className="py-6 text-center text-xs text-text-tertiary">
             {search ? 'No matching components' : 'No components loaded'}
           </p>
         )}
@@ -418,7 +418,7 @@ export default function KicadSymbolBrowser() {
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleAddComponent(entry); }
               }}
-              className="flex cursor-grab items-center gap-3 rounded-lg px-3 py-2 transition hover:bg-accent/10 active:cursor-grabbing focus-visible:ring-2 focus-visible:ring-accent"
+              className="flex cursor-grab items-center gap-3 rounded-lg px-3 py-2 transition hover:bg-white/5 active:cursor-grabbing focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               <div className="h-10 w-10 flex-shrink-0">
                 <img
@@ -434,7 +434,7 @@ export default function KicadSymbolBrowser() {
                 <div className="truncate text-xs font-medium text-text-primary" title={dName}>
                   {dName}
                 </div>
-                <div className="truncate text-[11px] text-text-secondary/60">
+                <div className="truncate text-[11px] text-text-tertiary">
                   {entry.reference} &middot; {lib === 'Device' ? 'Basic' : libDisplay}
                 </div>
               </div>

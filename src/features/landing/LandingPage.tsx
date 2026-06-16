@@ -42,7 +42,7 @@ export default function LandingPage() {
         }}
       />
       <div
-        className="fixed top-0 left-0 z-[60] h-0.5 bg-accent transition-all duration-100 ease-linear"
+        className="fixed top-0 left-0 z-[60] h-0.5 bg-accent transition-[width] duration-fast ease-linear"
         style={{ width: `${scrollProgress}%` }}
       />
       <Navbar />

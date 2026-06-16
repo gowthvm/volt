@@ -6,7 +6,7 @@ const STEPS = [
     title: 'Place',
     desc: 'Drag components from the panel onto the infinite canvas',
     icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="3" y="3" width="18" height="18" rx="3" />
         <path d="M12 3v18M3 12h18" />
         <circle cx="12" cy="12" r="2" />
@@ -18,7 +18,7 @@ const STEPS = [
     title: 'Connect',
     desc: 'Draw orthogonal wires between terminals with precision snap',
     icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M4 12h6l2-4 4 8 2-4h2" />
         <circle cx="4" cy="12" r="1.5" fill="currentColor" />
         <circle cx="20" cy="12" r="1.5" fill="currentColor" />
@@ -30,7 +30,7 @@ const STEPS = [
     title: 'Simulate',
     desc: 'Run DC simulation instantly and see voltage, current, and power on the canvas',
     icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
         <circle cx="22" cy="12" r="1.5" fill="currentColor" />
       </svg>
@@ -94,16 +94,16 @@ export default function HowItWorksSection() {
           {STEPS.map((s) => (
             <div
               key={s.num}
-              className="step-card animate-fade-slide-up group relative rounded-lg border border-default bg-surface p-8 transition-all duration-300 hover:-translate-y-0.5 hover:border-accent/20 hover:bg-hover"
+              className="step-card animate-fade-slide-up group relative rounded-lg border border-default bg-surface p-8 transition-transform duration-base hover:-translate-y-0.5 hover:border-default hover:bg-white/5"
               style={{ opacity: 0 }}
             >
-              <div className="mb-5 flex h-10 w-10 items-center justify-center rounded-xl border border-default bg-surface text-text-secondary transition-all duration-300 group-hover:border-accent/30 group-hover:text-accent">
+              <div className="mb-5 flex h-10 w-10 items-center justify-center rounded-xl border border-default bg-surface text-text-secondary transition-colors duration-base group-hover:border-default group-hover:text-text-primary">
                 {s.icon}
               </div>
-              <span className="mb-2 block font-mono text-[11px] font-semibold tracking-wider text-white/20">{s.num}</span>
-              <h3 className="mb-2 text-[17px] font-semibold text-text-primary">{s.title}</h3>
-              <p className="text-[14px] leading-relaxed text-text-tertiary">{s.desc}</p>
-              <div className="absolute left-0 top-0 h-full w-0.5 rounded-l-2xl bg-accent/0 transition-all duration-500 group-hover:bg-accent/40" />
+              <span className="mb-2 block font-mono text-[11px] font-medium tracking-wider text-text-tertiary">{s.num}</span>
+              <h3 className="mb-2 text-[17px] font-medium text-text-primary">{s.title}</h3>
+              <p className="text-[14px] leading-normal text-text-tertiary">{s.desc}</p>
+              <div className="absolute left-0 top-0 h-full w-0.5 rounded-l-xl bg-accent/0 transition-colors duration-base group-hover:bg-white/5" />
             </div>
           ))}
         </div>

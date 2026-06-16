@@ -1818,7 +1818,7 @@ export default function CanvasEngine() {
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
-      className="absolute inset-0 w-full h-full max-h-full box-border overflow-hidden rounded-xl border border-default bg-surface"
+      className="absolute inset-0 w-full h-full max-h-full overflow-hidden rounded-xl border border-default bg-surface"
     >
       <canvas
         ref={canvasRef}

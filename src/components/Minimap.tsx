@@ -83,7 +83,7 @@ export default function Minimap({ rightPanelOpen }: MinimapProps) {
   }, [components, graph]);
 
   return (
-    <div className={`absolute bottom-20 z-50 transition-all duration-200 ease-out ${rightPanelOpen ? 'right-[296px]' : 'right-4'}`}>
+    <div className={`absolute bottom-20 z-50 transition duration-150 ease-out ${rightPanelOpen ? 'right-[296px]' : 'right-4'}`}>
       <svg width={width} height={height} className="rounded-lg border border-default bg-elevated p-1" role="img" aria-label="Circuit minimap">
         <rect x={0} y={0} width={width} height={height} fill="var(--bg-surface)" rx={8} />
         <g stroke="var(--bg-active)" strokeWidth={0.5} fill="none">
@@ -101,13 +101,13 @@ export default function Minimap({ rightPanelOpen }: MinimapProps) {
               return `${pt.x},${pt.y}`;
             });
             if (d.length === 0) return null;
-            return <polyline key={s.id} points={d.join(' ')} stroke={s.tool === 'pen' ? '#888' : '#444'} strokeWidth={1} fill="none" />;
+            return <polyline key={s.id} points={d.join(' ')} stroke={s.tool === 'pen' ? 'var(--border-default)' : 'var(--border-subtle)'} strokeWidth={1} fill="none" />;
           })}
         </g>
         {wirePaths.map((pts, i) => {
           if (pts.length < 2) return null;
           const d = pts.map((p) => { const pt = toMini(p.x, p.y); return `${pt.x},${pt.y}`; }).join(' ');
-          return <polyline key={`wire-${i}`} points={d} stroke="#4fc3f7" strokeWidth={1.2} fill="none" opacity={0.6} />;
+          return <polyline key={`wire-${i}`} points={d} stroke="rgba(255,255,255,0.35)" strokeWidth={1.2} fill="none" opacity={0.6} />;
         })}
         {components.filter((c) => c.type !== 'wire').map((c) => {
           const pt = toMini(c.position.x, c.position.y);

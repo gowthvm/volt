@@ -28,7 +28,7 @@ export default function StatusBar() {
   }, []);
 
   return (
-    <div className="flex h-6 items-center justify-between border-t border-subtle bg-base px-4 text-xs text-text-tertiary font-mono">
+    <div className="flex h-6 items-center justify-between border-t border-default bg-base px-4 text-xs text-text-tertiary font-mono">
       <div className="flex items-center gap-3">
         <span>{TOOL_NAMES[tool] || tool}</span>
       </div>
