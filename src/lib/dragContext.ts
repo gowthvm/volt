@@ -26,5 +26,7 @@ export function inferParams(symId: string): Record<string, string | number | boo
   if (symId === 'led') return { simType: 'led' };
   if (symId === 'd') return { simType: 'diode' };
   if (symId.startsWith('sw_')) return { simType: 'switch', closed: true };
+  if (symId === 'c') return { simType: 'capacitor' };
+  if (symId === 'l') return { simType: 'inductor' };
   return undefined;
 }

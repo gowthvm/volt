@@ -62,8 +62,10 @@ export function pushSnapshotHistory(label: string, before: Snapshot, after: Snap
 }
 
 function snapRotation(r: number): number {
+  if (!isFinite(r)) return 0;
   const deg = ((r * 180) / Math.PI) % 360;
-  const snapped = Math.round(deg / 90) * 90;
+  const normalized = ((deg % 360) + 360) % 360;
+  const snapped = Math.round(normalized / 90) * 90;
   return (snapped * Math.PI) / 180;
 }
 
@@ -164,19 +166,31 @@ export const useSchematicStore = create<SchematicState>((set, get) => {
         const layer = useLayerStore.getState().layers.find((l) => l.id === comp.layer);
         if (layer?.locked) return;
       }
+      // Remove wires whose terminal references point to the deleted component
+      const wireIdsToRemove = get().components
+        .filter((c) => c.type === 'wire' && (c.terminalA?.startsWith(id + ':') || c.terminalB?.startsWith(id + ':')))
+        .map((c) => c.id);
+      const removeIds = new Set([id, ...wireIdsToRemove]);
       set((state) => ({
-        components: state.components.filter((c) => c.id !== id),
-        selectedComponentId: state.selectedComponentId === id ? null : state.selectedComponentId,
-        selectedWireId: state.selectedWireId === id ? null : state.selectedWireId,
+        components: state.components.filter((c) => !removeIds.has(c.id)),
+        selectedComponentId: state.selectedComponentId && removeIds.has(state.selectedComponentId) ? null : state.selectedComponentId,
+        selectedWireId: state.selectedWireId && removeIds.has(state.selectedWireId) ? null : state.selectedWireId,
+        multiSelectedComponentIds: state.multiSelectedComponentIds.filter((did) => !removeIds.has(did)),
+        multiSelectedWireIds: state.multiSelectedWireIds.filter((did) => !removeIds.has(did)),
         isDirty: true,
       }));
       const after = get().captureSnapshot();
-      pushSnapshotHistory('Delete component', before, after);
+      pushSnapshotHistory('Delete component' + (wireIdsToRemove.length > 0 ? ' and wires' : ''), before, after);
     },
 
     removeComponentsByIds: (ids) => {
       const before = get().captureSnapshot();
       const idSet = new Set(ids);
+      // Also remove wires that reference any deleted component terminals
+      const extraWireIds = get().components
+        .filter((c) => c.type === 'wire' && ids.some((did) => c.terminalA?.startsWith(did + ':') || c.terminalB?.startsWith(did + ':')))
+        .map((c) => c.id);
+      extraWireIds.forEach((wid) => idSet.add(wid));
       set((state) => ({
         components: state.components.filter((c) => !idSet.has(c.id)),
         selectedComponentId:
@@ -283,8 +297,19 @@ export const useSchematicStore = create<SchematicState>((set, get) => {
     },
 
     loadComponents: (components) => {
+      // Rebuild refdes counters from loaded components
+      const counters: Record<string, number> = {};
+      for (const comp of components) {
+        if (!comp.refdes) continue;
+        const m = comp.refdes.match(/^([A-Za-z]+)(\d+)$/);
+        if (m) {
+          const key = m[1] + '_' + (comp.kicadSymbolId ?? m[1]);
+          counters[key] = Math.max(counters[key] ?? 0, parseInt(m[2], 10));
+        }
+      }
       set({
         components,
+        refdesCounters: counters,
         selectedComponentId: null,
         selectedWireId: null,
         multiSelectedComponentIds: [],

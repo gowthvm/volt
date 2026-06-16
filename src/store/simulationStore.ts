@@ -22,8 +22,11 @@ export const useSimulationStore = create<SimulationState>((set) => ({
   validationWarnings: [],
 
   runSimulation: () => {
-    const components = useSchematicStore.getState().components;
     const cs = useCircuitStore.getState();
+    // Don't run while schematic is being dragged (suppressSync active)
+    if (cs._suppressSync) return;
+
+    const components = useSchematicStore.getState().components;
     cs.rebuildGraph(components);
 
     const graph = useCircuitStore.getState().graph;
@@ -35,6 +38,7 @@ export const useSimulationStore = create<SimulationState>((set) => ({
         result: {
           success: false,
           error: validation.errors.join('; '),
+          warnings: [],
           nodeVoltages: {},
           terminalNodes: {},
           componentVoltages: {},

@@ -36,6 +36,8 @@ export const useDrawingStore = create<DrawingState>((set, get) => {
 
   const pushHistory = (action: Action) => {
     history.push(action);
+    // cap at 100 undo steps
+    if (history.length > 100) history.shift();
     // clear future on new action
     future.length = 0;
   };

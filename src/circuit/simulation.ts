@@ -5,6 +5,7 @@ import { componentTerminalDefinitions } from '@/circuit/graph';
 export interface SimulationResult {
   success: boolean;
   error?: string;
+  warnings?: string[];
   nodeVoltages: Record<string, number>;
   terminalNodes: Record<string, number>;
   componentVoltages: Record<string, number>;
@@ -37,6 +38,12 @@ interface MNAComponent {
 function simType(comp: SchematicComponent): string {
   return (comp.params?.simType as string) ?? comp.type;
 }
+
+/** Set of known simTypes for validation */
+export const KNOWN_SIM_TYPES = new Set([
+  'resistor', 'battery', 'voltage_source', 'current_source',
+  'led', 'diode', 'switch', 'ground', 'capacitor', 'inductor',
+]);
 
 function findConnectedTerminals(
   start: string,
@@ -111,6 +118,10 @@ function componentValue(comp: SchematicComponent): number {
         return comp.value ?? DIODE_SERIES_RESISTANCE;
       case 'switch':
         return p.closed === false ? 1e6 : (comp.value ?? SWITCH_CLOSED_RESISTANCE);
+      case 'capacitor':
+        return Infinity;
+      case 'inductor':
+        return 1e-9;
     }
   }
   if (comp.value !== undefined) return comp.value;
@@ -128,8 +139,12 @@ function componentValue(comp: SchematicComponent): number {
       return SWITCH_CLOSED_RESISTANCE;
     case 'current_source':
       return DEFAULT_CURRENT_SOURCE_CURRENT;
+    case 'capacitor':
+      return Infinity;
+    case 'inductor':
+      return 1e-9;
     default:
-      return DEFAULT_RESISTANCE;
+      return Infinity;
   }
 }
 
@@ -244,6 +259,7 @@ export function simulate(
   const result: SimulationResult = {
     success: false,
     error: undefined,
+    warnings: [],
     nodeVoltages: {},
     terminalNodes: {},
     componentVoltages: {},
@@ -258,6 +274,15 @@ export function simulate(
       result.success = true;
       return result;
     }
+
+    // Collect DC approximation warnings
+    const dcApprox: string[] = [];
+    for (const comp of nonWire) {
+      const st = simType(comp);
+      if (st === 'capacitor') dcApprox.push(`${comp.refdes || comp.id}: capacitor acts as open circuit in DC`);
+      if (st === 'inductor') dcApprox.push(`${comp.refdes || comp.id}: inductor acts as short circuit in DC`);
+    }
+    if (dcApprox.length > 0) result.warnings = dcApprox;
 
     const { terminalToNode, numNodes } = buildNodeMap(graph, components);
     result.terminalNodes = Object.fromEntries(terminalToNode);

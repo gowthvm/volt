@@ -1,5 +1,6 @@
 import type { SchematicComponent } from '@/store/schematicStore';
 import type { Stroke } from '@/store/drawingStore';
+import type { EditorMode } from '@/store/editorModeStore';
 import { componentTerminalDefinitions, transformPoint, computeOrthogonalPath } from '@/circuit/graph';
 import { serializeState } from '@/lib/serialize';
 
@@ -158,9 +159,13 @@ export async function downloadPNG(components: SchematicComponent[], strokes?: St
 export function downloadJSON(
   strokes: Stroke[],
   components: SchematicComponent[],
-  camera: { offset: { x: number; y: number }; zoom: number }
+  camera: { offset: { x: number; y: number }; zoom: number },
+  extras?: {
+    mode?: EditorMode;
+    activeTool?: string;
+  }
 ): void {
-  const json = serializeState(strokes, components, camera);
+  const json = serializeState(strokes, components, camera, extras);
   downloadBlob(json, 'circuit.json', 'application/json');
 }
 

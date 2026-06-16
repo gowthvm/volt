@@ -63,7 +63,7 @@ export function runDRC(components: SchematicComponent[], graph: CircuitGraph): D
   }
 
   // 4. No voltage source
-  const hasSource = components.some((c) => c.params?.simType === 'battery' || c.params?.simType === 'voltage' || c.params?.simType === 'voltage_source');
+  const hasSource = components.some((c) => c.params?.simType === 'battery' || c.params?.simType === 'voltage_source');
   if (!hasSource) {
     warnings.push({
       type: 'warning',
@@ -71,7 +71,8 @@ export function runDRC(components: SchematicComponent[], graph: CircuitGraph): D
     });
   }
 
-  // 5. Short circuit detection (terminals connected without any component between them)
+  // 5. Short circuit detection — flag only when both terminals are output-type pins,
+  //    not for passive proximity connections (the app's intended connection mechanism)
   for (const edge of graph.edges) {
     if (edge.type !== 'implicit') continue;
     const srcTerm = graph.terminalMap[edge.sourceTerminalId];
@@ -80,10 +81,13 @@ export function runDRC(components: SchematicComponent[], graph: CircuitGraph): D
       const srcComp = components.find((c) => c.id === srcTerm.componentId);
       const tgtComp = components.find((c) => c.id === tgtTerm.componentId);
       if (srcComp && !isWire(srcComp) && tgtComp && !isWire(tgtComp)) {
-        errors.push({
-          type: 'error',
-          message: `Possible short: ${srcComp.refdes || srcComp.id}:${srcTerm.terminalName} directly connected to ${tgtComp.refdes || tgtComp.id}:${tgtTerm.terminalName} without a wire`,
-        });
+        const outputRoles = new Set(['output', 'power_output', 'open_collector', 'open_emitter']);
+        if (outputRoles.has(srcTerm.role) && outputRoles.has(tgtTerm.role)) {
+          errors.push({
+            type: 'error',
+            message: `Short: ${srcComp.refdes || srcComp.id}:${srcTerm.terminalName} (output) directly connected to ${tgtComp.refdes || tgtComp.id}:${tgtTerm.terminalName} (output)`,
+          });
+        }
       }
     }
   }

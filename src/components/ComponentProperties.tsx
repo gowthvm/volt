@@ -199,7 +199,7 @@ export default function ComponentProperties() {
               <span className="text-text-secondary">Rotation</span>
               <div className="flex items-center gap-2">
                 <span className="text-text-primary font-mono">
-                  {((comp.rotation * 180 / Math.PI) % 360 + 360) % 360}°
+                  {Math.round(((comp.rotation * 180 / Math.PI) % 360 + 360) % 360)}°
                 </span>
                 <button
                   onClick={() => { rotateComponent(comp.id); runSimulation(); }}

@@ -5,6 +5,9 @@ import { useAuthStore } from '@/store/authStore';
 import useDrawingStore from '@/store/drawingStore';
 import useSchematicStore from '@/store/schematicStore';
 import { useCanvasStore } from '@/store/canvasStore';
+import useEditorModeStore from '@/store/editorModeStore';
+import useBlueprintStore from '@/store/blueprintStore';
+import { useHistoryStore } from '@/store/historyStore';
 
 export interface ProjectMeta {
   id: string;
@@ -185,9 +188,18 @@ export const useProjectStore = create<ProjectState>((set, get) => ({
     );
 
     if (state) {
+      useHistoryStore.getState().clear();
       useDrawingStore.getState().loadStrokes(state.strokes as any);
       useSchematicStore.getState().loadComponents(state.components);
       useCanvasStore.getState().setCamera(state.camera.offset, state.camera.zoom);
+      if (state.mode) useEditorModeStore.getState().setMode(state.mode);
+      if (state.activeTool) {
+        if (state.mode === 'blueprint') {
+          useBlueprintStore.getState().setTool(state.activeTool as any);
+        } else {
+          useDrawingStore.getState().setTool(state.activeTool as any);
+        }
+      }
     }
 
     set({ currentProjectId: projectId, loading: false, saveError: null });
@@ -199,6 +211,8 @@ export const useProjectStore = create<ProjectState>((set, get) => ({
     const strokes = useDrawingStore.getState().strokes;
     const components = useSchematicStore.getState().components;
     const { offset, zoom } = useCanvasStore.getState();
-    return serializeState(strokes, components, { offset, zoom });
+    const mode = useEditorModeStore.getState().mode;
+    const activeTool = mode === 'blueprint' ? useBlueprintStore.getState().tool : useDrawingStore.getState().tool;
+    return serializeState(strokes, components, { offset, zoom }, { mode, activeTool });
   },
 }));

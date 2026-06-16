@@ -1,12 +1,12 @@
 import type { SchematicComponent } from '@/store/schematicStore';
 
-export type TerminalRole = 'left' | 'right' | 'top' | 'bottom' | 'ground';
+export type TerminalRole = 'left' | 'right' | 'top' | 'bottom' | 'ground' | 'input' | 'output' | 'bidirectional' | 'passive' | 'power_input' | 'power_output' | 'open_collector' | 'open_emitter';
 
 export interface TerminalNode {
   id: string;
   componentId: string;
   terminalName: string;
-  role: TerminalRole;
+  role: string;
   position: { x: number; y: number };
 }
 
@@ -58,14 +58,31 @@ export const transformPoint = (
   };
 };
 
+/** Map KiCad electricalType to a semantic role for DRC/validation */
+export function kicadElectricalTypeToRole(electricalType: string): string {
+  switch (electricalType) {
+    case 'input': return 'input';
+    case 'output': return 'output';
+    case 'bidirectional': return 'bidirectional';
+    case 'tri_state': case '3state': return 'bidirectional';
+    case 'passive': return 'passive';
+    case 'power_in': case 'power_input': return 'power_input';
+    case 'power_out': case 'power_output': return 'power_output';
+    case 'open_collector': return 'open_collector';
+    case 'open_emitter': return 'open_emitter';
+    case 'no_connect': return 'passive';
+    default: return 'passive';
+  }
+}
+
 export const componentTerminalDefinitions = (
   component: SchematicComponent
-): Array<{ name: string; role: TerminalRole; point: { x: number; y: number } }> => {
+): Array<{ name: string; role: string; point: { x: number; y: number } }> => {
   switch (component.type) {
     case 'wire':
       return [
-        { name: 'A', role: 'left', point: { x: 0, y: 50 } },
-        { name: 'B', role: 'right', point: { x: 100, y: 50 } },
+        { name: 'A', role: 'passive', point: { x: 0, y: 50 } },
+        { name: 'B', role: 'passive', point: { x: 100, y: 50 } },
       ];
     default:
       // Use normalized pin positions (SVG viewBox space → 0-100 canvas space)
@@ -76,14 +93,22 @@ export const componentTerminalDefinitions = (
         const hOff = (140 - vw * meetScale) / 2;
         const vOff = (140 - vh * meetScale) / 2;
         const isGround = component.params?.simType === 'ground';
-        return component.normalizedPinPositions.map((pin) => ({
-          name: pin.number,
-          role: isGround ? 'ground' : 'left',
-          point: {
-            x: -20 + pin.x * meetScale + hOff,
-            y: -20 + pin.y * meetScale + vOff,
-          },
-        }));
+        return component.normalizedPinPositions.map((pin) => {
+          // Look up electricalType from kicadPins if available
+          let role = isGround ? 'ground' : 'passive';
+          if (!isGround && component.kicadPins) {
+            const kp = component.kicadPins.find((p) => p.number === pin.number);
+            if (kp) role = kicadElectricalTypeToRole(kp.electricalType);
+          }
+          return {
+            name: pin.number,
+            role,
+            point: {
+              x: -20 + pin.x * meetScale + hOff,
+              y: -20 + pin.y * meetScale + vOff,
+            },
+          };
+        });
       }
       // Fallback for legacy KiCad pins (raw coordinates, old transform)
       if (component.kicadPins && component.kicadPins.length > 0) {
@@ -92,7 +117,7 @@ export const componentTerminalDefinitions = (
         const OY = 50;
         return component.kicadPins.map((pin) => ({
           name: pin.number,
-          role: 'left',
+          role: kicadElectricalTypeToRole(pin.electricalType),
           point: {
             x: pin.x * SCALE + OX,
             y: -pin.y * SCALE + OY,
@@ -396,17 +421,37 @@ function segmentIntersection(
   return null;
 }
 
+function pointOnSegment(
+  p: { x: number; y: number },
+  a: { x: number; y: number },
+  b: { x: number; y: number },
+  eps: number
+): boolean {
+  const d = Math.abs(Math.hypot(a.x - p.x, a.y - p.y) + Math.hypot(p.x - b.x, p.y - b.y) - Math.hypot(a.x - b.x, a.y - b.y));
+  return d < eps;
+}
+
 export function detectJunctions(components: SchematicComponent[]): JunctionNode[] {
   const wires = components.filter((c) => c.type === 'wire' && c.points && c.points.length >= 2);
   type RawJunction = { x: number; y: number; wireIds: Set<string> };
   const raw: RawJunction[] = [];
   const KEY_EPS = 4;
+  const NO_JUCTION_KEY = 'noJunction';
 
+  // Collect wire IDs that have noJunction set
+  const noJunctionWires = new Set<string>();
+  for (const w of wires) {
+    if ((w as any).params?.[NO_JUCTION_KEY]) noJunctionWires.add(w.id);
+  }
+
+  // --- Phase 1: segment-segment intersections ---
   for (let i = 0; i < wires.length; i++) {
     for (let j = i + 1; j < wires.length; j++) {
       const wi = wires[i];
       const wj = wires[j];
       if (!wi.points || !wj.points) continue;
+      // Skip if either wire has noJunction for the other
+      if (noJunctionWires.has(wi.id) || noJunctionWires.has(wj.id)) continue;
 
       for (let si = 0; si < wi.points.length - 1; si++) {
         for (let sj = 0; sj < wj.points.length - 1; sj++) {
@@ -418,7 +463,6 @@ export function detectJunctions(components: SchematicComponent[]): JunctionNode[
           );
           if (!pt) continue;
 
-          // Deduplicate by position
           let match = raw.find(
             (r) => Math.abs(r.x - pt.x) < KEY_EPS && Math.abs(r.y - pt.y) < KEY_EPS
           );
@@ -428,6 +472,59 @@ export function detectJunctions(components: SchematicComponent[]): JunctionNode[
           }
           match.wireIds.add(wi.id);
           match.wireIds.add(wj.id);
+        }
+      }
+    }
+  }
+
+  // --- Phase 2: endpoint-on-segment (T-junction) detection ---
+  for (let i = 0; i < wires.length; i++) {
+    for (let j = 0; j < wires.length; j++) {
+      if (i === j) continue;
+      const wi = wires[i];
+      const wj = wires[j];
+      if (!wi.points || !wi.points.length || !wj.points || wj.points.length < 2) continue;
+      if (noJunctionWires.has(wi.id) || noJunctionWires.has(wj.id)) continue;
+
+      // Check each endpoint of wi against each segment of wj
+      const endpoints = [wi.points[0], wi.points[wi.points.length - 1]];
+      for (const ep of endpoints) {
+        for (let sj = 0; sj < wj.points.length - 1; sj++) {
+          // Skip if endpoint coincides with wj's own endpoints (already handled by wire-to-terminal edges)
+          const isWjEndpoint =
+            (Math.abs(ep.x - wj.points[0].x) < 1 && Math.abs(ep.y - wj.points[0].y) < 1) ||
+            (Math.abs(ep.x - wj.points[wj.points.length - 1].x) < 1 && Math.abs(ep.y - wj.points[wj.points.length - 1].y) < 1);
+          if (isWjEndpoint) continue;
+
+          if (pointOnSegment(ep, wj.points[sj], wj.points[sj + 1], KEY_EPS)) {
+            let match = raw.find(
+              (r) => Math.abs(r.x - ep.x) < KEY_EPS && Math.abs(r.y - ep.y) < KEY_EPS
+            );
+            if (!match) {
+              match = { x: ep.x, y: ep.y, wireIds: new Set() };
+              raw.push(match);
+            }
+            match.wireIds.add(wi.id);
+            match.wireIds.add(wj.id);
+
+            // Inject endpoint into wj's points array to split the segment
+            const wjIdx = components.findIndex((c) => c.id === wj.id);
+            if (wjIdx >= 0) {
+              const wjComp = components[wjIdx];
+              if (wjComp.points) {
+                const insertAt = sj + 1;
+                const alreadyPresent = wjComp.points.some(
+                  (p) => Math.abs(p.x - ep.x) < 1 && Math.abs(p.y - ep.y) < 1
+                );
+                if (!alreadyPresent) {
+                  const newPoints = [...wjComp.points];
+                  newPoints.splice(insertAt, 0, { ...ep, pressure: wjComp.points[0]?.pressure ?? 0.5 });
+                  wjComp.points = newPoints;
+                }
+              }
+            }
+            break;
+          }
         }
       }
     }
@@ -470,6 +567,9 @@ const findClosestTerminal = (
   return best;
 };
 
+/** Default snap threshold in canvas pixels for terminal proximity connections */
+export const SNAP_THRESHOLD = 12;
+
 const getWireEndpoints = (wireComponent: SchematicComponent) => {
   if (!wireComponent.points || wireComponent.points.length < 2) {
     return [];
@@ -479,7 +579,7 @@ const getWireEndpoints = (wireComponent: SchematicComponent) => {
 
 export const buildCircuitGraph = (
   components: SchematicComponent[],
-  snapThreshold = 12
+  snapThreshold = SNAP_THRESHOLD
 ): CircuitGraph => {
   // Wires are edges, not nodes — skip creating terminals for wire components
   const terminals = components

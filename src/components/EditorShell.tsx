@@ -180,7 +180,9 @@ export default function EditorShell() {
   }, []);
   const handleExportJSON = useCallback(() => {
     const cam = useCanvasStore.getState();
-    downloadJSON(useDrawingStore.getState().strokes, useSchematicStore.getState().components, { offset: cam.offset, zoom: cam.zoom });
+    const mode = useEditorModeStore.getState().mode;
+    const activeTool = mode === 'blueprint' ? useBlueprintStore.getState().tool : useDrawingStore.getState().tool;
+    downloadJSON(useDrawingStore.getState().strokes, useSchematicStore.getState().components, { offset: cam.offset, zoom: cam.zoom }, { mode, activeTool });
     setExportOpen(false);
   }, []);
   const handleNameSave = useCallback(() => {
